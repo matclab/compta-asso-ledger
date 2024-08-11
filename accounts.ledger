@@ -1,0 +1,49 @@
+commodity €
+commodity h
+tag init
+
+# Valuation de la seconde  (18€)
+P 2024/01/01 00:00:00 s 0.005 €  
+
+include legal.ledger
+
+account 5:1:2:1:1
+   alias crédit coopératif
+   alias cc
+   alias 5121
+   note compte courant crédit coopératif
+
+account 5:3:1
+   alias caisse
+   note caisse
+   alias 531
+
+account 6:5:1:2
+   alias 6512
+   alias nom de domaine
+   note achat nom de domaine
+
+account 6:1:3:3
+   alias 6133
+   alias hébergement
+   note achat hébergement services web
+
+account 7:5:8:1
+   alias 7581
+   alias cotisation
+   note Cotisations des adhérents
+
+account 4:6:7:1
+   alias 4671
+   note Prêt temporaire d'adhérents
+   alias prêt adhérents
+
+
+tag Payee
+#= expr true
+#   6:1  0 €
+#   6:1:3  0 €
+#   6:5  0 €
+#   6:5:1  0 €
+#   8:6  0 h
+#   8:7  0 h

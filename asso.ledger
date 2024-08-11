@@ -1,0 +1,65 @@
+include accounts.ledger
+include periodic.ledger
+
+# L'initialiasation des comptes permet d'afficher les comptes vides dans la 
+# balance.
+2024/01/01 * Initialisation des comptes  ; :init:
+   1  0 €
+   1:0  0 €
+   1:5  0 €
+   1:6  0 €
+   1:9  0 €
+   2  0 €
+   3  0 €
+   4  0 €
+   5  0 €
+   6  0 €
+   6:0  0 €
+   6:1  0 €
+   6:2  0 €
+   6:3  0 €
+   6:4  0 €
+   6:5  0 €
+   6:6  0 €
+   6:7  0 €
+   6:8  0 €
+   7  0 €
+   7:0  0 €
+   7:1  0 €
+   7:2  0 €
+   7:3  0 €
+   7:4  0 €
+   7:5  0 €
+   7:6  0 €
+   7:7  0 €
+   7:8  0 €
+   8  0 €
+   8:6  0 €
+   8:7  0 €
+
+
+2024/03/27 * (FR63908007) OVH SAS
+    ; Jean Truc paye sa cotisation par les frais de nom de domaine
+    cotisation             -6.71 € ; Payee: Jean Truc
+    nom de domaine          6.71 €
+
+2024/03/27 *  Jeanne Truc
+    cotisation             -20.00 € ; Payee: Jeanne Truc
+    caisse                  20 €
+
+2024/04/19 * (20240929-01) La Poste
+   ; Caroline Truc paye sa cotisation par les frais de poste
+   cotisation    -9.81 €  ; Payee: Caroline Truc
+   poste
+
+2024/06/06 * Jean Truc  ; avance pour ouverture de compte
+   prêt adhérents    -150 €
+   cc
+
+2024/08/07 * Jean Truc  ; remboursement partiel de l'avance sur la caisse
+   prêt adhérents    130 €
+   caisse
+
+2024/12/04 Jean Truc  ; Bénévolat sur l'année
+   Personnel bénévole     60 h
+   Bénévolat

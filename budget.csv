@@ -1,0 +1,34 @@
+"6";"Charges";473,71 
+"6:0";"Achats (sauf 603)";200,00 
+"6:0:6:4";"Fournitures administratives";150,00 
+"6:0:9:1";"de matières premières (et fournitures)";50,00 
+"6:1";"Services extérieurs";30,00 
+"6:1:3:3";"achat hébergement services web";30,00 
+"6:2";"Autres services extérieurs";237,00 
+"6:2:3";"Publicité, publications, relations publiques";150,00 
+"6:2:6";"Frais postaux et de télécommunications";50,00 
+"6:2:7";"Services bancaires et assimilés";37,00 
+"6:3";"Impôts, taxes et versements assimilés";0
+"6:4";"Charges de personnel";0
+"6:5";"Autres charges de gestion courante";6,71 
+"6:5:1:2";"achat nom de domaine";6,71 
+"6:6";"Charges financières";0
+"6:7";"Charges exceptionnelles";0
+"6:8";"Dotations aux amortissements, aux dépréciations et aux provisions";0
+"8:6:4";"Personnel bénévole";600,00 h
+"";"";600,00 h
+473,71 
+"7";"Produits";500,00 
+"7:0";"Ventes de produits fabriqués, prestations de services, marchandises";0
+"7:1";"Production stockée (ou déstockage)";0
+"7:2";"Production immobilisée";0
+"7:3";"Concours publics";0
+"7:4";"Subventions d'exploitation";0
+"7:5";"Autres produits de gestion courante";500,00 
+"7:5:8:1";"Cotisations des adhérents";500,00 
+"7:6";"Produits financiers";0
+"7:7";"Produits exceptionnels";0
+"7:8";"Reprises sur amortissements, dépréciations et provisions";0
+"8:7:5";"Bénévolat";600,00 h
+"";"";600,00 h
+500,00 

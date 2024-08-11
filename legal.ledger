@@ -1,0 +1,4437 @@
+# Comptes spécifiques association
+account 1
+  alias Capitaux
+   note Capitaux
+account 1:0
+  alias Fonds propres et réserves
+  note Fonds propres et réserves
+account 1:0:2
+  alias 102
+  alias Fonds propres sans droit de reprise
+  note Fonds propres sans droit de reprise
+account 1:0:2:1
+  alias 1021
+  alias Première situation nette établie
+  note Première situation nette établie
+account 1:0:2:2
+  alias 1022
+  alias Fonds statutaires (à subdiviser en fonction des statuts)
+  note Fonds statutaires (à subdiviser en fonction des statuts)
+account 1:0:2:3
+  alias 1023
+  alias Dotations non consomptibles
+  note Dotations non consomptibles
+account 1:0:2:3:1
+  alias 10231
+  alias Dotations non consomptibles initiales
+  note Dotations non consomptibles initiales
+account 1:0:2:3:2
+  alias 10232
+  alias Dotations non consomptibles complémentaires
+  note Dotations non consomptibles complémentaires
+account 1:0:2:4
+  alias 1024
+  alias Autres fonds propres sans droit de reprise
+  note Autres fonds propres sans droit de reprise
+account 1:0:3
+  alias 103
+  alias Fonds propres avec droit de reprise
+  note Fonds propres avec droit de reprise
+account 1:0:3:2
+  alias 1032
+  alias Fonds statutaires (à subdiviser en fonction des statuts)
+  note Fonds statutaires (à subdiviser en fonction des statuts)
+account 1:0:3:4
+  alias 1034
+  alias Autres fonds propres avec droit de reprise
+  note Autres fonds propres avec droit de reprise
+account 1:0:5
+  alias 105
+  alias Ecarts de réévaluation
+  note Ecarts de réévaluation
+account 1:0:5:1
+  alias 1051
+  alias Ecarts de réévaluation sur des biens sans droit de reprise
+  note Ecarts de réévaluation sur des biens sans droit de reprise
+account 1:0:5:2
+  alias 1052
+  alias Ecarts de réévaluation sur des biens avec droit de reprise
+  note Ecarts de réévaluation sur des biens avec droit de reprise
+account 1:0:6
+  alias 106
+  alias Réserves
+  note Réserves
+account 1:0:6:8
+  alias 1068
+  alias Réserves pour projet de l’entité
+  note Réserves pour projet de l’entité
+account 1:0:8
+  alias 108
+  alias Dotations consomptibles
+  note Dotations consomptibles
+account 1:0:8:1
+  alias 1081
+  alias Dotations consomptibles
+  note Dotations consomptibles
+account 1:0:8:9
+  alias 1089
+  alias Dotations consomptibles inscrites au compte de résultat
+  note Dotations consomptibles inscrites au compte de résultat
+account 1:5
+  alias Provisions
+  note Provisions
+account 1:5:2
+  alias 152
+  alias Provisions pour charges sur legs ou donations
+  note Provisions pour charges sur legs ou donations
+account 1:6
+  alias Emprunts et dettes assimilées
+  note Emprunts et dettes assimilées
+account 1:6:3
+  alias 163
+  alias Autres emprunts obligataires
+  note Autres emprunts obligataires
+account 1:6:3:1
+  alias 1631
+  alias Titres associatifs et assimilés
+  note Titres associatifs et assimilés
+account 1:9
+  alias Fonds dédiés ou reportés
+  note Fonds dédiés ou reportés
+account 1:9:1
+  alias 191
+  alias Fonds reportés liés aux legs ou donations
+  note Fonds reportés liés aux legs ou donations
+account 1:9:1:1
+  alias 1911
+  alias Legs ou donations
+  note Legs ou donations
+account 1:9:1:2
+  alias 1912
+  alias Donations temporaires d’usufruit
+  note Donations temporaires d’usufruit
+account 1:9:4
+  alias 194
+  alias Fonds dédiés sur subventions d’exploitation
+  note Fonds dédiés sur subventions d’exploitation
+account 1:9:5
+  alias 195
+  alias Fonds dédiés sur contributions financières d’autres organismes
+  note Fonds dédiés sur contributions financières d’autres organismes
+account 1:9:6
+  alias 196
+  alias Fonds dédiés sur ressources liées à la générosité du public
+  note Fonds dédiés sur ressources liées à la générosité du public
+account 2
+  alias Immobilisations
+   note Immobilisations
+account 2:0
+  alias Immobilisations incorporelles
+  note Immobilisations incorporelles
+account 2:0:4
+  alias 204
+  alias Donations temporaires d’usufruit
+  note Donations temporaires d’usufruit
+account 2:4
+  alias Biens reçus par legs ou donations destinés à être cédés
+  note Biens reçus par legs ou donations destinés à être cédés
+account 2:7
+  alias Autres immobilisations financières
+  note Autres immobilisations financières
+account 2:7:4:2
+  alias 2742
+  alias Prêts aux partenaires
+  note Prêts aux partenaires
+account 2:8
+  alias Amortissements des immobilisations
+  note Amortissements des immobilisations
+account 2:8:0
+  alias 280
+  alias Amortissements des immobilisations incorporelles
+  note Amortissements des immobilisations incorporelles
+account 2:8:0:4
+  alias 2804
+  alias Donations temporaires d’usufruit
+  note Donations temporaires d’usufruit
+account 2:9
+  alias Dépréciations des immobilisations
+  note Dépréciations des immobilisations
+account 2:9:4
+  alias 294
+  alias Dépréciations des biens reçus par legs ou donations destinés à être cédés
+  note Dépréciations des biens reçus par legs ou donations destinés à être cédés
+account 4
+  alias Comptes de tiers
+  note Comptes de tiers
+account 4:1
+  alias Clients, adhérents, usagers et comptes rattachés
+  note Clients, adhérents, usagers et comptes rattachés
+account 4:5
+  alias Confédération, fédération, union, entités affiliées
+  note Confédération, fédération, union, entités affiliées
+account 4:5:5
+  alias 455
+  alias Partenaires - comptes courants
+  note Partenaires - comptes courants
+account 4:6
+  alias Débiteurs et créditeurs divers
+  note Débiteurs et créditeurs divers
+account 4:6:1
+  alias 461
+  alias Créances reçues par legs ou donations
+  note Créances reçues par legs ou donations
+account 4:6:6
+  alias 466
+  alias Dettes des legs ou donations
+  note Dettes des legs ou donations
+account 4:6:8
+  alias 468
+  alias Divers – charges à payer et produits à recevoir
+  note Divers – charges à payer et produits à recevoir
+account 4:6:8:1
+  alias 4681
+  alias Frais des bénévoles
+  note Frais des bénévoles
+account 6:2
+  alias Autres services extérieurs
+  note Autres services extérieurs
+account 6:2:2
+  alias 622
+  alias Rémunérations d’intermédiaires et honoraires
+  note Rémunérations d’intermédiaires et honoraires
+account 6:2:2:6
+  alias 6226
+  alias Honoraires
+  note Honoraires
+account 6:2:2:6:4
+  alias 62264
+  alias Honoraires sur legs ou donations destinés à être cédés
+  note Honoraires sur legs ou donations destinés à être cédés
+account 6:5
+  alias Autres charges de gestion courante
+  note Autres charges de gestion courante
+account 6:5:3
+  alias 653
+  alias Charges de la générosité du public
+  note Charges de la générosité du public
+account 6:5:3:1
+  alias 6531
+  alias Autres charges sur legs ou donations
+  note Autres charges sur legs ou donations
+account 6:5:7
+  alias 657
+  alias Aides financières
+  note Aides financières
+account 6:5:7:1
+  alias 6571
+  alias Aides financières octroyées
+  note Aides financières octroyées
+account 6:5:7:2
+  alias 6572
+  alias Quotes-parts de générosité reversée
+  note Quotes-parts de générosité reversée
+account 6:7
+  alias Charges exceptionnelles
+  note Charges exceptionnelles
+account 6:7:3
+  alias 673
+  alias Apports ou affectations en numéraire
+  note Apports ou affectations en numéraire
+account 6:7:5
+  alias 675
+  alias Valeurs comptables des éléments d’actifs cédés
+  note Valeurs comptables des éléments d’actifs cédés
+account 6:7:5:4
+  alias 6754
+  alias Immobilisations reçues par legs ou donations
+  note Immobilisations reçues par legs ou donations
+account 6:8
+  alias Dotations aux amortissements, provisions et engagements
+  note Dotations aux amortissements, provisions et engagements
+account 6:8:1:6
+  alias 6816
+  alias Dotations pour dépréciations des immobilisations incorporelles et corporelles
+  note Dotations pour dépréciations des immobilisations incorporelles et corporelles
+account 6:8:1:6:4
+  alias 68164
+  alias Dotations pour dépréciation d’actifs reçus par legs ou donations destinés à être cédés
+  note Dotations pour dépréciation d’actifs reçus par legs ou donations destinés à être cédés
+account 6:8:9
+  alias 689
+  alias Reports en fonds dédiés
+  note Reports en fonds dédiés
+account 6:8:9:1
+  alias 6891
+  alias Reports en fonds reportés
+  note Reports en fonds reportés
+account 6:8:9:4
+  alias 6894
+  alias Reports en fonds dédiés sur subventions d’exploitation
+  note Reports en fonds dédiés sur subventions d’exploitation
+account 6:8:9:5
+  alias 6895
+  alias Reports en fonds dédiés sur contributions financières d’autres organismes
+  note Reports en fonds dédiés sur contributions financières d’autres organismes
+account 6:8:9:6
+  alias 6896
+  alias Reports en fonds dédiés sur ressources liées à la générosité du public
+  note Reports en fonds dédiés sur ressources liées à la générosité du public
+account 7:0
+  alias Ventes de produits fabriqués, prestations de services, marchandises
+  note Ventes de produits fabriqués, prestations de services, marchandises
+account 7:0:6
+  alias 706
+  alias Ventes de prestations de services
+  note Ventes de prestations de services
+account 7:0:6:3
+  alias 7063
+  alias Parrainages
+  note Parrainages
+account 7:0:7
+  alias 707
+  alias Ventes de marchandises
+  note Ventes de marchandises
+account 7:0:7:3
+  alias 7073
+  alias Ventes de dons en nature
+  note Ventes de dons en nature
+account 7:3
+  alias Concours publics
+  note Concours publics
+account 7:5
+  alias Autres produits de gestion courante
+  note Autres produits de gestion courante
+account 7:5:3
+  alias 753
+  alias Versements des fondateurs ou consommation de la dotation
+  note Versements des fondateurs ou consommation de la dotation
+account 7:5:3:1
+  alias 7531
+  alias Versements des fondateurs
+  note Versements des fondateurs
+account 7:5:3:2
+  alias 7532
+  alias Quotes-parts de dotation consomptible virée au compte de résultat
+  note Quotes-parts de dotation consomptible virée au compte de résultat
+account 7:5:4
+  alias 754
+  alias Ressources liées à la générosité du public
+  note Ressources liées à la générosité du public
+account 7:5:4:1
+  alias 7541
+  alias Dons manuels
+  note Dons manuels
+account 7:5:4:1:1
+  alias 75411
+  alias Dons manuels
+  note Dons manuels
+account 7:5:4:1:2
+  alias 75412
+  alias Abandons de frais par les bénévoles
+  note Abandons de frais par les bénévoles
+account 7:5:4:2
+  alias 7542
+  alias Mécénats
+  note Mécénats
+account 7:5:4:3
+  alias 7543
+  alias Legs, donations et assurances-vie
+  note Legs, donations et assurances-vie
+account 7:5:4:3:1
+  alias 75431
+  alias Assurances-vie
+  note Assurances-vie
+account 7:5:4:3:2
+  alias 75432
+  alias Legs ou donations
+  note Legs ou donations
+account 7:5:4:3:3
+  alias 75433
+  alias Autres produits sur legs ou donations
+  note Autres produits sur legs ou donations
+account 7:5:5
+  alias 755
+  alias Contributions financières
+  note Contributions financières
+account 7:5:5:1
+  alias 7551
+  alias Contributions financières d’autres organismes
+  note Contributions financières d’autres organismes
+account 7:5:5:2
+  alias 7552
+  alias Quotes-parts de générosité reçues
+  note Quotes-parts de générosité reçues
+account 7:5:6
+  alias 756
+  alias Cotisations
+  note Cotisations
+account 7:5:6:1
+  alias 7561
+  alias Cotisations sans contrepartie
+  note Cotisations sans contrepartie
+account 7:5:6:2
+  alias 7562
+  alias Cotisations avec contrepartie
+  note Cotisations avec contrepartie
+account 7:5:7
+  alias 757
+  alias Gains de change sur créances et dettes d’exploitation
+  note Gains de change sur créances et dettes d’exploitation
+account 7:7
+  alias Produits exceptionnels
+  note Produits exceptionnels
+account 7:7:5
+  alias 775
+  alias Produits des cessions d’éléments d’actifs
+  note Produits des cessions d’éléments d’actifs
+account 7:7:5:4
+  alias 7754
+  alias Immobilisations reçues en legs ou donations destinées à être cédées
+  note Immobilisations reçues en legs ou donations destinées à être cédées
+account 7:8
+  alias Reprises sur amortissements, dépréciations et provisions
+  note Reprises sur amortissements, dépréciations et provisions
+account 7:8:1
+  alias 781
+  alias Reprises sur amortissements des immobilisations dépréciations et provisions (à inscrire dans les produits d’exploitation)
+  note Reprises sur amortissements des immobilisations dépréciations et provisions (à inscrire dans les produits d’exploitation)
+account 7:8:1:6
+  alias 7816
+  alias Reprises sur dépréciations des immobilisations incorporelles et corporelles
+  note Reprises sur dépréciations des immobilisations incorporelles et corporelles
+account 7:8:1:6:4
+  alias 78164
+  alias Reprises sur dépréciations d’actifs reçus par legs ou donations destinés à être cédés
+  note Reprises sur dépréciations d’actifs reçus par legs ou donations destinés à être cédés
+account 7:8:9
+  alias 789
+  alias Utilisations de fonds reportés et de fonds dédiés
+  note Utilisations de fonds reportés et de fonds dédiés
+account 7:8:9:1
+  alias 7891
+  alias Utilisations de fonds reportés
+  note Utilisations de fonds reportés
+account 7:8:9:4
+  alias 7894
+  alias Utilisations des fonds dédiés sur subventions d’exploitation
+  note Utilisations des fonds dédiés sur subventions d’exploitation
+account 7:8:9:5
+  alias 7895
+  alias Utilisations des fonds dédiés sur contributions financières d’autres organismes
+  note Utilisations des fonds dédiés sur contributions financières d’autres organismes
+account 7:8:9:6
+  alias 7896
+  alias Utilisations des fonds dédiés sur ressources liées à la générosité du public
+  note Utilisations des fonds dédiés sur ressources liées à la générosité du public
+account 8
+  note Comptes spéciaux
+account 8:6
+  alias Emplois des contributions volontaires en nature
+  note Emplois des contributions volontaires en nature
+account 8:6:0
+  alias 860
+  alias Secours en nature
+  note Secours en nature
+account 8:6:1
+  alias 861
+  alias Mises à disposition gratuite de biens
+  note Mises à disposition gratuite de biens
+account 8:6:2
+  alias 862
+  alias Prestations
+  note Prestations
+account 8:6:4
+  alias 864
+  alias Personnel bénévole
+  note Personnel bénévole
+account 8:7
+  alias Contributions volontaires en nature
+  note Contributions volontaires en nature
+account 8:7:0
+  alias 870
+  alias Dons en nature
+  note Dons en nature
+account 8:7:1
+  alias 871
+  alias Prestations en nature
+  note Prestations en nature
+account 8:7:5
+  alias 875
+  alias Bénévolat
+  note Bénévolat
+
+# Comptes généraux
+account 1
+  alias Capital
+  note Capital
+account 1:0
+  alias 10
+  alias capital et réserves
+  note capital et réserves
+account 1:0:1
+  alias 101
+  alias Capital
+  note Capital
+account 1:0:1:1
+  alias 1011
+  alias Capital souscrit - non appelé
+  note Capital souscrit - non appelé
+account 1:0:1:2
+  alias 1012
+  alias Capital souscrit - appelé, non versé
+  note Capital souscrit - appelé, non versé
+account 1:0:1:3
+  alias 1013
+  alias Capital souscrit - appelé, versé
+  note Capital souscrit - appelé, versé
+account 1:0:1:3:1
+  alias 10131
+  alias Capital non amorti
+  note Capital non amorti
+account 1:0:1:3:2
+  alias 10132
+  alias Capital amorti
+  note Capital amorti
+account 1:0:1:8
+  alias 1018
+  alias Capital souscrit soumis à des réglementations particulières
+  note Capital souscrit soumis à des réglementations particulières
+account 1:0:2
+  alias 102
+  alias Fonds fiduciaires
+  note Fonds fiduciaires
+account 1:0:4
+  alias 104
+  alias Primes liées au capital social
+  note Primes liées au capital social
+account 1:0:4:1
+  alias 1041
+  alias Primes d'émission
+  note Primes d'émission
+account 1:0:4:2
+  alias 1042
+  alias Primes de fusion
+  note Primes de fusion
+account 1:0:4:3
+  alias 1043
+  alias Primes d'apport
+  note Primes d'apport
+account 1:0:4:4
+  alias 1044
+  alias Primes de conversion d'obligations en actions
+  note Primes de conversion d'obligations en actions
+account 1:0:4:5
+  alias 1045
+  alias Bons de souscription d'actions
+  note Bons de souscription d'actions
+account 1:0:5
+  alias 105
+  alias Ecarts de réévaluation
+  note Ecarts de réévaluation
+account 1:0:5:1
+  alias 1051
+  alias Réserve spéciale de réévaluation
+  note Réserve spéciale de réévaluation
+account 1:0:5:2
+  alias 1052
+  alias Ecart de réévaluation libre
+  note Ecart de réévaluation libre
+account 1:0:5:3
+  alias 1053
+  alias Réserve de réévaluation
+  note Réserve de réévaluation
+account 1:0:5:5
+  alias 1055
+  alias Ecarts de réévaluation (autres opérations légales)
+  note Ecarts de réévaluation (autres opérations légales)
+account 1:0:5:7
+  alias 1057
+  alias Autres écarts de réévaluation en France
+  note Autres écarts de réévaluation en France
+account 1:0:5:8
+  alias 1058
+  alias Autres écarts de réévaluation à l'Etranger
+  note Autres écarts de réévaluation à l'Etranger
+account 1:0:6
+  alias 106
+  alias Réserves
+  note Réserves
+account 1:0:6:1
+  alias 1061
+  alias Réserve légale
+  note Réserve légale
+account 1:0:6:1:1
+  alias 10611
+  alias Réserve légale proprement dite
+  note Réserve légale proprement dite
+account 1:0:6:1:2
+  alias 10612
+  alias Plus-values nettes à long terme
+  note Plus-values nettes à long terme
+account 1:0:6:2
+  alias 1062
+  alias Réserves indisponibles
+  note Réserves indisponibles
+account 1:0:6:3
+  alias 1063
+  alias Réserves statutaires ou contractuelles
+  note Réserves statutaires ou contractuelles
+account 1:0:6:4
+  alias 1064
+  alias Réserves réglementées
+  note Réserves réglementées
+account 1:0:6:4:1
+  alias 10641
+  alias Plus-values nettes à long terme
+  note Plus-values nettes à long terme
+account 1:0:6:4:3
+  alias 10643
+  alias Réserves consécutives à l'octroi de subventions d'investissement
+  note Réserves consécutives à l'octroi de subventions d'investissement
+account 1:0:6:4:8
+  alias 10648
+  alias Autres réserves réglementées
+  note Autres réserves réglementées
+account 1:0:6:8
+  alias 1068
+  alias Autres réserves
+  note Autres réserves
+account 1:0:6:8:1
+  alias 10681
+  alias Réserve de propre assureur
+  note Réserve de propre assureur
+account 1:0:6:8:8
+  alias 10688
+  alias Réserves diverses
+  note Réserves diverses
+account 1:0:7
+  alias 107
+  alias Ecart d'équivalence
+  note Ecart d'équivalence
+account 1:0:8
+  alias 108
+  alias Compte de l'exploitant
+  note Compte de l'exploitant
+account 1:0:9
+  alias 109
+  alias Actionnaires : Capital souscrit - non appelé
+  note Actionnaires : Capital souscrit - non appelé
+account 1:1
+  alias 11
+  alias Report à nouveau (solde créditeur ou débiteur)
+  note Report à nouveau (solde créditeur ou débiteur)
+account 1:1:0
+  alias 110
+  alias Report à nouveau (solde créditeur)
+  note Report à nouveau (solde créditeur)
+account 1:1:9
+  alias 119
+  alias Report à nouveau (solde débiteur)
+  note Report à nouveau (solde débiteur)
+account 1:2
+  alias 12
+  alias Résultat de l'exercice (bénéfice ou perte)
+  note Résultat de l'exercice (bénéfice ou perte)
+account 1:2:0
+  alias 120
+  alias Résultat de l'exercice (bénéfice)
+  note Résultat de l'exercice (bénéfice)
+account 1:2:9
+  alias 129
+  alias Résultat de l'exercice (perte)
+  note Résultat de l'exercice (perte)
+account 1:3
+  alias 13
+  alias Subventions d'investissement
+  note Subventions d'investissement
+account 1:3:1
+  alias 131
+  alias Subventions d'équipement
+  note Subventions d'équipement
+account 1:3:1:1
+  alias 1311
+  alias Etat
+  note Etat
+account 1:3:1:2
+  alias 1312
+  alias Régions
+  note Régions
+account 1:3:1:3
+  alias 1313
+  alias Départements
+  note Départements
+account 1:3:1:4
+  alias 1314
+  alias Communes
+  note Communes
+account 1:3:1:5
+  alias 1315
+  alias Collectivités publiques
+  note Collectivités publiques
+account 1:3:1:6
+  alias 1316
+  alias Entreprises publiques
+  note Entreprises publiques
+account 1:3:1:7
+  alias 1317
+  alias Entreprises et organismes privés
+  note Entreprises et organismes privés
+account 1:3:1:8
+  alias 1318
+  alias Autres
+  note Autres
+account 1:3:8
+  alias 138
+  alias Autres subventions d’investissement (même ventilation que celle du compte 131)
+  note Autres subventions d’investissement (même ventilation que celle du compte 131)
+account 1:3:9
+  alias 139
+  alias Subventions d'investissement inscrites au compte de résultat
+  note Subventions d'investissement inscrites au compte de résultat
+account 1:3:9:1
+  alias 1391
+  alias Subventions d'équipement
+  note Subventions d'équipement
+account 1:3:9:1:1
+  alias 13911
+  alias Etat
+  note Etat
+account 1:3:9:1:2
+  alias 13912
+  alias Régions
+  note Régions
+account 1:3:9:1:3
+  alias 13913
+  alias Départements
+  note Départements
+account 1:3:9:1:4
+  alias 13914
+  alias Communes
+  note Communes
+account 1:3:9:1:5
+  alias 13915
+  alias Collectivités publiques
+  note Collectivités publiques
+account 1:3:9:1:6
+  alias 13916
+  alias Entreprises publiques
+  note Entreprises publiques
+account 1:3:9:1:7
+  alias 13917
+  alias Entreprises et organismes privés
+  note Entreprises et organismes privés
+account 1:3:9:1:8
+  alias 13918
+  alias Autres
+  note Autres
+account 1:3:9:8
+  alias 1398
+  alias Autres subventions d’investissement (même ventilation que celle du compte 1391)
+  note Autres subventions d’investissement (même ventilation que celle du compte 1391)
+account 1:4
+  alias 14
+  alias Provisions réglementées
+  note Provisions réglementées
+account 1:4:2
+  alias 142
+  alias Provisions réglementées relatives aux immobilisations
+  note Provisions réglementées relatives aux immobilisations
+account 1:4:2:3
+  alias 1423
+  alias Provisions pour reconstitution des gisements miniers et pétroliers
+  note Provisions pour reconstitution des gisements miniers et pétroliers
+account 1:4:2:4
+  alias 1424
+  alias Provisions pour investissement (participation des salariés)
+  note Provisions pour investissement (participation des salariés)
+account 1:4:3
+  alias 143
+  alias Provisions réglementées relatives aux stocks
+  note Provisions réglementées relatives aux stocks
+account 1:4:3:1
+  alias 1431
+  alias Hausse des prix
+  note Hausse des prix
+account 1:4:3:2
+  alias 1432
+  alias Fluctuation des cours
+  note Fluctuation des cours
+account 1:4:4
+  alias 144
+  alias Provisions réglementées relatives aux autres éléments de l'actif
+  note Provisions réglementées relatives aux autres éléments de l'actif
+account 1:4:5
+  alias 145
+  alias Amortissements dérogatoires
+  note Amortissements dérogatoires
+account 1:4:6
+  alias 146
+  alias Provision spéciale de réévaluation
+  note Provision spéciale de réévaluation
+account 1:4:7
+  alias 147
+  alias Plus-values réinvesties
+  note Plus-values réinvesties
+account 1:4:8
+  alias 148
+  alias Autres provisions réglementées
+  note Autres provisions réglementées
+account 1:5
+  alias 15
+  alias Provisions
+  note Provisions
+account 1:5:1
+  alias 151
+  alias Provisions pour risques
+  note Provisions pour risques
+account 1:5:1:1
+  alias 1511
+  alias Provisions pour litiges
+  note Provisions pour litiges
+account 1:5:1:2
+  alias 1512
+  alias Provisions pour garanties données aux clients
+  note Provisions pour garanties données aux clients
+account 1:5:1:3
+  alias 1513
+  alias Provisions pour pertes sur marchés à terme
+  note Provisions pour pertes sur marchés à terme
+account 1:5:1:4
+  alias 1514
+  alias Provisions pour amendes et pénalités
+  note Provisions pour amendes et pénalités
+account 1:5:1:5
+  alias 1515
+  alias Provisions pour pertes de change
+  note Provisions pour pertes de change
+account 1:5:1:6
+  alias 1516
+  alias Provisions pour pertes sur contrats
+  note Provisions pour pertes sur contrats
+account 1:5:1:8
+  alias 1518
+  alias Autres provisions pour risques
+  note Autres provisions pour risques
+account 1:5:3
+  alias 153
+  alias Provisions pour pensions et obligations similaires
+  note Provisions pour pensions et obligations similaires
+account 1:5:4
+  alias 154
+  alias Provisions pour restructurations
+  note Provisions pour restructurations
+account 1:5:5
+  alias 155
+  alias Provisions pour impôts
+  note Provisions pour impôts
+account 1:5:6
+  alias 156
+  alias Provisions pour renouvellement des immobilisations (entreprises concessionnaires)
+  note Provisions pour renouvellement des immobilisations (entreprises concessionnaires)
+account 1:5:7
+  alias 157
+  alias Provisions pour charges à répartir sur plusieurs exercices
+  note Provisions pour charges à répartir sur plusieurs exercices
+account 1:5:7:2
+  alias 1572
+  alias Provisions pour gros entretien ou grandes révisions
+  note Provisions pour gros entretien ou grandes révisions
+account 1:5:8
+  alias 158
+  alias Autres provisions pour charges
+  note Autres provisions pour charges
+account 1:5:8:1
+  alias 1581
+  alias Provisions pour remises en état
+  note Provisions pour remises en état
+account 1:6
+  alias 16
+  alias Emprunts et dettes assimilées
+  note Emprunts et dettes assimilées
+account 1:6:1
+  alias 161
+  alias Emprunts obligataires convertibles
+  note Emprunts obligataires convertibles
+account 1:6:2
+  alias 162
+  alias Obligations représentatives de passifs nets remis en fiducie
+  note Obligations représentatives de passifs nets remis en fiducie
+account 1:6:3
+  alias 163
+  alias Autres emprunts obligataires
+  note Autres emprunts obligataires
+account 1:6:4
+  alias 164
+  alias Emprunts auprès des établissements de crédit
+  note Emprunts auprès des établissements de crédit
+account 1:6:5
+  alias 165
+  alias Dépôts et cautionnements reçus
+  note Dépôts et cautionnements reçus
+account 1:6:5:1
+  alias 1651
+  alias Dépôts
+  note Dépôts
+account 1:6:5:5
+  alias 1655
+  alias Cautionnements
+  note Cautionnements
+account 1:6:6
+  alias 166
+  alias Participation des salariés aux résultats
+  note Participation des salariés aux résultats
+account 1:6:6:1
+  alias 1661
+  alias Comptes bloqués
+  note Comptes bloqués
+account 1:6:6:2
+  alias 1662
+  alias Fonds de participation
+  note Fonds de participation
+account 1:6:7
+  alias 167
+  alias Emprunts et dettes assortis de conditions particulières
+  note Emprunts et dettes assortis de conditions particulières
+account 1:6:7:1
+  alias 1671
+  alias Emissions de titres participatifs
+  note Emissions de titres participatifs
+account 1:6:7:4
+  alias 1674
+  alias Avances conditionnées de l'Etat
+  note Avances conditionnées de l'Etat
+account 1:6:7:5
+  alias 1675
+  alias Emprunts participatifs
+  note Emprunts participatifs
+account 1:6:8
+  alias 168
+  alias Autres emprunts et dettes assimilées
+  note Autres emprunts et dettes assimilées
+account 1:6:8:1
+  alias 1681
+  alias Autres emprunts
+  note Autres emprunts
+account 1:6:8:5
+  alias 1685
+  alias Rentes viagères capitalisées
+  note Rentes viagères capitalisées
+account 1:6:8:7
+  alias 1687
+  alias Autres dettes
+  note Autres dettes
+account 1:6:8:8
+  alias 1688
+  alias Intérêts courus
+  note Intérêts courus
+account 1:6:8:8:1
+  alias 16881
+  alias sur emprunts obligataires convertibles
+  note sur emprunts obligataires convertibles
+account 1:6:8:8:3
+  alias 16883
+  alias sur autres emprunts obligataires
+  note sur autres emprunts obligataires
+account 1:6:8:8:4
+  alias 16884
+  alias sur emprunts auprès des établissements de crédit
+  note sur emprunts auprès des établissements de crédit
+account 1:6:8:8:5
+  alias 16885
+  alias sur dépôts et cautionnements reçus
+  note sur dépôts et cautionnements reçus
+account 1:6:8:8:6
+  alias 16886
+  alias sur participation des salariés aux résultats
+  note sur participation des salariés aux résultats
+account 1:6:8:8:7
+  alias 16887
+  alias sur emprunts et dettes assortis de conditions particulières
+  note sur emprunts et dettes assortis de conditions particulières
+account 1:6:8:8:8
+  alias 16888
+  alias sur autres emprunts et dettes assimilées
+  note sur autres emprunts et dettes assimilées
+account 1:6:9
+  alias 169
+  alias Primes de remboursement des obligations
+  note Primes de remboursement des obligations
+account 1:7
+  alias 17
+  alias Dettes rattachées à des participations
+  note Dettes rattachées à des participations
+account 1:7:1
+  alias 171
+  alias Dettes rattachées à des participations (groupe)
+  note Dettes rattachées à des participations (groupe)
+account 1:7:4
+  alias 174
+  alias Dettes rattachées à des participations (hors groupe)
+  note Dettes rattachées à des participations (hors groupe)
+account 1:7:8
+  alias 178
+  alias Dettes rattachées à des sociétés en participation
+  note Dettes rattachées à des sociétés en participation
+account 1:7:8:1
+  alias 1781
+  alias Principal
+  note Principal
+account 1:7:8:8
+  alias 1788
+  alias Intérêts courus
+  note Intérêts courus
+account 1:8
+  alias 18
+  alias Comptes de liaison des établissements et sociétés en participation
+  note Comptes de liaison des établissements et sociétés en participation
+account 1:8:1
+  alias 181
+  alias Comptes de liaison des établissements
+  note Comptes de liaison des établissements
+account 1:8:6
+  alias 186
+  alias Biens et prestations de services échangés entre établissements (charges)
+  note Biens et prestations de services échangés entre établissements (charges)
+account 1:8:7
+  alias 187
+  alias Biens et prestations de services échangés entre établissements (produits)
+  note Biens et prestations de services échangés entre établissements (produits)
+account 1:8:8
+  alias 188
+  alias Comptes de liaison des sociétés en participation
+  note Comptes de liaison des sociétés en participation
+account 2
+  alias Immobilisation
+  note Immobilisation
+account 2:0
+  alias 20
+  alias Immobilisations incorporelles
+  note Immobilisations incorporelles
+account 2:0:1
+  alias 201
+  alias Frais d'établissement
+  note Frais d'établissement
+account 2:0:1:1
+  alias 2011
+  alias Frais de constitution
+  note Frais de constitution
+account 2:0:1:2
+  alias 2012
+  alias Frais de premier établissement
+  note Frais de premier établissement
+account 2:0:1:2:1
+  alias 20121
+  alias Frais de prospection
+  note Frais de prospection
+account 2:0:1:2:2
+  alias 20122
+  alias Frais de publicité
+  note Frais de publicité
+account 2:0:1:3
+  alias 2013
+  alias Frais d'augmentation de capital et d'opérations diverses (fusions, scissions, transformations)
+  note Frais d'augmentation de capital et d'opérations diverses (fusions, scissions, transformations)
+account 2:0:3
+  alias 203
+  alias Frais de recherche et de développement
+  note Frais de recherche et de développement
+account 2:0:5
+  alias 205
+  alias Concessions et droits similaires, brevets, licences, marques, procédés, logiciels, droits et valeurs similaires
+  note Concessions et droits similaires, brevets, licences, marques, procédés, logiciels, droits et valeurs similaires
+account 2:0:6
+  alias 206
+  alias Droit au bail
+  note Droit au bail
+account 2:0:7
+  alias 207
+  alias Fonds commercial
+  note Fonds commercial
+account 2:0:8
+  alias 208
+  alias Autres immobilisations incorporelles
+  note Autres immobilisations incorporelles
+account 2:0:8:1
+  alias 2081
+  alias Mali de fusion sur actifs incorporels
+  note Mali de fusion sur actifs incorporels
+account 2:1
+  alias 21
+  alias Immobilisations corporelles
+  note Immobilisations corporelles
+account 2:1:1
+  alias 211
+  alias Terrains
+  note Terrains
+account 2:1:1:1
+  alias 2111
+  alias Terrains nus
+  note Terrains nus
+account 2:1:1:2
+  alias 2112
+  alias Terrains aménagés
+  note Terrains aménagés
+account 2:1:1:3
+  alias 2113
+  alias Sous - sols et sursols
+  note Sous - sols et sursols
+account 2:1:1:4
+  alias 2114
+  alias Terrains de carrières (Tréfonds)
+  note Terrains de carrières (Tréfonds)
+account 2:1:1:5
+  alias 2115
+  alias Terrains bâtis
+  note Terrains bâtis
+account 2:1:1:5:1
+  alias 21151
+  alias Ensembles immobiliers industriels (A, B)
+  note Ensembles immobiliers industriels (A, B)
+account 2:1:1:5:5
+  alias 21155
+  alias Ensembles immobiliers administratifs et commerciaux (A, B)
+  note Ensembles immobiliers administratifs et commerciaux (A, B)
+account 2:1:1:5:8
+  alias 21158
+  alias Autres ensembles immobiliers
+  note Autres ensembles immobiliers
+account 2:1:1:5:8:1
+  alias 211581
+  alias affectés aux opérations professionnelles (A, B)
+  note affectés aux opérations professionnelles (A, B)
+account 2:1:1:5:8:8
+  alias 211588
+  alias affectés aux opérations non professionnelles (A, B)
+  note affectés aux opérations non professionnelles (A, B)
+account 2:1:1:6
+  alias 2116
+  alias Compte d'ordre sur immobilisations
+  note Compte d'ordre sur immobilisations
+account 2:1:2
+  alias 212
+  alias Agencements et aménagements de terrains (même ventilation que celle du compte 211)
+  note Agencements et aménagements de terrains (même ventilation que celle du compte 211)
+account 2:1:3
+  alias 213
+  alias Constructions
+  note Constructions
+account 2:1:3:1
+  alias 2131
+  alias Bâtiments
+  note Bâtiments
+account 2:1:3:1:1
+  alias 21311
+  alias Ensembles immobiliers industriels (A, B)
+  note Ensembles immobiliers industriels (A, B)
+account 2:1:3:1:5
+  alias 21315
+  alias Ensembles immobiliers administratifs et commerciaux (A, B)
+  note Ensembles immobiliers administratifs et commerciaux (A, B)
+account 2:1:3:1:8
+  alias 21318
+  alias Autres ensembles immobiliers
+  note Autres ensembles immobiliers
+account 2:1:3:1:8:1
+  alias 213181
+  alias affectés aux opérations professionnelles (A, B)
+  note affectés aux opérations professionnelles (A, B)
+account 2:1:3:1:8:8
+  alias 213188
+  alias affectés aux opérations non professionnelles (A, B)
+  note affectés aux opérations non professionnelles (A, B)
+account 2:1:3:5
+  alias 2135
+  alias Installations générales - agencements – aménagements des constructions
+  note Installations générales - agencements – aménagements des constructions
+account 2:1:3:5:1
+  alias 21351
+  alias Ensembles immobiliers industriels (A, B)
+  note Ensembles immobiliers industriels (A, B)
+account 2:1:3:5:5
+  alias 21355
+  alias Ensembles immobiliers administratifs et commerciaux (A, B)
+  note Ensembles immobiliers administratifs et commerciaux (A, B)
+account 2:1:3:5:8
+  alias 21358
+  alias Autres ensembles immobiliers
+  note Autres ensembles immobiliers
+account 2:1:3:5:8:1
+  alias 213581
+  alias affectés aux opérations professionnelles (A, B)
+  note affectés aux opérations professionnelles (A, B)
+account 2:1:3:5:8:8
+  alias 213588
+  alias affectés aux opérations non professionnelles (A, B)
+  note affectés aux opérations non professionnelles (A, B)
+account 2:1:3:8
+  alias 2138
+  alias Ouvrages d'infrastructure
+  note Ouvrages d'infrastructure
+account 2:1:3:8:1
+  alias 21381
+  alias Voies de terre
+  note Voies de terre
+account 2:1:3:8:2
+  alias 21382
+  alias Voies de fer
+  note Voies de fer
+account 2:1:3:8:3
+  alias 21383
+  alias Voies d'eau
+  note Voies d'eau
+account 2:1:3:8:4
+  alias 21384
+  alias Barrages
+  note Barrages
+account 2:1:3:8:5
+  alias 21385
+  alias Pistes d'aérodromes
+  note Pistes d'aérodromes
+account 2:1:4
+  alias 214
+  alias Constructions sur sol d'autrui (même ventilation que celle du compte 213)
+  note Constructions sur sol d'autrui (même ventilation que celle du compte 213)
+account 2:1:5
+  alias 215
+  alias Installations techniques, matériels et outillage industriels
+  note Installations techniques, matériels et outillage industriels
+account 2:1:5:1
+  alias 2151
+  alias Installations complexes spécialisées
+  note Installations complexes spécialisées
+account 2:1:5:1:1
+  alias 21511
+  alias sur sol propre
+  note sur sol propre
+account 2:1:5:1:4
+  alias 21514
+  alias sur sol d'autrui
+  note sur sol d'autrui
+account 2:1:5:3
+  alias 2153
+  alias Installations à caractère spécifique
+  note Installations à caractère spécifique
+account 2:1:5:3:1
+  alias 21531
+  alias sur sol propre
+  note sur sol propre
+account 2:1:5:3:4
+  alias 21534
+  alias sur sol d'autrui
+  note sur sol d'autrui
+account 2:1:5:4
+  alias 2154
+  alias Matériel industriel
+  note Matériel industriel
+account 2:1:5:5
+  alias 2155
+  alias Outillage industrie
+  note Outillage industrie
+account 2:1:5:7
+  alias 2157
+  alias Agencements et aménagements du matériel et outillage industriels
+  note Agencements et aménagements du matériel et outillage industriels
+account 2:1:8
+  alias 218
+  alias Autres immobilisations corporelles
+  note Autres immobilisations corporelles
+account 2:1:8:1
+  alias 2181
+  alias Installations générales, agencements, aménagements divers
+  note Installations générales, agencements, aménagements divers
+account 2:1:8:2
+  alias 2182
+  alias Matériel de transport
+  note Matériel de transport
+account 2:1:8:3
+  alias 2183
+  alias Matériel de bureau et matériel informatique
+  note Matériel de bureau et matériel informatique
+account 2:1:8:4
+  alias 2184
+  alias Mobilier
+  note Mobilier
+account 2:1:8:5
+  alias 2185
+  alias Cheptel
+  note Cheptel
+account 2:1:8:6
+  alias 2186
+  alias Emballages récupérables
+  note Emballages récupérables
+account 2:1:8:7
+  alias 2187
+  alias Mali de fusions sur actifs corporels
+  note Mali de fusions sur actifs corporels
+account 2:2
+  alias 22
+  alias Immobilisations mises en concession
+  note Immobilisations mises en concession
+account 2:3
+  alias 23
+  alias Immobilisations en cours
+  note Immobilisations en cours
+account 2:3:1
+  alias 231
+  alias Immobilisations corporelles en cours
+  note Immobilisations corporelles en cours
+account 2:3:1:2
+  alias 2312
+  alias Terrains
+  note Terrains
+account 2:3:1:3
+  alias 2313
+  alias Constructions
+  note Constructions
+account 2:3:1:5
+  alias 2315
+  alias Installations techniques, matériel et outillage industriels
+  note Installations techniques, matériel et outillage industriels
+account 2:3:1:8
+  alias 2318
+  alias Autres immobilisations corporelles
+  note Autres immobilisations corporelles
+account 2:3:2
+  alias 232
+  alias Immobilisations incorporelles en cours
+  note Immobilisations incorporelles en cours
+account 2:3:7
+  alias 237
+  alias Avances et acomptes versés sur immobilisations incorporelles
+  note Avances et acomptes versés sur immobilisations incorporelles
+account 2:3:8
+  alias 238
+  alias Avances et acomptes versés sur commandes d'immobilisations corporelles
+  note Avances et acomptes versés sur commandes d'immobilisations corporelles
+account 2:3:8:2
+  alias 2382
+  alias Terrains
+  note Terrains
+account 2:3:8:3
+  alias 2383
+  alias Constructions
+  note Constructions
+account 2:3:8:5
+  alias 2385
+  alias Installations techniques, matériel et outillage industriels
+  note Installations techniques, matériel et outillage industriels
+account 2:3:8:8
+  alias 2388
+  alias Autres immobilisations corporelles
+  note Autres immobilisations corporelles
+account 2:5
+  alias 25
+  alias Parts dans des entreprises liées et créances sur des entreprises liées
+  note Parts dans des entreprises liées et créances sur des entreprises liées
+account 2:6
+  alias 26
+  alias Participations et créances rattachées à des participations
+  note Participations et créances rattachées à des participations
+account 2:6:1
+  alias 261
+  alias Titres de participation
+  note Titres de participation
+account 2:6:1:1
+  alias 2611
+  alias Actions
+  note Actions
+account 2:6:1:8
+  alias 2618
+  alias Autres titres
+  note Autres titres
+account 2:6:6
+  alias 266
+  alias Autres formes de participation
+  note Autres formes de participation
+account 2:6:6:1
+  alias 2661
+  alias Droits représentatifs d’actifs nets remis en fiducie
+  note Droits représentatifs d’actifs nets remis en fiducie
+account 2:6:7
+  alias 267
+  alias Créances rattachées à des participations
+  note Créances rattachées à des participations
+account 2:6:7:1
+  alias 2671
+  alias Créances rattachées à des participations (groupe)
+  note Créances rattachées à des participations (groupe)
+account 2:6:7:4
+  alias 2674
+  alias Créances rattachées à des participations (hors groupe)
+  note Créances rattachées à des participations (hors groupe)
+account 2:6:7:5
+  alias 2675
+  alias Versements représentatifs d'apports non capitalisés (appel de fonds)
+  note Versements représentatifs d'apports non capitalisés (appel de fonds)
+account 2:6:7:6
+  alias 2676
+  alias Avances consolidables
+  note Avances consolidables
+account 2:6:7:7
+  alias 2677
+  alias Autres créances rattachées à des participations
+  note Autres créances rattachées à des participations
+account 2:6:7:8
+  alias 2678
+  alias Intérêts courus
+  note Intérêts courus
+account 2:6:8
+  alias 268
+  alias Créances rattachées à des sociétés en participation
+  note Créances rattachées à des sociétés en participation
+account 2:6:8:1
+  alias 2681
+  alias Principal
+  note Principal
+account 2:6:8:8
+  alias 2688
+  alias Intérêts courus
+  note Intérêts courus
+account 2:6:9
+  alias 269
+  alias Versements restant à effectuer sur titres de participation non libérés
+  note Versements restant à effectuer sur titres de participation non libérés
+account 2:7
+  alias 27
+  alias Autres immobilisations financières
+  note Autres immobilisations financières
+account 2:7:1
+  alias 271
+  alias Titres immobilisés autres que les titres immobilisés de l'activité de portefeuille (droit de propriété)
+  note Titres immobilisés autres que les titres immobilisés de l'activité de portefeuille (droit de propriété)
+account 2:7:1:1
+  alias 2711
+  alias Actions
+  note Actions
+account 2:7:1:8
+  alias 2718
+  alias Autres titres
+  note Autres titres
+account 2:7:2
+  alias 272
+  alias Titres immobilisés (droit de créance)
+  note Titres immobilisés (droit de créance)
+account 2:7:2:1
+  alias 2721
+  alias Obligations
+  note Obligations
+account 2:7:2:2
+  alias 2722
+  alias Bons
+  note Bons
+account 2:7:3
+  alias 273
+  alias Titres immobilisés de l'activité de portefeuille
+  note Titres immobilisés de l'activité de portefeuille
+account 2:7:4
+  alias 274
+  alias Prêts
+  note Prêts
+account 2:7:4:1
+  alias 2741
+  alias Prêts participatifs
+  note Prêts participatifs
+account 2:7:4:2
+  alias 2742
+  alias Prêts aux associés
+  note Prêts aux associés
+account 2:7:4:3
+  alias 2743
+  alias Prêts au personnel
+  note Prêts au personnel
+account 2:7:4:8
+  alias 2748
+  alias Autres prêts
+  note Autres prêts
+account 2:7:5
+  alias 275
+  alias Dépôts et cautionnements versés
+  note Dépôts et cautionnements versés
+account 2:7:5:1
+  alias 2751
+  alias Dépôts
+  note Dépôts
+account 2:7:5:5
+  alias 2755
+  alias Cautionnements
+  note Cautionnements
+account 2:7:6
+  alias 276
+  alias Autres créances immobilisées
+  note Autres créances immobilisées
+account 2:7:6:1
+  alias 2761
+  alias Créances diverses
+  note Créances diverses
+account 2:7:6:8
+  alias 2768
+  alias Intérêts courus
+  note Intérêts courus
+account 2:7:6:8:2
+  alias 27682
+  alias sur titres immobilisés (droit de créance)
+  note sur titres immobilisés (droit de créance)
+account 2:7:6:8:4
+  alias 27684
+  alias sur prêts
+  note sur prêts
+account 2:7:6:8:5
+  alias 27685
+  alias sur dépôts et cautionnements
+  note sur dépôts et cautionnements
+account 2:7:6:8:8
+  alias 27688
+  alias sur créances diverses
+  note sur créances diverses
+account 2:7:7
+  alias 277
+  alias (Actions propres ou parts propres)
+  note (Actions propres ou parts propres)
+account 2:7:7:1
+  alias 2771
+  alias Actions propres ou parts propres
+  note Actions propres ou parts propres
+account 2:7:7:2
+  alias 2772
+  alias Actions propres ou parts propres en voie d’annulation
+  note Actions propres ou parts propres en voie d’annulation
+account 2:7:8
+  alias 278
+  alias Mali de fusion sur actifs financiers
+  note Mali de fusion sur actifs financiers
+account 2:7:9
+  alias 279
+  alias Versements restant à effectuer sur titres immobilisés non libérés
+  note Versements restant à effectuer sur titres immobilisés non libérés
+account 2:8
+  alias 28
+  alias Amortissements des immobilisations
+  note Amortissements des immobilisations
+account 2:8:0
+  alias 280
+  alias Amortissements des immobilisations incorporelles
+  note Amortissements des immobilisations incorporelles
+account 2:8:0:1
+  alias 2801
+  alias Frais d'établissement (même ventilation que celle du compte 201)
+  note Frais d'établissement (même ventilation que celle du compte 201)
+account 2:8:0:3
+  alias 2803
+  alias Frais de recherche et de développement
+  note Frais de recherche et de développement
+account 2:8:0:5
+  alias 2805
+  alias Concessions et droits similaires, brevets, licences, logiciels, droits et valeurs similaires
+  note Concessions et droits similaires, brevets, licences, logiciels, droits et valeurs similaires
+account 2:8:0:7
+  alias 2807
+  alias Fonds commercial
+  note Fonds commercial
+account 2:8:0:8
+  alias 2808
+  alias Autres immobilisations incorporelles
+  note Autres immobilisations incorporelles
+account 2:8:0:8:1
+  alias 28081
+  alias Amortissements du mali de fusion sur actifs incorporels
+  note Amortissements du mali de fusion sur actifs incorporels
+account 2:8:1
+  alias 281
+  alias Amortissements des immobilisations corporelles
+  note Amortissements des immobilisations corporelles
+account 2:8:1:2
+  alias 2812
+  alias Agencements, aménagements de terrains (même ventilation que celle du compte 212)
+  note Agencements, aménagements de terrains (même ventilation que celle du compte 212)
+account 2:8:1:3
+  alias 2813
+  alias Constructions (même ventilation que celle du compte 213)
+  note Constructions (même ventilation que celle du compte 213)
+account 2:8:1:4
+  alias 2814
+  alias Constructions sur sol d'autrui (même ventilation que celle du compte 214)
+  note Constructions sur sol d'autrui (même ventilation que celle du compte 214)
+account 2:8:1:5
+  alias 2815
+  alias Installations, matériel et outillage industriels (même ventilation que celle du compte 215)
+  note Installations, matériel et outillage industriels (même ventilation que celle du compte 215)
+account 2:8:1:8
+  alias 2818
+  alias Autres immobilisations corporelles (même ventilation que celle du compte 218)
+  note Autres immobilisations corporelles (même ventilation que celle du compte 218)
+account 2:8:1:8:7
+  alias 28187
+  alias Amortissement du mali de fusion sur actifs corporels
+  note Amortissement du mali de fusion sur actifs corporels
+account 2:8:2
+  alias 282
+  alias Amortissements des immobilisations mises en concession
+  note Amortissements des immobilisations mises en concession
+account 2:9
+  alias 29
+  alias Dépréciations des immobilisations
+  note Dépréciations des immobilisations
+account 2:9:0
+  alias 290
+  alias Dépréciations des immobilisations incorporelles
+  note Dépréciations des immobilisations incorporelles
+account 2:9:0:5
+  alias 2905
+  alias Marques, procédés, droits et valeurs similaires
+  note Marques, procédés, droits et valeurs similaires
+account 2:9:0:6
+  alias 2906
+  alias Droit au bail
+  note Droit au bail
+account 2:9:0:7
+  alias 2907
+  alias Fonds commercial
+  note Fonds commercial
+account 2:9:0:8
+  alias 2908
+  alias Autres immobilisations incorporelles
+  note Autres immobilisations incorporelles
+account 2:9:0:8:1
+  alias 29081
+  alias Dépréciation du mali de fusion sur actifs incorporels
+  note Dépréciation du mali de fusion sur actifs incorporels
+account 2:9:1
+  alias 291
+  alias Dépréciations des immobilisations corporelles (même ventilation que celle du compte 21)
+  note Dépréciations des immobilisations corporelles (même ventilation que celle du compte 21)
+account 2:9:1:8:7
+  alias 29187
+  alias Dépréciation du mali de fusion sur actifs corporels
+  note Dépréciation du mali de fusion sur actifs corporels
+account 2:9:2
+  alias 292
+  alias Dépréciations des immobilisations mises en concession
+  note Dépréciations des immobilisations mises en concession
+account 2:9:3
+  alias 293
+  alias Dépréciations des immobilisations en cours
+  note Dépréciations des immobilisations en cours
+account 2:9:3:1
+  alias 2931
+  alias Immobilisations corporelles en cours
+  note Immobilisations corporelles en cours
+account 2:9:3:2
+  alias 2932
+  alias Immobilisations incorporelles en cours
+  note Immobilisations incorporelles en cours
+account 2:9:6
+  alias 296
+  alias Dépréciations des participations et créances rattachées à des participations
+  note Dépréciations des participations et créances rattachées à des participations
+account 2:9:6:1
+  alias 2961
+  alias Titres de participation
+  note Titres de participation
+account 2:9:6:6
+  alias 2966
+  alias Autres formes de participation
+  note Autres formes de participation
+account 2:9:6:7
+  alias 2967
+  alias Créances rattachées à des participations (même ventilation que celle du compte 267)
+  note Créances rattachées à des participations (même ventilation que celle du compte 267)
+account 2:9:6:8
+  alias 2968
+  alias Créances rattachées à des sociétés en participation (même ventilation que celle du compte 268)
+  note Créances rattachées à des sociétés en participation (même ventilation que celle du compte 268)
+account 2:9:7
+  alias 297
+  alias Dépréciations des autres immobilisations financières
+  note Dépréciations des autres immobilisations financières
+account 2:9:7:1
+  alias 2971
+  alias Titres immobilisés autres que les titres immobilisés de l'activité de portefeuille – droit de propriété (même ventilation que celle du compte 271)
+  note Titres immobilisés autres que les titres immobilisés de l'activité de portefeuille – droit de propriété (même ventilation que celle du compte 271)
+account 2:9:7:2
+  alias 2972
+  alias Droit de créance (même ventilation que celle du compte 272)
+  note Droit de créance (même ventilation que celle du compte 272)
+account 2:9:7:3
+  alias 2973
+  alias Titres immobilisés de l'activité de portefeuille
+  note Titres immobilisés de l'activité de portefeuille
+account 2:9:7:4
+  alias 2974
+  alias Prêts (même ventilation que celle du compte 274)
+  note Prêts (même ventilation que celle du compte 274)
+account 2:9:7:5
+  alias 2975
+  alias Dépôts et cautionnements versés (même ventilation que celle du compte 275)
+  note Dépôts et cautionnements versés (même ventilation que celle du compte 275)
+account 2:9:7:6
+  alias 2976
+  alias Autres créances immobilisées (même ventilation que celle du compte 276)
+  note Autres créances immobilisées (même ventilation que celle du compte 276)
+account 2:9:7:8:7
+  alias 29787
+  alias Dépréciation du mali de fusion sur actifs financiers
+  note Dépréciation du mali de fusion sur actifs financiers
+account 3
+  alias Stock et en-cours
+  note Stock et en-cours
+account 3:1
+  alias 31
+  alias Matières premières (et fournitures)
+  note Matières premières (et fournitures)
+account 3:1:1
+  alias 311
+  alias Matières (ou groupe) A
+  note Matières (ou groupe) A
+account 3:1:2
+  alias 312
+  alias Matières (ou groupe) B
+  note Matières (ou groupe) B
+account 3:1:7
+  alias 317
+  alias Fournitures A, B, C,
+  note Fournitures A, B, C,
+account 3:2
+  alias 32
+  alias Autres approvisionnements
+  note Autres approvisionnements
+account 3:2:1
+  alias 321
+  alias Matières consommables
+  note Matières consommables
+account 3:2:1:1
+  alias 3211
+  alias Matières (ou groupe) C
+  note Matières (ou groupe) C
+account 3:2:1:2
+  alias 3212
+  alias Matières (ou groupe) D
+  note Matières (ou groupe) D
+account 3:2:2
+  alias 322
+  alias Fournitures consommables
+  note Fournitures consommables
+account 3:2:2:1
+  alias 3221
+  alias Combustibles
+  note Combustibles
+account 3:2:2:2
+  alias 3222
+  alias Produits d'entretien
+  note Produits d'entretien
+account 3:2:2:3
+  alias 3223
+  alias Fournitures d'atelier et d'usine
+  note Fournitures d'atelier et d'usine
+account 3:2:2:4
+  alias 3224
+  alias Fournitures de magasin
+  note Fournitures de magasin
+account 3:2:2:5
+  alias 3225
+  alias Fournitures de bureau
+  note Fournitures de bureau
+account 3:2:6
+  alias 326
+  alias Emballages
+  note Emballages
+account 3:2:6:1
+  alias 3261
+  alias Emballages perdus
+  note Emballages perdus
+account 3:2:6:5
+  alias 3265
+  alias Emballages récupérables non identifiables
+  note Emballages récupérables non identifiables
+account 3:2:6:7
+  alias 3267
+  alias Emballages à usage mixte
+  note Emballages à usage mixte
+account 3:3
+  alias 33
+  alias En-cours de production de biens
+  note En-cours de production de biens
+account 3:3:1
+  alias 331
+  alias Produits en cours
+  note Produits en cours
+account 3:3:1:1
+  alias 3311
+  alias Produits en cours P 1
+  note Produits en cours P 1
+account 3:3:1:2
+  alias 3312
+  alias Produits en cours P 2
+  note Produits en cours P 2
+account 3:3:5
+  alias 335
+  alias Travaux en cours
+  note Travaux en cours
+account 3:3:5:1
+  alias 3351
+  alias Travaux en cours T 1
+  note Travaux en cours T 1
+account 3:3:5:2
+  alias 3352
+  alias Travaux en cours T 2
+  note Travaux en cours T 2
+account 3:4
+  alias 34
+  alias En-cours de production de services
+  note En-cours de production de services
+account 3:4:1
+  alias 341
+  alias Etudes en cours
+  note Etudes en cours
+account 3:4:1:1
+  alias 3411
+  alias Etudes en cours E 1
+  note Etudes en cours E 1
+account 3:4:1:2
+  alias 3412
+  alias Etudes en cours E 2
+  note Etudes en cours E 2
+account 3:4:5
+  alias 345
+  alias Prestations de services en cours
+  note Prestations de services en cours
+account 3:4:5:1
+  alias 3451
+  alias Prestations de services S 1
+  note Prestations de services S 1
+account 3:4:5:2
+  alias 3452
+  alias Prestations de services S 2
+  note Prestations de services S 2
+account 3:5
+  alias 35
+  alias Stocks de produits
+  note Stocks de produits
+account 3:5:1
+  alias 351
+  alias Produits intermédiaires
+  note Produits intermédiaires
+account 3:5:1:1
+  alias 3511
+  alias Produits intermédiaires (ou groupe) A
+  note Produits intermédiaires (ou groupe) A
+account 3:5:1:2
+  alias 3512
+  alias Produits intermédiaires (ou groupe) B
+  note Produits intermédiaires (ou groupe) B
+account 3:5:5
+  alias 355
+  alias Produits finis
+  note Produits finis
+account 3:5:5:1
+  alias 3551
+  alias Produits finis (ou groupe) A
+  note Produits finis (ou groupe) A
+account 3:5:5:2
+  alias 3552
+  alias Produits finis (ou groupe) B
+  note Produits finis (ou groupe) B
+account 3:5:8
+  alias 358
+  alias Produits résiduels (ou matières de récupération)
+  note Produits résiduels (ou matières de récupération)
+account 3:5:8:1
+  alias 3581
+  alias Déchets
+  note Déchets
+account 3:5:8:5
+  alias 3585
+  alias Rebuts
+  note Rebuts
+account 3:5:8:6
+  alias 3586
+  alias Matières de récupération
+  note Matières de récupération
+account 3:6
+  alias 36
+  alias (compte à ouvrir, le cas échéant, sous l'intitulé "Stocks provenant d'immobilisations")
+  note (compte à ouvrir, le cas échéant, sous l'intitulé "Stocks provenant d'immobilisations")
+account 3:7
+  alias 37
+  alias Stocks de marchandises
+  note Stocks de marchandises
+account 3:7:1
+  alias 371
+  alias Marchandises (ou groupe) A
+  note Marchandises (ou groupe) A
+account 3:7:2
+  alias 372
+  alias Marchandises (ou groupe) B
+  note Marchandises (ou groupe) B
+account 3:8
+  alias 38
+  alias (lorsque l'entité tient un inventaire permanent en comptabilité générale, le compte 38 peut être utilisé pour comptabiliser les stocks en voie d'acheminement, mis en dépôt ou donnés en consignation)
+  note (lorsque l'entité tient un inventaire permanent en comptabilité générale, le compte 38 peut être utilisé pour comptabiliser les stocks en voie d'acheminement, mis en dépôt ou donnés en consignation)
+account 3:9
+  alias 39
+  alias Dépréciations des stocks et en-cours
+  note Dépréciations des stocks et en-cours
+account 3:9:1
+  alias 391
+  alias Dépréciations des matières premières (et fournitures)
+  note Dépréciations des matières premières (et fournitures)
+account 3:9:1:1
+  alias 3911
+  alias Matières (ou groupe) A
+  note Matières (ou groupe) A
+account 3:9:1:2
+  alias 3912
+  alias Matières (ou groupe) B
+  note Matières (ou groupe) B
+account 3:9:1:7
+  alias 3917
+  alias Fournitures A, B, C,
+  note Fournitures A, B, C,
+account 3:9:2
+  alias 392
+  alias Dépréciations des autres approvisionnements
+  note Dépréciations des autres approvisionnements
+account 3:9:2:1
+  alias 3921
+  alias Matières consommables (même ventilation que celle du compte 321)
+  note Matières consommables (même ventilation que celle du compte 321)
+account 3:9:2:2
+  alias 3922
+  alias Fournitures consommables (même ventilation que celle du compte 322)
+  note Fournitures consommables (même ventilation que celle du compte 322)
+account 3:9:2:6
+  alias 3926
+  alias Emballages (même ventilation que celle du compte 326)
+  note Emballages (même ventilation que celle du compte 326)
+account 3:9:3
+  alias 393
+  alias Dépréciations des en-cours de production de biens
+  note Dépréciations des en-cours de production de biens
+account 3:9:3:1
+  alias 3931
+  alias Produits en cours (même ventilation que celle du compte 331)
+  note Produits en cours (même ventilation que celle du compte 331)
+account 3:9:3:5
+  alias 3935
+  alias Travaux en cours (même ventilation que celle du compte 335)
+  note Travaux en cours (même ventilation que celle du compte 335)
+account 3:9:4
+  alias 394
+  alias Dépréciations des en-cours de production de services
+  note Dépréciations des en-cours de production de services
+account 3:9:4:1
+  alias 3941
+  alias Etudes en cours (même ventilation que celle du compte 341)
+  note Etudes en cours (même ventilation que celle du compte 341)
+account 3:9:4:5
+  alias 3945
+  alias Prestations de services en cours (même ventilation que celle du compte 345)
+  note Prestations de services en cours (même ventilation que celle du compte 345)
+account 3:9:5
+  alias 395
+  alias Dépréciations des stocks de produits
+  note Dépréciations des stocks de produits
+account 3:9:5:1
+  alias 3951
+  alias Produits intermédiaires (même ventilation que celle du compte 351)
+  note Produits intermédiaires (même ventilation que celle du compte 351)
+account 3:9:5:5
+  alias 3955
+  alias Produits finis (même ventilation que celle du compte 355)
+  note Produits finis (même ventilation que celle du compte 355)
+account 3:9:7
+  alias 397
+  alias Dépréciations des stocks de marchandises
+  note Dépréciations des stocks de marchandises
+account 3:9:7:1
+  alias 3971
+  alias Marchandise (ou groupe) A
+  note Marchandise (ou groupe) A
+account 3:9:7:2
+  alias 3972
+  alias Marchandise (ou groupe) B
+  note Marchandise (ou groupe) B
+account 4
+  alias Compte de tiers
+  note Divers – charges à payer et produits à recevoir
+account 4:0
+  alias 40
+  alias Fournisseurs et comptes rattachés
+  note Fournisseurs et comptes rattachés
+account 4:0:0
+  alias 400
+  alias Fournisseurs et comptes rattachés
+  note Fournisseurs et comptes rattachés
+account 4:0:1
+  alias 401
+  alias Fournisseurs
+  note Fournisseurs
+account 4:0:1:1
+  alias 4011
+  alias Fournisseurs - Achats de biens et prestations de services
+  note Fournisseurs - Achats de biens et prestations de services
+account 4:0:1:7
+  alias 4017
+  alias Fournisseurs - Retenues de garantie
+  note Fournisseurs - Retenues de garantie
+account 4:0:3
+  alias 403
+  alias Fournisseurs - Effets à payer
+  note Fournisseurs - Effets à payer
+account 4:0:4
+  alias 404
+  alias Fournisseurs d'immobilisations
+  note Fournisseurs d'immobilisations
+account 4:0:4:1
+  alias 4041
+  alias Fournisseurs - Achats d'immobilisations
+  note Fournisseurs - Achats d'immobilisations
+account 4:0:4:7
+  alias 4047
+  alias Fournisseurs d'immobilisations – Retenues de garantie
+  note Fournisseurs d'immobilisations – Retenues de garantie
+account 4:0:5
+  alias 405
+  alias Fournisseurs d'immobilisations - Effets à payer
+  note Fournisseurs d'immobilisations - Effets à payer
+account 4:0:8
+  alias 408
+  alias Fournisseurs - Factures non parvenues
+  note Fournisseurs - Factures non parvenues
+account 4:0:8:1
+  alias 4081
+  alias Fournisseurs
+  note Fournisseurs
+account 4:0:8:4
+  alias 4084
+  alias Fournisseurs d'immobilisations
+  note Fournisseurs d'immobilisations
+account 4:0:8:8
+  alias 4088
+  alias Fournisseurs – Intérêts courus
+  note Fournisseurs – Intérêts courus
+account 4:0:9
+  alias 409
+  alias Fournisseurs débiteurs
+  note Fournisseurs débiteurs
+account 4:0:9:1
+  alias 4091
+  alias Fournisseurs - Avances et acomptes versés sur commandes
+  note Fournisseurs - Avances et acomptes versés sur commandes
+account 4:0:9:6
+  alias 4096
+  alias Fournisseurs - Créances pour emballages et matériel à rendre
+  note Fournisseurs - Créances pour emballages et matériel à rendre
+account 4:0:9:7
+  alias 4097
+  alias Fournisseurs - Autres avoirs
+  note Fournisseurs - Autres avoirs
+account 4:0:9:7:1
+  alias 40971
+  alias Fournisseurs d'exploitation
+  note Fournisseurs d'exploitation
+account 4:0:9:7:4
+  alias 40974
+  alias Fournisseurs d'immobilisations
+  note Fournisseurs d'immobilisations
+account 4:0:9:8
+  alias 4098
+  alias Rabais, remises, ristournes à obtenir et autres avoirs non encore reçus
+  note Rabais, remises, ristournes à obtenir et autres avoirs non encore reçus
+account 4:1
+  alias 41
+  alias Clients et comptes rattachés
+  note Clients et comptes rattachés
+account 4:1:0
+  alias 410
+  alias Clients et comptes rattachés
+  note Clients et comptes rattachés
+account 4:1:1
+  alias 411
+  alias Clients
+  note Clients
+account 4:1:1:1
+  alias 4111
+  alias Clients - Ventes de biens ou de prestations de services
+  note Clients - Ventes de biens ou de prestations de services
+account 4:1:1:7
+  alias 4117
+  alias Clients - Retenues de garantie
+  note Clients - Retenues de garantie
+account 4:1:3
+  alias 413
+  alias Clients - Effets à recevoir
+  note Clients - Effets à recevoir
+account 4:1:6
+  alias 416
+  alias Clients douteux ou litigieux
+  note Clients douteux ou litigieux
+account 4:1:8
+  alias 418
+  alias Clients - Produits non encore facturés
+  note Clients - Produits non encore facturés
+account 4:1:8:1
+  alias 4181
+  alias Clients - Factures à établir
+  note Clients - Factures à établir
+account 4:1:8:8
+  alias 4188
+  alias Clients - Intérêts courus
+  note Clients - Intérêts courus
+account 4:1:9
+  alias 419
+  alias Clients créditeurs
+  note Clients créditeurs
+account 4:1:9:1
+  alias 4191
+  alias Clients - Avances et acomptes reçus sur commandes
+  note Clients - Avances et acomptes reçus sur commandes
+account 4:1:9:6
+  alias 4196
+  alias Clients - Dettes sur emballages et matériels consignés
+  note Clients - Dettes sur emballages et matériels consignés
+account 4:1:9:7
+  alias 4197
+  alias Clients - Autres avoirs
+  note Clients - Autres avoirs
+account 4:1:9:8
+  alias 4198
+  alias Rabais, remises, ristournes à accorder et autres avoirs à établir
+  note Rabais, remises, ristournes à accorder et autres avoirs à établir
+account 4:2
+  alias 42
+  alias Personnel et comptes rattachés
+  note Personnel et comptes rattachés
+account 4:2:1
+  alias 421
+  alias Personnel - Rémunérations dues
+  note Personnel - Rémunérations dues
+account 4:2:2
+  alias 422
+  alias Comités d'entreprises, d'établissement, …
+  note Comités d'entreprises, d'établissement, …
+account 4:2:4
+  alias 424
+  alias Participation des salariés aux résultats
+  note Participation des salariés aux résultats
+account 4:2:4:6
+  alias 4246
+  alias Réserve spéciale
+  note Réserve spéciale
+account 4:2:4:8
+  alias 4248
+  alias Comptes courants
+  note Comptes courants
+account 4:2:5
+  alias 425
+  alias Personnel - Avances et acomptes
+  note Personnel - Avances et acomptes
+account 4:2:6
+  alias 426
+  alias Personnel - Dépôts
+  note Personnel - Dépôts
+account 4:2:7
+  alias 427
+  alias Personnel - Oppositions
+  note Personnel - Oppositions
+account 4:2:8
+  alias 428
+  alias Personnel - Charges à payer et produits à recevoir
+  note Personnel - Charges à payer et produits à recevoir
+account 4:2:8:2
+  alias 4282
+  alias Dettes provisionnées pour congés à payer
+  note Dettes provisionnées pour congés à payer
+account 4:2:8:4
+  alias 4284
+  alias Dettes provisionnées pour participation des salariés aux résultats
+  note Dettes provisionnées pour participation des salariés aux résultats
+account 4:2:8:6
+  alias 4286
+  alias Autres charges à payer
+  note Autres charges à payer
+account 4:2:8:7
+  alias 4287
+  alias Produits à recevoir
+  note Produits à recevoir
+account 4:3
+  alias 43
+  alias Sécurité sociale et autres organismes sociaux
+  note Sécurité sociale et autres organismes sociaux
+account 4:3:1
+  alias 431
+  alias Sécurité sociale
+  note Sécurité sociale
+account 4:3:7
+  alias 437
+  alias Autres organismes sociaux
+  note Autres organismes sociaux
+account 4:3:8
+  alias 438
+  alias Organismes sociaux - Charges à payer et produits à recevoir
+  note Organismes sociaux - Charges à payer et produits à recevoir
+account 4:3:8:2
+  alias 4382
+  alias Charges sociales sur congés à payer
+  note Charges sociales sur congés à payer
+account 4:3:8:6
+  alias 4386
+  alias Autres charges à payer
+  note Autres charges à payer
+account 4:3:8:7
+  alias 4387
+  alias Produits à recevoir
+  note Produits à recevoir
+account 4:4
+  alias 44
+  alias État et autres collectivités publiques
+  note État et autres collectivités publiques
+account 4:4:1
+  alias 441
+  alias État - Subventions à recevoir
+  note État - Subventions à recevoir
+account 4:4:1:1
+  alias 4411
+  alias Subventions d'investissement
+  note Subventions d'investissement
+account 4:4:1:7
+  alias 4417
+  alias Subventions d'exploitation
+  note Subventions d'exploitation
+account 4:4:1:8
+  alias 4418
+  alias Subventions d'équilibre
+  note Subventions d'équilibre
+account 4:4:1:9
+  alias 4419
+  alias Avances sur subventions
+  note Avances sur subventions
+account 4:4:2
+  alias 442
+  alias Contributions, impôts et taxes recouvrés pour le compte de l’Etat
+  note Contributions, impôts et taxes recouvrés pour le compte de l’Etat
+account 4:4:2:1
+  alias 4421
+  alias Prélèvements à la source (Impôt sur le revenu)
+  note Prélèvements à la source (Impôt sur le revenu)
+account 4:4:2:2
+  alias 4422
+  alias Prélèvements forfaitaires non libératoires
+  note Prélèvements forfaitaires non libératoires
+account 4:4:2:3
+  alias 4423
+  alias Retenues et prélèvements sur les distributions
+  note Retenues et prélèvements sur les distributions
+account 4:4:2:4
+  alias 4424
+  alias Obligataires
+  note Obligataires
+account 4:4:2:5
+  alias 4425
+  alias Associés
+  note Associés
+account 4:4:3
+  alias 443
+  alias Opérations particulières avec l'Etat les collectivités publiques, les organismes internationaux
+  note Opérations particulières avec l'Etat les collectivités publiques, les organismes internationaux
+account 4:4:3:1
+  alias 4431
+  alias Créances sur l'Etat résultant de la suppression de la règle du décalage d'un mois en matière de TVA
+  note Créances sur l'Etat résultant de la suppression de la règle du décalage d'un mois en matière de TVA
+account 4:4:3:8
+  alias 4438
+  alias Intérêts courus sur créances figurant au 4431
+  note Intérêts courus sur créances figurant au 4431
+account 4:4:4
+  alias 444
+  alias Etat - Impôts sur les bénéfices
+  note Etat - Impôts sur les bénéfices
+account 4:4:5
+  alias 445
+  alias Etat - Taxes sur le chiffre d'affaires
+  note Etat - Taxes sur le chiffre d'affaires
+account 4:4:5:2
+  alias 4452
+  alias TVA due intracommunautaire
+  note TVA due intracommunautaire
+account 4:4:5:5
+  alias 4455
+  alias Taxes sur le chiffre d'affaires à décaisser
+  note Taxes sur le chiffre d'affaires à décaisser
+account 4:4:5:5:1
+  alias 44551
+  alias TVA à décaisser
+  note TVA à décaisser
+account 4:4:5:5:8
+  alias 44558
+  alias Taxes assimilées à la TVA
+  note Taxes assimilées à la TVA
+account 4:4:5:6
+  alias 4456
+  alias Taxes sur le chiffre d'affaires déductibles
+  note Taxes sur le chiffre d'affaires déductibles
+account 4:4:5:6:2
+  alias 44562
+  alias TVA sur immobilisations
+  note TVA sur immobilisations
+account 4:4:5:6:3
+  alias 44563
+  alias TVA transférée par d'autres entreprises
+  note TVA transférée par d'autres entreprises
+account 4:4:5:6:6
+  alias 44566
+  alias TVA sur autres biens et services
+  note TVA sur autres biens et services
+account 4:4:5:6:7
+  alias 44567
+  alias Crédit de TVA à reporter
+  note Crédit de TVA à reporter
+account 4:4:5:6:8
+  alias 44568
+  alias Taxes assimilées à la TVA
+  note Taxes assimilées à la TVA
+account 4:4:5:7
+  alias 4457
+  alias Taxes sur le chiffre d'affaires collectées par l'entreprise
+  note Taxes sur le chiffre d'affaires collectées par l'entreprise
+account 4:4:5:7:1
+  alias 44571
+  alias TVA collectée
+  note TVA collectée
+account 4:4:5:7:8
+  alias 44578
+  alias Taxes assimilées à la TVA
+  note Taxes assimilées à la TVA
+account 4:4:5:8
+  alias 4458
+  alias Taxes sur le chiffre d'affaires à régulariser ou en attente
+  note Taxes sur le chiffre d'affaires à régulariser ou en attente
+account 4:4:5:8:1
+  alias 44581
+  alias Acomptes - Régime simplifié d'imposition
+  note Acomptes - Régime simplifié d'imposition
+account 4:4:5:8:2
+  alias 44582
+  alias Acomptes - Régime de forfait
+  note Acomptes - Régime de forfait
+account 4:4:5:8:3
+  alias 44583
+  alias Remboursement de taxes sur le chiffre d'affaires demandé
+  note Remboursement de taxes sur le chiffre d'affaires demandé
+account 4:4:5:8:4
+  alias 44584
+  alias TVA récupérée d'avance
+  note TVA récupérée d'avance
+account 4:4:5:8:6
+  alias 44586
+  alias Taxes sur le chiffre d'affaires sur factures non parvenues
+  note Taxes sur le chiffre d'affaires sur factures non parvenues
+account 4:4:5:8:7
+  alias 44587
+  alias Taxes sur le chiffre d'affaires sur factures à établir
+  note Taxes sur le chiffre d'affaires sur factures à établir
+account 4:4:6
+  alias 446
+  alias Obligations cautionnées
+  note Obligations cautionnées
+account 4:4:7
+  alias 447
+  alias Autres impôts, taxes et versements assimilés
+  note Autres impôts, taxes et versements assimilés
+account 4:4:8
+  alias 448
+  alias Etat - Charges à payer et produits à recevoir
+  note Etat - Charges à payer et produits à recevoir
+account 4:4:8:2
+  alias 4482
+  alias Charges fiscales sur congés à payer
+  note Charges fiscales sur congés à payer
+account 4:4:8:6
+  alias 4486
+  alias Charges à payer
+  note Charges à payer
+account 4:4:8:7
+  alias 4487
+  alias Produits à recevoir
+  note Produits à recevoir
+account 4:4:9
+  alias 449
+  alias Quotas d’émission à acquérir
+  note Quotas d’émission à acquérir
+account 4:5
+  alias 45
+  alias Groupe et associés
+  note Groupe et associés
+account 4:5:1
+  alias 451
+  alias Groupe
+  note Groupe
+account 4:5:5
+  alias 455
+  alias Associés - Comptes courants
+  note Associés - Comptes courants
+account 4:5:5:1
+  alias 4551
+  alias Principal
+  note Principal
+account 4:5:5:8
+  alias 4558
+  alias Intérêts courus
+  note Intérêts courus
+account 4:5:6
+  alias 456
+  alias Associés - Opérations sur le capital
+  note Associés - Opérations sur le capital
+account 4:5:6:1
+  alias 4561
+  alias Associés - Comptes d'apport en société
+  note Associés - Comptes d'apport en société
+account 4:5:6:1:1
+  alias 45611
+  alias Apports en nature
+  note Apports en nature
+account 4:5:6:1:5
+  alias 45615
+  alias Apports en numéraire
+  note Apports en numéraire
+account 4:5:6:2
+  alias 4562
+  alias Apporteurs - Capital appelé, non versé
+  note Apporteurs - Capital appelé, non versé
+account 4:5:6:2:1
+  alias 45621
+  alias Actionnaires - Capital souscrit et appelé, non versé
+  note Actionnaires - Capital souscrit et appelé, non versé
+account 4:5:6:2:5
+  alias 45625
+  alias Associés - Capital appelé, non versé
+  note Associés - Capital appelé, non versé
+account 4:5:6:3
+  alias 4563
+  alias Associés - Versements reçus sur augmentation de capital
+  note Associés - Versements reçus sur augmentation de capital
+account 4:5:6:4
+  alias 4564
+  alias Associés - Versements anticipés
+  note Associés - Versements anticipés
+account 4:5:6:6
+  alias 4566
+  alias Actionnaires défaillants
+  note Actionnaires défaillants
+account 4:5:6:7
+  alias 4567
+  alias Associés - Capital à rembourser
+  note Associés - Capital à rembourser
+account 4:5:7
+  alias 457
+  alias Associés - Dividendes à payer
+  note Associés - Dividendes à payer
+account 4:5:8
+  alias 458
+  alias Associés - Opérations faites en commun et en GIE
+  note Associés - Opérations faites en commun et en GIE
+account 4:5:8:1
+  alias 4581
+  alias Opérations courantes
+  note Opérations courantes
+account 4:5:8:8
+  alias 4588
+  alias Intérêts courus
+  note Intérêts courus
+account 4:6
+  alias 46
+  alias Débiteurs divers et créditeurs divers
+  note Débiteurs divers et créditeurs divers
+account 4:6:2
+  alias 462
+  alias Créances sur cessions d'immobilisations
+  note Créances sur cessions d'immobilisations
+account 4:6:4
+  alias 464
+  alias Dettes sur acquisitions de valeurs mobilières de placement
+  note Dettes sur acquisitions de valeurs mobilières de placement
+account 4:6:5
+  alias 465
+  alias Créances sur cessions de valeurs mobilières de placement
+  note Créances sur cessions de valeurs mobilières de placement
+account 4:6:7
+  alias 467
+  alias Autres comptes débiteurs ou créditeurs
+  note Autres comptes débiteurs ou créditeurs
+account 4:6:8
+  alias 468
+  alias Divers - Charges à payer et produits à recevoir
+  note Divers - Charges à payer et produits à recevoir
+account 4:6:8:6
+  alias 4686
+  alias Charges à payer
+  note Charges à payer
+account 4:6:8:7
+  alias 4687
+  alias Produits à recevoir
+  note Produits à recevoir
+account 4:7
+  alias 47
+  alias Comptes transitoires ou d'attente
+  note Comptes transitoires ou d'attente
+account 4:7:1
+  alias 471
+  alias Comptes d'attente
+  note Comptes d'attente
+account 4:7:2
+  alias 472
+  alias Comptes d'attente
+  note Comptes d'attente
+account 4:7:3
+  alias 473
+  alias Comptes d'attente
+  note Comptes d'attente
+account 4:7:4
+  alias 474
+  alias Différences d’évaluation de jetons sur des passifs
+  note Différences d’évaluation de jetons sur des passifs
+account 4:7:4:6
+  alias 4746
+  alias Différence d’évaluation de jetons sur des passifs – ACTIF
+  note Différence d’évaluation de jetons sur des passifs – ACTIF
+account 4:7:4:7
+  alias 4747
+  alias Différence d’évaluation de jetons sur des passifs – PASSIF
+  note Différence d’évaluation de jetons sur des passifs – PASSIF
+account 4:7:5
+  alias 475
+  alias Comptes d'attente
+  note Comptes d'attente
+account 4:7:6
+  alias 476
+  alias Différence de conversion - Actif
+  note Différence de conversion - Actif
+account 4:7:6:1
+  alias 4761
+  alias Diminution des créances
+  note Diminution des créances
+account 4:7:6:2
+  alias 4762
+  alias Augmentation des dettes
+  note Augmentation des dettes
+account 4:7:6:8
+  alias 4768
+  alias Différences compensées par couverture de change
+  note Différences compensées par couverture de change
+account 4:7:7
+  alias 477
+  alias Différences de conversion - Passif
+  note Différences de conversion - Passif
+account 4:7:7:1
+  alias 4771
+  alias Augmentation des créances
+  note Augmentation des créances
+account 4:7:7:2
+  alias 4772
+  alias Diminution des dettes
+  note Diminution des dettes
+account 4:7:7:8
+  alias 4778
+  alias Différences compensées par couverture de change
+  note Différences compensées par couverture de change
+account 4:7:8
+  alias 478
+  alias Autres comptes transitoires
+  note Autres comptes transitoires
+account 4:7:8:6:1
+  alias 47861
+  alias Différences d’évaluation sur instruments financier à terme – ACTIF
+  note Différences d’évaluation sur instruments financier à terme – ACTIF
+account 4:7:8:6:2
+  alias 47862
+  alias Différences d’évaluation sur jetons détenus – ACTIF
+  note Différences d’évaluation sur jetons détenus – ACTIF
+account 4:7:8:7:1
+  alias 47871
+  alias Différences d’évaluation sur instruments financier à terme – PASSIF
+  note Différences d’évaluation sur instruments financier à terme – PASSIF
+account 4:7:8:7:2
+  alias 47872
+  alias Différences d’évaluation sur jetons détenus – PASSIF
+  note Différences d’évaluation sur jetons détenus – PASSIF
+account 4:8
+  alias 48
+  alias Comptes de régularisation
+  note Comptes de régularisation
+account 4:8:1
+  alias 481
+  alias Charges à répartir sur plusieurs exercices
+  note Charges à répartir sur plusieurs exercices
+account 4:8:1:6
+  alias 4816
+  alias Frais d'émission des emprunts
+  note Frais d'émission des emprunts
+account 4:8:6
+  alias 486
+  alias Charges constatées d'avance
+  note Charges constatées d'avance
+account 4:8:7
+  alias 487
+  alias Produits constatés d'avance
+  note Produits constatés d'avance
+account 4:8:7:1
+  alias 4871
+  alias Produits constatés d’avance sur jetons émis
+  note Produits constatés d’avance sur jetons émis
+account 4:8:8
+  alias 488
+  alias Comptes de répartition périodique des charges et des produits
+  note Comptes de répartition périodique des charges et des produits
+account 4:8:8:6
+  alias 4886
+  alias Charges
+  note Charges
+account 4:8:8:7
+  alias 4887
+  alias Produits
+  note Produits
+account 4:9
+  alias 49
+  alias Dépréciations des comptes de tiers
+  note Dépréciations des comptes de tiers
+account 4:9:1
+  alias 491
+  alias Dépréciations des comptes de clients
+  note Dépréciations des comptes de clients
+account 4:9:5
+  alias 495
+  alias Dépréciations des comptes du groupe et des associés
+  note Dépréciations des comptes du groupe et des associés
+account 4:9:5:1
+  alias 4951
+  alias Comptes du groupe
+  note Comptes du groupe
+account 4:9:5:5
+  alias 4955
+  alias Comptes courants des associés
+  note Comptes courants des associés
+account 4:9:5:8
+  alias 4958
+  alias Opérations faites en commun et en GIE
+  note Opérations faites en commun et en GIE
+account 4:9:6
+  alias 496
+  alias Dépréciations des comptes de débiteurs divers
+  note Dépréciations des comptes de débiteurs divers
+account 4:9:6:2
+  alias 4962
+  alias Créances sur cessions d'immobilisations
+  note Créances sur cessions d'immobilisations
+account 4:9:6:5
+  alias 4965
+  alias Créances sur cessions de valeurs mobilières de placement
+  note Créances sur cessions de valeurs mobilières de placement
+account 4:9:6:7
+  alias 4967
+  alias Autres comptes débiteurs
+  note Autres comptes débiteurs
+account 5
+  alias Comptes financiers
+   note Comptes financiers
+account 5:0
+  alias 50
+  alias Valeurs mobilières de placement
+  note Valeurs mobilières de placement
+account 5:0:1
+  alias 501
+  alias Parts dans des entreprises liées
+  note Parts dans des entreprises liées
+account 5:0:2
+  alias 502
+  alias Actions propres
+  note Actions propres
+account 5:0:2:1
+  alias 5021
+  alias Actions destinées à être attribuées aux employés et affectées à des plans déterminés
+  note Actions destinées à être attribuées aux employés et affectées à des plans déterminés
+account 5:0:2:2
+  alias 5022
+  alias Actions disponibles pour être attribuées aux employés ou pour la régularisation des cours de bourse
+  note Actions disponibles pour être attribuées aux employés ou pour la régularisation des cours de bourse
+account 5:0:3
+  alias 503
+  alias Actions
+  note Actions
+account 5:0:3:1
+  alias 5031
+  alias Titres cotés
+  note Titres cotés
+account 5:0:3:5
+  alias 5035
+  alias Titres non cotés
+  note Titres non cotés
+account 5:0:4
+  alias 504
+  alias Autres titres conférant un droit de propriété
+  note Autres titres conférant un droit de propriété
+account 5:0:5
+  alias 505
+  alias Obligations et bons émis par la société et rachetés par elle
+  note Obligations et bons émis par la société et rachetés par elle
+account 5:0:6
+  alias 506
+  alias Obligations
+  note Obligations
+account 5:0:6:1
+  alias 5061
+  alias Titres cotés
+  note Titres cotés
+account 5:0:6:5
+  alias 5065
+  alias Titres non cotés
+  note Titres non cotés
+account 5:0:7
+  alias 507
+  alias Bons du Trésor et bons de caisse à court terme
+  note Bons du Trésor et bons de caisse à court terme
+account 5:0:8
+  alias 508
+  alias Autres valeurs mobilières de placement et autres créances assimilées
+  note Autres valeurs mobilières de placement et autres créances assimilées
+account 5:0:8:1
+  alias 5081
+  alias Autres valeurs mobilières
+  note Autres valeurs mobilières
+account 5:0:8:2
+  alias 5082
+  alias Bons de souscription
+  note Bons de souscription
+account 5:0:8:8
+  alias 5088
+  alias Intérêts courus sur obligations, bons et valeurs assimilés
+  note Intérêts courus sur obligations, bons et valeurs assimilés
+account 5:0:9
+  alias 509
+  alias Versements restant à effectuer sur valeurs mobilières de placement non libérées
+  note Versements restant à effectuer sur valeurs mobilières de placement non libérées
+account 5:1
+  alias 51
+  alias Banques, établissements financiers et assimilés
+  note Banques, établissements financiers et assimilés
+account 5:1:1
+  alias 511
+  alias Valeurs à l'encaissement
+  note Valeurs à l'encaissement
+account 5:1:1:1
+  alias 5111
+  alias Coupons échus à l'encaissement
+  note Coupons échus à l'encaissement
+account 5:1:1:2
+  alias 5112
+  alias Chèques à encaisser
+  note Chèques à encaisser
+account 5:1:1:3
+  alias 5113
+  alias Effets à l'encaissement
+  note Effets à l'encaissement
+account 5:1:1:4
+  alias 5114
+  alias Effets à l'escompte
+  note Effets à l'escompte
+account 5:1:2
+  alias 512
+  alias Banques
+  note Banques
+account 5:1:2:1
+  alias 5121
+  alias Comptes en monnaie nationale
+  note Comptes en monnaie nationale
+account 5:1:2:4
+  alias 5124
+  alias Comptes en devises
+  note Comptes en devises
+account 5:1:4
+  alias 514
+  alias Chèques postaux
+  note Chèques postaux
+account 5:1:5
+  alias 515
+  alias Caisses  du Trésor et des établissements publics
+  note Caisses du Trésor et des établissements publics
+account 5:1:6
+  alias 516
+  alias Sociétés de bourse
+  note Sociétés de bourse
+account 5:1:7
+  alias 517
+  alias Autres organismes financiers
+  note Autres organismes financiers
+account 5:1:8
+  alias 518
+  alias Intérêts courus
+  note Intérêts courus
+account 5:1:8:1
+  alias 5181
+  alias Intérêts courus à payer
+  note Intérêts courus à payer
+account 5:1:8:8
+  alias 5188
+  alias Intérêts courus à recevoir
+  note Intérêts courus à recevoir
+account 5:1:9
+  alias 519
+  alias Concours bancaires courants
+  note Concours bancaires courants
+account 5:1:9:1
+  alias 5191
+  alias Crédit de mobilisation de créances commerciales
+  note Crédit de mobilisation de créances commerciales
+account 5:1:9:3
+  alias 5193
+  alias Mobilisation de créances nées à l'étranger
+  note Mobilisation de créances nées à l'étranger
+account 5:1:9:8
+  alias 5198
+  alias Intérêts courus sur concours bancaires courants
+  note Intérêts courus sur concours bancaires courants
+account 5:2
+  alias 52
+  alias Instruments financiers à terme et jetons détenus
+  note Instruments financiers à terme et jetons détenus
+account 5:2:1
+  alias 521
+  alias Instruments financiers à terme
+  note Instruments financiers à terme
+account 5:2:2
+  alias 522
+  alias Jetons détenus
+  note Jetons détenus
+account 5:2:3
+  alias 523
+  alias Jetons auto-détenus
+  note Jetons auto-détenus
+account 5:3
+  alias 53
+  alias Caisse
+  note Caisse
+account 5:3:1
+  alias 531
+  alias Caisse siège social
+  note Caisse siège social
+account 5:3:1:1
+  alias 5311
+  alias Caisse en monnaie nationale
+  note Caisse en monnaie nationale
+account 5:3:1:4
+  alias 5314
+  alias Caisse en devises
+  note Caisse en devises
+account 5:3:2
+  alias 532
+  alias Caisse succursale (ou usine) A
+  note Caisse succursale (ou usine) A
+account 5:3:3
+  alias 533
+  alias Caisse succursale (ou usine) B
+  note Caisse succursale (ou usine) B
+account 5:4
+  alias 54
+  alias Régies d'avance et accréditifs
+  note Régies d'avance et accréditifs
+account 5:8
+  alias 58
+  alias Virements internes
+  note Virements internes
+account 5:9
+  alias 59
+  alias Dépréciations des comptes financiers
+  note Dépréciations des comptes financiers
+account 5:9:0
+  alias 590
+  alias Dépréciations des valeurs mobilières de placement
+  note Dépréciations des valeurs mobilières de placement
+account 5:9:0:3
+  alias 5903
+  alias Actions
+  note Actions
+account 5:9:0:4
+  alias 5904
+  alias Autres titres conférant un droit de propriété
+  note Autres titres conférant un droit de propriété
+account 5:9:0:6
+  alias 5906
+  alias Obligations
+  note Obligations
+account 5:9:0:8
+  alias 5908
+  alias Autres valeurs mobilières de placement et créances assimilées
+  note Autres valeurs mobilières de placement et créances assimilées
+account 6
+  alias Charges
+ note Charges
+account 6:0
+  alias 60
+  alias Achats (sauf 603)
+  note Achats (sauf 603)
+account 6:0:1
+  alias 601
+  alias Achats stockés - Matières premières (et fournitures)
+  note Achats stockés - Matières premières (et fournitures)
+account 6:0:1:1
+  alias 6011
+  alias Matières (ou groupe) A
+  note Matières (ou groupe) A
+account 6:0:1:2
+  alias 6012
+  alias Matières (ou groupe) B
+  note Matières (ou groupe) B
+account 6:0:1:7
+  alias 6017
+  alias Fournitures A, B, C,
+  note Fournitures A, B, C,
+account 6:0:2
+  alias 602
+  alias Achats stockés - Autres approvisionnements
+  note Achats stockés - Autres approvisionnements
+account 6:0:2:1
+  alias 6021
+  alias Matières consommables
+  note Matières consommables
+account 6:0:2:1:1
+  alias 60211
+  alias Matières (ou groupe) C
+  note Matières (ou groupe) C
+account 6:0:2:1:2
+  alias 60212
+  alias Matières (ou groupe) D
+  note Matières (ou groupe) D
+account 6:0:2:2
+  alias 6022
+  alias Fournitures consommables
+  note Fournitures consommables
+account 6:0:2:2:1
+  alias 60221
+  alias Combustibles
+  note Combustibles
+account 6:0:2:2:2
+  alias 60222
+  alias Produits d'entretien
+  note Produits d'entretien
+account 6:0:2:2:3
+  alias 60223
+  alias Fournitures d'atelier et d'usine
+  note Fournitures d'atelier et d'usine
+account 6:0:2:2:4
+  alias 60224
+  alias Fournitures de magasin
+  note Fournitures de magasin
+account 6:0:2:2:5
+  alias 60225
+  alias Fourniture de bureau
+  note Fourniture de bureau
+account 6:0:2:6
+  alias 6026
+  alias Emballages
+  note Emballages
+account 6:0:2:6:1
+  alias 60261
+  alias Emballages perdus
+  note Emballages perdus
+account 6:0:2:6:5
+  alias 60265
+  alias Emballages récupérables non identifiables
+  note Emballages récupérables non identifiables
+account 6:0:2:6:7
+  alias 60267
+  alias Emballages à usage mixte
+  note Emballages à usage mixte
+account 6:0:4
+  alias 604
+  alias Achats d'études et prestations de services
+  note Achats d'études et prestations de services
+account 6:0:5
+  alias 605
+  alias Achats de matériel, équipements et travaux
+  note Achats de matériel, équipements et travaux
+account 6:0:6
+  alias 606
+  alias Achats non stockés de matière et fournitures
+  note Achats non stockés de matière et fournitures
+account 6:0:6:1
+  alias 6061
+  alias Fournitures non stockables (eau, énergie, …)
+  note Fournitures non stockables (eau, énergie, …)
+account 6:0:6:3
+  alias 6063
+  alias Fournitures d'entretien et de petit équipement
+  note Fournitures d'entretien et de petit équipement
+account 6:0:6:4
+  alias 6064
+  alias Fournitures administratives
+  note Fournitures administratives
+account 6:0:6:8
+  alias 6068
+  alias Autres matières et fournitures
+  note Autres matières et fournitures
+account 6:0:7
+  alias 607
+  alias Achats de marchandises
+  note Achats de marchandises
+account 6:0:7:1
+  alias 6071
+  alias Marchandise (ou groupe) A
+  note Marchandise (ou groupe) A
+account 6:0:7:2
+  alias 6072
+  alias Marchandise (ou groupe) B
+  note Marchandise (ou groupe) B
+account 6:0:8
+  alias 608
+  alias (Compte réservé, le cas échéant, à la récapitulation des frais accessoires incorporés aux achats)
+  note (Compte réservé, le cas échéant, à la récapitulation des frais accessoires incorporés aux achats)
+account 6:0:9
+  alias 609
+  alias Rabais, remises et ristournes obtenus sur achats
+  note Rabais, remises et ristournes obtenus sur achats
+account 6:0:9:1
+  alias 6091
+  alias de matières premières (et fournitures)
+  note de matières premières (et fournitures)
+account 6:0:9:2
+  alias 6092
+  alias d'autres approvisionnements stockés
+  note d'autres approvisionnements stockés
+account 6:0:9:4
+  alias 6094
+  alias d'études et prestations de services
+  note d'études et prestations de services
+account 6:0:9:5
+  alias 6095
+  alias de matériel, équipements et travaux
+  note de matériel, équipements et travaux
+account 6:0:9:6
+  alias 6096
+  alias d'approvisionnements non stockés
+  note d'approvisionnements non stockés
+account 6:0:9:7
+  alias 6097
+  alias de marchandises
+  note de marchandises
+account 6:0:9:8
+  alias 6098
+  alias Rabais, remises et ristournes non affectés
+  note Rabais, remises et ristournes non affectés
+account 6:0:3
+  alias 603
+  alias Variations des stocks (approvisionnements et marchandises)
+  note Variations des stocks (approvisionnements et marchandises)
+account 6:0:3:1
+  alias 6031
+  alias Variation des stocks de matières premières (et fournitures)
+  note Variation des stocks de matières premières (et fournitures)
+account 6:0:3:2
+  alias 6032
+  alias Variation des stocks des autres approvisionnements
+  note Variation des stocks des autres approvisionnements
+account 6:0:3:7
+  alias 6037
+  alias Variation des stocks de marchandises
+  note Variation des stocks de marchandises
+account 6:1
+  alias 61
+  alias Services extérieurs
+  note Services extérieurs
+account 6:1:1
+  alias 611
+  alias Sous-traitance générale
+  note Sous-traitance générale
+account 6:1:2
+  alias 612
+  alias Redevances de crédit-bail
+  note Redevances de crédit-bail
+account 6:1:2:2
+  alias 6122
+  alias Crédit-bail mobilier
+  note Crédit-bail mobilier
+account 6:1:2:5
+  alias 6125
+  alias Crédit-bail immobilier
+  note Crédit-bail immobilier
+account 6:1:3
+  alias 613
+  alias Locations
+  note Locations
+account 6:1:3:2
+  alias 6132
+  alias Locations immobilières
+  note Locations immobilières
+account 6:1:3:5
+  alias 6135
+  alias Locations mobilières
+  note Locations mobilières
+account 6:1:3:6
+  alias 6136
+  alias Malis sur emballages
+  note Malis sur emballages
+account 6:1:4
+  alias 614
+  alias Charges locatives et de copropriété
+  note Charges locatives et de copropriété
+account 6:1:5
+  alias 615
+  alias Entretien et réparations
+  note Entretien et réparations
+account 6:1:5:2
+  alias 6152
+  alias sur biens immobiliers
+  note sur biens immobiliers
+account 6:1:5:5
+  alias 6155
+  alias sur biens mobiliers
+  note sur biens mobiliers
+account 6:1:5:6
+  alias 6156
+  alias Maintenance
+  note Maintenance
+account 6:1:6
+  alias 616
+  alias Primes d'assurances
+  note Primes d'assurances
+account 6:1:6:1
+  alias 6161
+  alias Multirisques
+  note Multirisques
+account 6:1:6:2
+  alias 6162
+  alias Assurance obligatoire dommage construction
+  note Assurance obligatoire dommage construction
+account 6:1:6:3
+  alias 6163
+  alias Assurance - transport
+  note Assurance - transport
+account 6:1:6:3:6
+  alias 61636
+  alias sur achats
+  note sur achats
+account 6:1:6:3:7
+  alias 61637
+  alias sur ventes
+  note sur ventes
+account 6:1:6:3:8
+  alias 61638
+  alias sur autres biens
+  note sur autres biens
+account 6:1:6:4
+  alias 6164
+  alias Risques d'exploitation
+  note Risques d'exploitation
+account 6:1:6:5
+  alias 6165
+  alias Insolvabilité clients
+  note Insolvabilité clients
+account 6:1:7
+  alias 617
+  alias Etudes et recherches
+  note Etudes et recherches
+account 6:1:8
+  alias 618
+  alias Divers
+  note Divers
+account 6:1:8:1
+  alias 6181
+  alias Documentation générale
+  note Documentation générale
+account 6:1:8:3
+  alias 6183
+  alias Documentation technique
+  note Documentation technique
+account 6:1:8:5
+  alias 6185
+  alias Frais de colloques, séminaires, conférences
+  note Frais de colloques, séminaires, conférences
+account 6:1:9
+  alias 619
+  alias Rabais, remises et ristournes obtenus sur services extérieurs
+  note Rabais, remises et ristournes obtenus sur services extérieurs
+account 6:2
+  alias 62
+  alias Autres services extérieurs
+  note Autres services extérieurs
+account 6:2:1
+  alias 621
+  alias Personnel extérieur à l'entreprise
+  note Personnel extérieur à l'entreprise
+account 6:2:1:1
+  alias 6211
+  alias Personnel intérimaire
+  note Personnel intérimaire
+account 6:2:1:4
+  alias 6214
+  alias Personnel détaché ou prêté à l'entreprise
+  note Personnel détaché ou prêté à l'entreprise
+account 6:2:2
+  alias 622
+  alias Rémunérations d'intermédiaires et honoraires
+  note Rémunérations d'intermédiaires et honoraires
+account 6:2:2:1
+  alias 6221
+  alias Commissions et courtages sur achats
+  note Commissions et courtages sur achats
+account 6:2:2:2
+  alias 6222
+  alias Commissions et courtages sur ventes
+  note Commissions et courtages sur ventes
+account 6:2:2:4
+  alias 6224
+  alias Rémunérations des transitaires
+  note Rémunérations des transitaires
+account 6:2:2:5
+  alias 6225
+  alias Rémunérations d'affacturage
+  note Rémunérations d'affacturage
+account 6:2:2:6
+  alias 6226
+  alias Honoraires
+  note Honoraires
+account 6:2:2:7
+  alias 6227
+  alias Frais d'actes et de contentieux
+  note Frais d'actes et de contentieux
+account 6:2:2:8
+  alias 6228
+  alias Divers
+  note Divers
+account 6:2:3
+  alias 623
+  alias publications
+  alias publicité
+  alias Publicité, publications, relations publiques
+  note Publicité, publications, relations publiques
+account 6:2:3:1
+  alias 6231
+  alias Annonces et insertions
+  note Annonces et insertions
+account 6:2:3:2
+  alias 6232
+  alias Echantillons
+  note Echantillons
+account 6:2:3:3
+  alias 6233
+  alias Foires et expositions
+  note Foires et expositions
+account 6:2:3:4
+  alias 6234
+  alias Cadeaux à la clientèle
+  note Cadeaux à la clientèle
+account 6:2:3:5
+  alias 6235
+  alias Primes
+  note Primes
+account 6:2:3:6
+  alias 6236
+  alias Catalogues et imprimés
+  note Catalogues et imprimés
+account 6:2:3:7
+  alias 6237
+  alias Publications
+  note Publications
+account 6:2:3:8
+  alias 6238
+  alias Divers (pourboires, dons courants, …)
+  note Divers (pourboires, dons courants, …)
+account 6:2:4
+  alias 624
+  alias Transports de biens et transports collectifs du personnel
+  note Transports de biens et transports collectifs du personnel
+account 6:2:4:1
+  alias 6241
+  alias Transports sur achats
+  note Transports sur achats
+account 6:2:4:2
+  alias 6242
+  alias Transports sur ventes
+  note Transports sur ventes
+account 6:2:4:3
+  alias 6243
+  alias Transports entre établissements ou chantiers
+  note Transports entre établissements ou chantiers
+account 6:2:4:4
+  alias 6244
+  alias Transports administratifs
+  note Transports administratifs
+account 6:2:4:7
+  alias 6247
+  alias Transports collectifs du personnel
+  note Transports collectifs du personnel
+account 6:2:4:8
+  alias 6248
+  alias Divers
+  note Divers
+account 6:2:5
+  alias 625
+  alias Déplacements, missions et réceptions
+  note Déplacements, missions et réceptions
+account 6:2:5:1
+  alias 6251
+  alias Voyages et déplacements
+  note Voyages et déplacements
+account 6:2:5:5
+  alias 6255
+  alias Frais de déménagement
+  note Frais de déménagement
+account 6:2:5:6
+  alias 6256
+  alias Missions
+  note Missions
+account 6:2:5:7
+  alias 6257
+  alias Réceptions
+  note Réceptions
+account 6:2:6
+  alias 626
+  alias Frais postaux et de télécommunications
+  alias poste
+  note Frais postaux et de télécommunications
+account 6:2:7
+  alias 627
+  alias Services bancaires et assimilés
+  note Services bancaires et assimilés
+account 6:2:7:1
+  alias 6271
+  alias Frais sur titres (achat, vente, garde)
+  note Frais sur titres (achat, vente, garde)
+account 6:2:7:2
+  alias 6272
+  alias Commissions et frais sur émission d'emprunts
+  note Commissions et frais sur émission d'emprunts
+account 6:2:7:5
+  alias 6275
+  alias Frais sur effets
+  note Frais sur effets
+account 6:2:7:6
+  alias 6276
+  alias Location de coffres
+  note Location de coffres
+account 6:2:7:8
+  alias 6278
+  alias Autres frais et commissions sur prestations de services
+  note Autres frais et commissions sur prestations de services
+account 6:2:8
+  alias 628
+  alias Divers
+  note Divers
+account 6:2:8:1
+  alias 6281
+  alias Concours divers (cotisations, )
+  note Concours divers (cotisations, )
+account 6:2:8:4
+  alias 6284
+  alias Frais de recrutement de personnel
+  note Frais de recrutement de personnel
+account 6:2:9
+  alias 629
+  alias Rabais, remises et ristournes obtenus sur autres services extérieurs
+  note Rabais, remises et ristournes obtenus sur autres services extérieurs
+account 6:3
+  alias 63
+  alias Impôts, taxes et versements assimilés
+  note Impôts, taxes et versements assimilés
+account 6:3:1
+  alias 631
+  alias Impôts, taxes et versements assimilés sur rémunérations (administrations des impôts)
+  note Impôts, taxes et versements assimilés sur rémunérations (administrations des impôts)
+account 6:3:1:1
+  alias 6311
+  alias Taxe sur les salaires
+  note Taxe sur les salaires
+account 6:3:1:2
+  alias 6312
+  alias Taxe d'apprentissage
+  note Taxe d'apprentissage
+account 6:3:1:3
+  alias 6313
+  alias Participation des employeurs à la formation professionnelle continue
+  note Participation des employeurs à la formation professionnelle continue
+account 6:3:1:4
+  alias 6314
+  alias Cotisation pour défaut d'investissement obligatoire dans la construction
+  note Cotisation pour défaut d'investissement obligatoire dans la construction
+account 6:3:1:8
+  alias 6318
+  alias Autres
+  note Autres
+account 6:3:3
+  alias 633
+  alias Impôts, taxes et versements assimilés sur rémunérations (autres organismes)
+  note Impôts, taxes et versements assimilés sur rémunérations (autres organismes)
+account 6:3:3:1
+  alias 6331
+  alias Versement de transport
+  note Versement de transport
+account 6:3:3:2
+  alias 6332
+  alias Allocations logement
+  note Allocations logement
+account 6:3:3:3
+  alias 6333
+  alias Participation des employeurs à la formation professionnelle continue
+  note Participation des employeurs à la formation professionnelle continue
+account 6:3:3:4
+  alias 6334
+  alias Participation des employeurs à l'effort de construction
+  note Participation des employeurs à l'effort de construction
+account 6:3:3:5
+  alias 6335
+  alias Versements libératoires ouvrant droit à l'exonération de la taxe d'apprentissage
+  note Versements libératoires ouvrant droit à l'exonération de la taxe d'apprentissage
+account 6:3:3:8
+  alias 6338
+  alias Autres
+  note Autres
+account 6:3:5
+  alias 635
+  alias Autres impôts, taxes et versements assimilés (administrations des impôts)
+  note Autres impôts, taxes et versements assimilés (administrations des impôts)
+account 6:3:5:1
+  alias 6351
+  alias Impôts directs (sauf impôts sur les bénéfices)
+  note Impôts directs (sauf impôts sur les bénéfices)
+account 6:3:5:1:1
+  alias 63511
+  alias Contribution économique territoriale
+  note Contribution économique territoriale
+account 6:3:5:1:2
+  alias 63512
+  alias Taxes foncières
+  note Taxes foncières
+account 6:3:5:1:3
+  alias 63513
+  alias Autres impôts locaux
+  note Autres impôts locaux
+account 6:3:5:1:4
+  alias 63514
+  alias Taxe sur les véhicules des sociétés
+  note Taxe sur les véhicules des sociétés
+account 6:3:5:2
+  alias 6352
+  alias Taxe sur le chiffre d'affaires non récupérables
+  note Taxe sur le chiffre d'affaires non récupérables
+account 6:3:5:3
+  alias 6353
+  alias Impôts indirects
+  note Impôts indirects
+account 6:3:5:4
+  alias 6354
+  alias Droits d'enregistrement et de timbre
+  note Droits d'enregistrement et de timbre
+account 6:3:5:4:1
+  alias 63541
+  alias Droits de mutation
+  note Droits de mutation
+account 6:3:5:8
+  alias 6358
+  alias Autres droits
+  note Autres droits
+account 6:3:7
+  alias 637
+  alias Autres impôts, taxes et versements assimilés (autres organismes)
+  note Autres impôts, taxes et versements assimilés (autres organismes)
+account 6:3:7:1
+  alias 6371
+  alias Contribution sociale de solidarité à la charge des sociétés
+  note Contribution sociale de solidarité à la charge des sociétés
+account 6:3:7:2
+  alias 6372
+  alias Taxes perçues par les organismes publics internationaux
+  note Taxes perçues par les organismes publics internationaux
+account 6:3:7:4
+  alias 6374
+  alias Impôts et taxes exigibles à l'Etranger
+  note Impôts et taxes exigibles à l'Etranger
+account 6:3:7:8
+  alias 6378
+  alias Taxes diverses
+  note Taxes diverses
+account 6:4
+  alias 64
+  alias Charges de personnel
+  note Charges de personnel
+account 6:4:1
+  alias 641
+  alias Rémunérations du personnel
+  note Rémunérations du personnel
+account 6:4:1:1
+  alias 6411
+  alias Salaires, appointements
+  note Salaires, appointements
+account 6:4:1:2
+  alias 6412
+  alias Congés payés
+  note Congés payés
+account 6:4:1:3
+  alias 6413
+  alias Primes et gratifications
+  note Primes et gratifications
+account 6:4:1:4
+  alias 6414
+  alias Indemnités et avantages divers
+  note Indemnités et avantages divers
+account 6:4:1:5
+  alias 6415
+  alias Supplément familial
+  note Supplément familial
+account 6:4:4
+  alias 644
+  alias Rémunération du travail de l'exploitant
+  note Rémunération du travail de l'exploitant
+account 6:4:5
+  alias 645
+  alias Charges de sécurité sociale et de prévoyance
+  note Charges de sécurité sociale et de prévoyance
+account 6:4:5:1
+  alias 6451
+  alias Cotisations à l'URSSAF
+  note Cotisations à l'URSSAF
+account 6:4:5:2
+  alias 6452
+  alias Cotisations aux mutuelles
+  note Cotisations aux mutuelles
+account 6:4:5:3
+  alias 6453
+  alias Cotisations aux caisses de retraites
+  note Cotisations aux caisses de retraites
+account 6:4:5:4
+  alias 6454
+  alias Cotisations aux ASSEDIC
+  note Cotisations aux ASSEDIC
+account 6:4:5:8
+  alias 6458
+  alias Cotisations aux autres organismes sociaux
+  note Cotisations aux autres organismes sociaux
+account 6:4:6
+  alias 646
+  alias Cotisations sociales personnelles de l'exploitant
+  note Cotisations sociales personnelles de l'exploitant
+account 6:4:7
+  alias 647
+  alias Autres charges sociales
+  note Autres charges sociales
+account 6:4:7:1
+  alias 6471
+  alias Prestations directes
+  note Prestations directes
+account 6:4:7:2
+  alias 6472
+  alias Versements aux comités d'entreprise et d'établissement
+  note Versements aux comités d'entreprise et d'établissement
+account 6:4:7:3
+  alias 6473
+  alias Versements aux comités d'hygiène et de sécurité
+  note Versements aux comités d'hygiène et de sécurité
+account 6:4:7:4
+  alias 6474
+  alias Versements aux autres œuvres sociales
+  note Versements aux autres œuvres sociales
+account 6:4:7:5
+  alias 6475
+  alias Médecine du travail, pharmacie
+  note Médecine du travail, pharmacie
+account 6:4:8
+  alias 648
+  alias Autres charges de personnel
+  note Autres charges de personnel
+account 6:5
+  alias 65
+  alias Autres charges de gestion courante
+  note Autres charges de gestion courante
+account 6:5:1
+  alias 651
+  alias Redevances pour concessions, brevets, licences, marques, procédés, logiciels, droits et valeurs similaires
+  note Redevances pour concessions, brevets, licences, marques, procédés, logiciels, droits et valeurs similaires
+account 6:5:1:1
+  alias 6511
+  alias Redevances pour concessions, brevets, licences, marques, procédés, logiciels
+  note Redevances pour concessions, brevets, licences, marques, procédés, logiciels
+account 6:5:1:6
+  alias 6516
+  alias Droits d'auteur et de reproduction
+  note Droits d'auteur et de reproduction
+account 6:5:1:8
+  alias 6518
+  alias Autres droits et valeurs similaires
+  note Autres droits et valeurs similaires
+account 6:5:3
+  alias 653
+  alias Jetons de présence
+  note Jetons de présence
+account 6:5:4
+  alias 654
+  alias Pertes sur créances irrécouvrables
+  note Pertes sur créances irrécouvrables
+account 6:5:4:1
+  alias 6541
+  alias Créances de l'exercice
+  note Créances de l'exercice
+account 6:5:4:4
+  alias 6544
+  alias Créances des exercices antérieurs
+  note Créances des exercices antérieurs
+account 6:5:5
+  alias 655
+  alias Quote-part de résultat sur opérations faites en commun
+  note Quote-part de résultat sur opérations faites en commun
+account 6:5:5:1
+  alias 6551
+  alias Quote-part de bénéfice transférée (comptabilité du gérant)
+  note Quote-part de bénéfice transférée (comptabilité du gérant)
+account 6:5:5:5
+  alias 6555
+  alias Quote-part de perte supportée (comptabilité des associés non gérants)
+  note Quote-part de perte supportée (comptabilité des associés non gérants)
+account 6:5:6
+  alias 656
+  alias Pertes de change sur créances commerciales
+  note Pertes de change sur créances commerciales
+account 6:5:8
+  alias 658
+  alias Charges diverses de gestion courante
+  note Charges diverses de gestion courante
+account 6:6
+  alias 66
+  alias Charges financières
+  note Charges financières
+account 6:6:1
+  alias 661
+  alias Charges d'intérêts
+  note Charges d'intérêts
+account 6:6:1:1
+  alias 6611
+  alias Intérêts des emprunts et dettes
+  note Intérêts des emprunts et dettes
+account 6:6:1:1:6
+  alias 66116
+  alias des emprunts et dettes assimilées
+  note des emprunts et dettes assimilées
+account 6:6:1:1:7
+  alias 66117
+  alias des dettes rattachées à des participations
+  note des dettes rattachées à des participations
+account 6:6:1:2
+  alias 6612
+  alias Charges de la fiducie, résultat de la période
+  note Charges de la fiducie, résultat de la période
+account 6:6:1:5
+  alias 6615
+  alias Intérêts des comptes courants et des dépôts créditeurs
+  note Intérêts des comptes courants et des dépôts créditeurs
+account 6:6:1:6
+  alias 6616
+  alias Intérêts bancaires et sur opérations de financement (escompte,...)
+  note Intérêts bancaires et sur opérations de financement (escompte,...)
+account 6:6:1:7
+  alias 6617
+  alias Intérêts des obligations cautionnées
+  note Intérêts des obligations cautionnées
+account 6:6:1:8
+  alias 6618
+  alias Intérêts des autres dettes
+  note Intérêts des autres dettes
+account 6:6:1:8:1
+  alias 66181
+  alias des dettes commerciales
+  note des dettes commerciales
+account 6:6:1:8:8
+  alias 66188
+  alias des dettes diverses
+  note des dettes diverses
+account 6:6:4
+  alias 664
+  alias Pertes sur créances liées à des participations
+  note Pertes sur créances liées à des participations
+account 6:6:5
+  alias 665
+  alias Escomptes accordés
+  note Escomptes accordés
+account 6:6:6
+  alias 666
+  alias Pertes de change financières
+  note Pertes de change financières
+account 6:6:7
+  alias 667
+  alias Charges nettes sur cessions de valeurs mobilières de placement
+  note Charges nettes sur cessions de valeurs mobilières de placement
+account 6:6:8
+  alias 668
+  alias Autres charges financières
+  note Autres charges financières
+account 6:7
+  alias 67
+  alias Charges exceptionnelles
+  note Charges exceptionnelles
+account 6:7:1
+  alias 671
+  alias Charges exceptionnelles sur opérations de gestion
+  note Charges exceptionnelles sur opérations de gestion
+account 6:7:1:1
+  alias 6711
+  alias Pénalités sur marchés (et dédits payés sur achats et ventes)
+  note Pénalités sur marchés (et dédits payés sur achats et ventes)
+account 6:7:1:2
+  alias 6712
+  alias Pénalités, amendes fiscales et pénales
+  note Pénalités, amendes fiscales et pénales
+account 6:7:1:3
+  alias 6713
+  alias Dons, libéralités
+  alias dons
+  note Dons, libéralités
+account 6:7:1:4
+  alias 6714
+  alias Créances devenues irrécouvrables dans l'exercice
+  note Créances devenues irrécouvrables dans l'exercice
+account 6:7:1:5
+  alias 6715
+  alias Subventions accordées
+  note Subventions accordées
+account 6:7:1:7
+  alias 6717
+  alias Rappel d'impôts (autres qu'impôts sur les bénéfices)
+  note Rappel d'impôts (autres qu'impôts sur les bénéfices)
+account 6:7:1:8
+  alias 6718
+  alias Autres charges exceptionnelles sur opérations de gestion
+  note Autres charges exceptionnelles sur opérations de gestion
+account 6:7:2
+  alias 672
+  alias (Compte à la disposition des entités pour enregistrer, en cours d'exercice, les charges sur exercices antérieurs)
+  note (Compte à la disposition des entités pour enregistrer, en cours d'exercice, les charges sur exercices antérieurs)
+account 6:7:4
+  alias 674
+  alias Opérations de constitution ou liquidation des fiducies
+  note Opérations de constitution ou liquidation des fiducies
+account 6:7:4:1
+  alias 6741
+  alias Opérations liées à la constitution de fiducie – Transfert des éléments
+  note Opérations liées à la constitution de fiducie – Transfert des éléments
+account 6:7:4:2
+  alias 6742
+  alias Opérations liées à la liquidation de la fiducie
+  note Opérations liées à la liquidation de la fiducie
+account 6:7:5
+  alias 675
+  alias Valeurs comptables des éléments d'actif cédés
+  note Valeurs comptables des éléments d'actif cédés
+account 6:7:5:1
+  alias 6751
+  alias Immobilisations incorporelles
+  note Immobilisations incorporelles
+account 6:7:5:2
+  alias 6752
+  alias Immobilisations corporelles
+  note Immobilisations corporelles
+account 6:7:5:6
+  alias 6756
+  alias Immobilisations financières
+  note Immobilisations financières
+account 6:7:5:8
+  alias 6758
+  alias Autres éléments d'actif
+  note Autres éléments d'actif
+account 6:7:8
+  alias 678
+  alias Autres charges exceptionnelles
+  note Autres charges exceptionnelles
+account 6:7:8:1
+  alias 6781
+  alias Malis provenant de clauses d'indexation
+  note Malis provenant de clauses d'indexation
+account 6:7:8:2
+  alias 6782
+  alias Lots
+  note Lots
+account 6:7:8:3
+  alias 6783
+  alias Malis provenant du rachat par l'entreprise d'actions et obligations émises par elle-même
+  note Malis provenant du rachat par l'entreprise d'actions et obligations émises par elle-même
+account 6:7:8:8
+  alias 6788
+  alias Charges exceptionnelles diverses
+  note Charges exceptionnelles diverses
+account 6:8
+  alias 68
+  alias Dotations aux amortissements, aux dépréciations et aux provisions
+  note Dotations aux amortissements, aux dépréciations et aux provisions
+account 6:8:1
+  alias 681
+  alias Dotations aux amortissements, aux dépréciations et aux provisions - Charges d'exploitation
+  note Dotations aux amortissements, aux dépréciations et aux provisions - Charges d'exploitation
+account 6:8:1:1
+  alias 6811
+  alias Dotations aux amortissements sur immobilisations incorporelles et corporelles
+  note Dotations aux amortissements sur immobilisations incorporelles et corporelles
+account 6:8:1:1:1
+  alias 68111
+  alias Immobilisations incorporelles
+  note Immobilisations incorporelles
+account 6:8:1:1:2
+  alias 68112
+  alias Immobilisations corporelles
+  note Immobilisations corporelles
+account 6:8:1:2
+  alias 6812
+  alias Dotations aux amortissements des charges d'exploitation à répartir
+  note Dotations aux amortissements des charges d'exploitation à répartir
+account 6:8:1:5
+  alias 6815
+  alias Dotations aux provisions d'exploitation
+  note Dotations aux provisions d'exploitation
+account 6:8:1:6
+  alias 6816
+  alias Dotations pour dépréciations des immobilisations incorporelles et corporelles
+  note Dotations pour dépréciations des immobilisations incorporelles et corporelles
+account 6:8:1:6:1
+  alias 68161
+  alias Immobilisations incorporelles
+  note Immobilisations incorporelles
+account 6:8:1:6:2
+  alias 68162
+  alias Immobilisations corporelles
+  note Immobilisations corporelles
+account 6:8:1:7
+  alias 6817
+  alias Dotations pour dépréciations des actifs circulants
+  note Dotations pour dépréciations des actifs circulants
+account 6:8:1:7:3
+  alias 68173
+  alias Stocks et en-cours
+  note Stocks et en-cours
+account 6:8:1:7:4
+  alias 68174
+  alias Créances
+  note Créances
+account 6:8:6
+  alias 686
+  alias Dotations aux amortissements, aux dépréciations et aux provisions - Charges financières
+  note Dotations aux amortissements, aux dépréciations et aux provisions - Charges financières
+account 6:8:6:1
+  alias 6861
+  alias Dotations aux amortissements des primes de remboursement des obligations
+  note Dotations aux amortissements des primes de remboursement des obligations
+account 6:8:6:5
+  alias 6865
+  alias Dotations aux provisions financières
+  note Dotations aux provisions financières
+account 6:8:6:6
+  alias 6866
+  alias Dotations pour dépréciations des éléments financiers
+  note Dotations pour dépréciations des éléments financiers
+account 6:8:6:6:2
+  alias 68662
+  alias Immobilisations financières
+  note Immobilisations financières
+account 6:8:6:6:5
+  alias 68665
+  alias Valeurs mobilières de placement
+  note Valeurs mobilières de placement
+account 6:8:6:8
+  alias 6868
+  alias Autres dotations
+  note Autres dotations
+account 6:8:7
+  alias 687
+  alias Dotations aux amortissements, aux dépréciations et aux provisions - Charges exceptionnelles
+  note Dotations aux amortissements, aux dépréciations et aux provisions - Charges exceptionnelles
+account 6:8:7:1
+  alias 6871
+  alias Dotations aux amortissements exceptionnels des immobilisations
+  note Dotations aux amortissements exceptionnels des immobilisations
+account 6:8:7:2
+  alias 6872
+  alias Dotations aux provisions réglementées (immobilisations)
+  note Dotations aux provisions réglementées (immobilisations)
+account 6:8:7:2:5
+  alias 68725
+  alias Amortissements dérogatoires
+  note Amortissements dérogatoires
+account 6:8:7:3
+  alias 6873
+  alias Dotations aux provisions réglementées (stocks)
+  note Dotations aux provisions réglementées (stocks)
+account 6:8:7:4
+  alias 6874
+  alias Dotations aux autres provisions réglementées
+  note Dotations aux autres provisions réglementées
+account 6:8:7:5
+  alias 6875
+  alias Dotations aux provisions exceptionnelles
+  note Dotations aux provisions exceptionnelles
+account 6:8:7:6
+  alias 6876
+  alias Dotations pour dépréciations exceptionnelles
+  note Dotations pour dépréciations exceptionnelles
+account 6:9
+  alias 69
+  alias Participation des salariés - Impôts sur les bénéfices et assimilés
+  note Participation des salariés - Impôts sur les bénéfices et assimilés
+account 6:9:1
+  alias 691
+  alias Participation des salariés aux résultats
+  note Participation des salariés aux résultats
+account 6:9:5
+  alias 695
+  alias Impôts sur les bénéfices
+  note Impôts sur les bénéfices
+account 6:9:5:1
+  alias 6951
+  alias Impôts dus en France
+  note Impôts dus en France
+account 6:9:5:2
+  alias 6952
+  alias Contribution additionnelle à l'impôt sur les bénéfices
+  note Contribution additionnelle à l'impôt sur les bénéfices
+account 6:9:5:4
+  alias 6954
+  alias Impôts dus à l'étranger
+  note Impôts dus à l'étranger
+account 6:9:6
+  alias 696
+  alias Suppléments d'impôt sur les sociétés liés aux distributions
+  note Suppléments d'impôt sur les sociétés liés aux distributions
+account 6:9:8
+  alias 698
+  alias Intégration fiscale
+  note Intégration fiscale
+account 6:9:8:1
+  alias 6981
+  alias Intégration fiscale - Charges
+  note Intégration fiscale - Charges
+account 6:9:8:9
+  alias 6989
+  alias Intégration fiscale - Produits
+  note Intégration fiscale - Produits
+account 6:9:9
+  alias 699
+  alias Produits - Reports en arrière des déficits
+  note Produits - Reports en arrière des déficits
+account 7
+  alias Produits
+  note Produits
+account 7:0
+  alias 70
+  alias Ventes de produits fabriqués, prestations de services, marchandises
+  note Ventes de produits fabriqués, prestations de services, marchandises
+account 7:0:1
+  alias 701
+  alias Ventes de produits finis
+  note Ventes de produits finis
+account 7:0:1:1
+  alias 7011
+  alias Produits finis (ou groupe) A
+  note Produits finis (ou groupe) A
+account 7:0:1:2
+  alias 7012
+  alias Produits finis (ou groupe) B
+  note Produits finis (ou groupe) B
+account 7:0:2
+  alias 702
+  alias Ventes de produits intermédiaires
+  note Ventes de produits intermédiaires
+account 7:0:3
+  alias 703
+  alias Ventes de produits résiduels
+  note Ventes de produits résiduels
+account 7:0:4
+  alias 704
+  alias Travaux
+  note Travaux
+account 7:0:4:1
+  alias 7041
+  alias Travaux de catégorie (ou activité) A
+  note Travaux de catégorie (ou activité) A
+account 7:0:4:2
+  alias 7042
+  alias Travaux de catégorie (ou activité) B
+  note Travaux de catégorie (ou activité) B
+account 7:0:5
+  alias 705
+  alias Etudes
+  note Etudes
+account 7:0:6
+  alias 706
+  alias Prestations de services
+  note Prestations de services
+account 7:0:7
+  alias 707
+  alias Ventes de marchandises
+  note Ventes de marchandises
+account 7:0:7:1
+  alias 7071
+  alias Marchandises (ou groupe) A
+  note Marchandises (ou groupe) A
+account 7:0:7:2
+  alias 7072
+  alias Marchandises (ou groupe) B
+  note Marchandises (ou groupe) B
+account 7:0:8
+  alias 708
+  alias Produits des activités annexes
+  note Produits des activités annexes
+account 7:0:8:1
+  alias 7081
+  alias Produits des services exploités dans l'intérêt du personnel
+  note Produits des services exploités dans l'intérêt du personnel
+account 7:0:8:2
+  alias 7082
+  alias Commissions et courtages
+  note Commissions et courtages
+account 7:0:8:3
+  alias 7083
+  alias Locations diverses
+  note Locations diverses
+account 7:0:8:4
+  alias 7084
+  alias Mise à disposition de personnel facturée
+  note Mise à disposition de personnel facturée
+account 7:0:8:5
+  alias 7085
+  alias Ports et frais accessoires facturés
+  note Ports et frais accessoires facturés
+account 7:0:8:6
+  alias 7086
+  alias Bonis sur reprises d'emballages consignés
+  note Bonis sur reprises d'emballages consignés
+account 7:0:8:7
+  alias 7087
+  alias Bonifications obtenues des clients et primes sur ventes
+  note Bonifications obtenues des clients et primes sur ventes
+account 7:0:8:8
+  alias 7088
+  alias Autres produits d'activités annexes (cessions d'approvisionnements,)
+  note Autres produits d'activités annexes (cessions d'approvisionnements,)
+account 7:0:9
+  alias 709
+  alias Rabais, remises et ristournes accordés par l'entreprise
+  note Rabais, remises et ristournes accordés par l'entreprise
+account 7:0:9:1
+  alias 7091
+  alias sur ventes de produits finis
+  note sur ventes de produits finis
+account 7:0:9:2
+  alias 7092
+  alias sur ventes de produits intermédiaires
+  note sur ventes de produits intermédiaires
+account 7:0:9:4
+  alias 7094
+  alias sur travaux
+  note sur travaux
+account 7:0:9:5
+  alias 7095
+  alias sur études
+  note sur études
+account 7:0:9:6
+  alias 7096
+  alias sur prestations de services
+  note sur prestations de services
+account 7:0:9:7
+  alias 7097
+  alias sur ventes de marchandises
+  note sur ventes de marchandises
+account 7:0:9:8
+  alias 7098
+  alias sur produits des activités annexes
+  note sur produits des activités annexes
+account 7:1
+  alias 71
+  alias Production stockée (ou déstockage)
+  note Production stockée (ou déstockage)
+account 7:1:3
+  alias 713
+  alias Variation des stocks (en-cours de production, produits)
+  note Variation des stocks (en-cours de production, produits)
+account 7:1:3:3
+  alias 7133
+  alias Variation des en-cours de production de biens
+  note Variation des en-cours de production de biens
+account 7:1:3:3:1
+  alias 71331
+  alias Produits en cours
+  note Produits en cours
+account 7:1:3:3:5
+  alias 71335
+  alias Travaux en cours
+  note Travaux en cours
+account 7:1:3:4
+  alias 7134
+  alias Variation des en-cours de production de services
+  note Variation des en-cours de production de services
+account 7:1:3:4:1
+  alias 71341
+  alias Etudes en cours
+  note Etudes en cours
+account 7:1:3:4:5
+  alias 71345
+  alias Prestations de services en cours
+  note Prestations de services en cours
+account 7:1:3:5
+  alias 7135
+  alias Variation des stocks de produits
+  note Variation des stocks de produits
+account 7:1:3:5:1
+  alias 71351
+  alias Produits intermédiaires
+  note Produits intermédiaires
+account 7:1:3:5:5
+  alias 71355
+  alias Produits finis
+  note Produits finis
+account 7:1:3:5:8
+  alias 71358
+  alias Produits résiduels
+  note Produits résiduels
+account 7:2
+  alias 72
+  alias Production immobilisée
+  note Production immobilisée
+account 7:2:1
+  alias 721
+  alias Immobilisations incorporelles
+  note Immobilisations incorporelles
+account 7:2:2
+  alias 722
+  alias Immobilisations corporelles
+  note Immobilisations corporelles
+account 7:4
+  alias 74
+  alias Subventions d'exploitation
+  note Subventions d'exploitation
+account 7:5
+  alias 75
+  alias Autres produits de gestion courante
+  note Autres produits de gestion courante
+account 7:5:1
+  alias 751
+  alias Redevances pour concessions, brevets, licences, marques, procédés, logiciels, droits et valeurs similaires
+  note Redevances pour concessions, brevets, licences, marques, procédés, logiciels, droits et valeurs similaires
+account 7:5:1:1
+  alias 7511
+  alias Redevances pour concessions, brevets, licences, marques, procédés, logiciels
+  note Redevances pour concessions, brevets, licences, marques, procédés, logiciels
+account 7:5:1:6
+  alias 7516
+  alias Droits d'auteur et de reproduction
+  note Droits d'auteur et de reproduction
+account 7:5:1:8
+  alias 7518
+  alias Autres droits et valeurs similaires
+  note Autres droits et valeurs similaires
+account 7:5:2
+  alias 752
+  alias Revenus des immeubles non affectés à des activités professionnelles
+  note Revenus des immeubles non affectés à des activités professionnelles
+account 7:5:3
+  alias 753
+  alias Jetons de présence et rémunérations d'administrateurs, gérants
+  note Jetons de présence et rémunérations d'administrateurs, gérants
+account 7:5:4
+  alias 754
+  alias Ristournes perçues des coopératives (provenant des excédents)
+  note Ristournes perçues des coopératives (provenant des excédents)
+account 7:5:5
+  alias 755
+  alias Quote-parts de résultat sur opérations faites en commun
+  note Quote-parts de résultat sur opérations faites en commun
+account 7:5:5:1
+  alias 7551
+  alias Quote-part de perte transférée (comptabilité du gérant)
+  note Quote-part de perte transférée (comptabilité du gérant)
+account 7:5:5:5
+  alias 7555
+  alias Quote-part de bénéfice attribuée (comptabilité des associés non - gérants)
+  note Quote-part de bénéfice attribuée (comptabilité des associés non - gérants)
+account 7:5:6
+  alias 756
+  alias Gains de change sur créances commerciales
+  note Gains de change sur créances commerciales
+account 7:5:8
+  alias 758
+  alias Produits divers de gestion courante
+  note Produits divers de gestion courante
+account 7:6
+  alias 76
+  alias Produits financiers
+  note Produits financiers
+account 7:6:1
+  alias 761
+  alias Produits de participations
+  note Produits de participations
+account 7:6:1:1
+  alias 7611
+  alias Revenus des titres de participation
+  note Revenus des titres de participation
+account 7:6:1:2
+  alias 7612
+  alias Produits de la fiducie, résultat de la période
+  note Produits de la fiducie, résultat de la période
+account 7:6:1:6
+  alias 7616
+  alias Revenus sur autres formes de participation
+  note Revenus sur autres formes de participation
+account 7:6:1:7
+  alias 7617
+  alias Revenus des créances rattachées à des participations
+  note Revenus des créances rattachées à des participations
+account 7:6:2
+  alias 762
+  alias Produits des autres immobilisations financières
+  note Produits des autres immobilisations financières
+account 7:6:2:1
+  alias 7621
+  alias Revenus des titres immobilisés
+  note Revenus des titres immobilisés
+account 7:6:2:6
+  alias 7626
+  alias Revenus des prêts
+  note Revenus des prêts
+account 7:6:2:7
+  alias 7627
+  alias Revenus des créances immobilisées
+  note Revenus des créances immobilisées
+account 7:6:3
+  alias 763
+  alias Revenus des autres créances
+  note Revenus des autres créances
+account 7:6:3:1
+  alias 7631
+  alias Revenus des créances commerciales
+  note Revenus des créances commerciales
+account 7:6:3:8
+  alias 7638
+  alias Revenus des créances diverses
+  note Revenus des créances diverses
+account 7:6:4
+  alias 764
+  alias Revenus des valeurs mobilières de placement
+  note Revenus des valeurs mobilières de placement
+account 7:6:5
+  alias 765
+  alias Escomptes obtenus
+  note Escomptes obtenus
+account 7:6:6
+  alias 766
+  alias Gains de change financiers
+  note Gains de change financiers
+account 7:6:7
+  alias 767
+  alias Produits nets sur cessions de valeurs mobilières de placement
+  note Produits nets sur cessions de valeurs mobilières de placement
+account 7:6:8
+  alias 768
+  alias Autres produits financiers
+  note Autres produits financiers
+account 7:7
+  alias 77
+  alias Produits exceptionnels
+  note Produits exceptionnels
+account 7:7:1
+  alias 771
+  alias Produits exceptionnels sur opérations de gestion
+  note Produits exceptionnels sur opérations de gestion
+account 7:7:1:1
+  alias 7711
+  alias Dédits et pénalités perçus sur achats et sur ventes
+  note Dédits et pénalités perçus sur achats et sur ventes
+account 7:7:1:3
+  alias 7713
+  alias Libéralités reçues
+  note Libéralités reçues
+account 7:7:1:4
+  alias 7714
+  alias Rentrées sur créances amorties
+  note Rentrées sur créances amorties
+account 7:7:1:5
+  alias 7715
+  alias Subventions d'équilibre
+  note Subventions d'équilibre
+account 7:7:1:7
+  alias 7717
+  alias Dégrèvements d'impôts autres qu'impôts sur les bénéfices
+  note Dégrèvements d'impôts autres qu'impôts sur les bénéfices
+account 7:7:1:8
+  alias 7718
+  alias Autres produits exceptionnels sur opérations de gestion
+  note Autres produits exceptionnels sur opérations de gestion
+account 7:7:2
+  alias 772
+  alias (Compte à la disposition des entités pour enregistrer, en cours d'exercice, les produits sur exercices antérieurs)
+  note (Compte à la disposition des entités pour enregistrer, en cours d'exercice, les produits sur exercices antérieurs)
+account 7:7:4
+  alias 774
+  alias Opérations de constitution ou liquidation des fiducies
+  note Opérations de constitution ou liquidation des fiducies
+account 7:7:4:1
+  alias 7741
+  alias Opérations liées à la constitution de fiducie – Transfert des éléments
+  note Opérations liées à la constitution de fiducie – Transfert des éléments
+account 7:7:4:2
+  alias 7742
+  alias Opérations liées à la liquidation de la fiducie
+  note Opérations liées à la liquidation de la fiducie
+account 7:7:5
+  alias 775
+  alias Produits des cessions d'éléments d'actif
+  note Produits des cessions d'éléments d'actif
+account 7:7:5:1
+  alias 7751
+  alias Immobilisations incorporelles
+  note Immobilisations incorporelles
+account 7:7:5:2
+  alias 7752
+  alias Immobilisations corporelles
+  note Immobilisations corporelles
+account 7:7:5:6
+  alias 7756
+  alias Immobilisations financières
+  note Immobilisations financières
+account 7:7:5:8
+  alias 7758
+  alias Autres éléments d'actif
+  note Autres éléments d'actif
+account 7:7:7
+  alias 777
+  alias Quote-part des subventions d'investissement virée au résultat de l'exercice
+  note Quote-part des subventions d'investissement virée au résultat de l'exercice
+account 7:7:8
+  alias 778
+  alias Autres produits exceptionnels
+  note Autres produits exceptionnels
+account 7:7:8:1
+  alias 7781
+  alias Bonis provenant de clauses d'indexation
+  note Bonis provenant de clauses d'indexation
+account 7:7:8:2
+  alias 7782
+  alias Lots
+  note Lots
+account 7:7:8:3
+  alias 7783
+  alias Bonis provenant du rachat par l'entreprise d'actions et d'obligations émises par elle - même
+  note Bonis provenant du rachat par l'entreprise d'actions et d'obligations émises par elle - même
+account 7:7:8:8
+  alias 7788
+  alias Produits exceptionnels divers
+  note Produits exceptionnels divers
+account 7:8
+  alias 78
+  alias Reprises sur amortissements, dépréciations et provisions
+  note Reprises sur amortissements, dépréciations et provisions
+account 7:8:1
+  alias 781
+  alias Reprises sur amortissements, dépréciations et provisions (à inscrire dans les produits d'exploitation)
+  note Reprises sur amortissements, dépréciations et provisions (à inscrire dans les produits d'exploitation)
+account 7:8:1:1
+  alias 7811
+  alias Reprises sur amortissements des immobilisations incorporelles et corporelles
+  note Reprises sur amortissements des immobilisations incorporelles et corporelles
+account 7:8:1:1:1
+  alias 78111
+  alias Immobilisations incorporelles
+  note Immobilisations incorporelles
+account 7:8:1:1:2
+  alias 78112
+  alias Immobilisations corporelles
+  note Immobilisations corporelles
+account 7:8:1:5
+  alias 7815
+  alias Reprises sur provisions d'exploitation
+  note Reprises sur provisions d'exploitation
+account 7:8:1:6
+  alias 7816
+  alias Reprises sur dépréciations des immobilisations incorporelles et corporelles
+  note Reprises sur dépréciations des immobilisations incorporelles et corporelles
+account 7:8:1:6:1
+  alias 78161
+  alias Immobilisations incorporelles
+  note Immobilisations incorporelles
+account 7:8:1:6:2
+  alias 78162
+  alias Immobilisations corporelles
+  note Immobilisations corporelles
+account 7:8:1:7
+  alias 7817
+  alias Reprises sur dépréciations des actifs circulants
+  note Reprises sur dépréciations des actifs circulants
+account 7:8:1:7:3
+  alias 78173
+  alias Stocks et en-cours
+  note Stocks et en-cours
+account 7:8:1:7:4
+  alias 78174
+  alias Créances
+  note Créances
+account 7:8:6
+  alias 786
+  alias Reprises sur provisions pour risques et dépréciations (à inscrire dans les produits financiers)
+  note Reprises sur provisions pour risques et dépréciations (à inscrire dans les produits financiers)
+account 7:8:6:5
+  alias 7865
+  alias Reprises sur provisions financières
+  note Reprises sur provisions financières
+account 7:8:6:6
+  alias 7866
+  alias Reprises sur dépréciations des éléments financiers
+  note Reprises sur dépréciations des éléments financiers
+account 7:8:6:6:2
+  alias 78662
+  alias Immobilisations financières
+  note Immobilisations financières
+account 7:8:6:6:5
+  alias 78665
+  alias Valeurs mobilières de placements
+  note Valeurs mobilières de placements
+account 7:8:7
+  alias 787
+  alias Reprises sur provisions et dépréciations (à inscrire dans les produits exceptionnels)
+  note Reprises sur provisions et dépréciations (à inscrire dans les produits exceptionnels)
+account 7:8:7:2
+  alias 7872
+  alias Reprises sur provisions réglementées (immobilisations)
+  note Reprises sur provisions réglementées (immobilisations)
+account 7:8:7:2:5
+  alias 78725
+  alias Amortissements dérogatoires
+  note Amortissements dérogatoires
+account 7:8:7:2:6
+  alias 78726
+  alias Provision spéciale de réévaluation
+  note Provision spéciale de réévaluation
+account 7:8:7:2:7
+  alias 78727
+  alias Plus-values réinvesties
+  note Plus-values réinvesties
+account 7:8:7:3
+  alias 7873
+  alias Reprises sur provisions réglementées (stocks)
+  note Reprises sur provisions réglementées (stocks)
+account 7:8:7:4
+  alias 7874
+  alias Reprises sur autres provisions réglementées
+  note Reprises sur autres provisions réglementées
+account 7:8:7:5
+  alias 7875
+  alias Reprises sur provisions exceptionnelles
+  note Reprises sur provisions exceptionnelles
+account 7:8:7:6
+  alias 7876
+  alias Reprises sur dépréciations exceptionnelles
+  note Reprises sur dépréciations exceptionnelles
+account 7:9
+  alias 79
+  alias Transferts de charges
+  note Transferts de charges
+account 7:9:1
+  alias 791
+  alias Transferts de charges d'exploitation
+  note Transferts de charges d'exploitation
+account 7:9:6
+  alias 796
+  alias Transferts de charges financières
+  note Transferts de charges financières
+account 7:9:7
+  alias 797
+  alias Transferts de charges exceptionnelles
+  note Transferts de charges exceptionnelles
+

@@ -1,0 +1,1118 @@
+#!/bin/bash
+sed -i legal.ledger \
+ -e "s#account 1\$#account 1:Capitaux#"\
+ -e "s#account 1:0\$#account 1:0:Fonds propres et réserves#"\
+ -e "s#account 1:0:2\$#account 1:0:2:Fonds propres sans droit de reprise#"\
+ -e "s#account 1:0:2:1\$#account 1:0:2:1:Première situation nette établie#"\
+ -e "s#account 1:0:2:2\$#account 1:0:2:2:Fonds statutaires (à subdiviser en fonction des statuts)#"\
+ -e "s#account 1:0:2:3\$#account 1:0:2:3:Dotations non consomptibles#"\
+ -e "s#account 1:0:2:3:1\$#account 1:0:2:3:1:Dotations non consomptibles initiales#"\
+ -e "s#account 1:0:2:3:2\$#account 1:0:2:3:2:Dotations non consomptibles complémentaires#"\
+ -e "s#account 1:0:2:4\$#account 1:0:2:4:Autres fonds propres sans droit de reprise#"\
+ -e "s#account 1:0:3\$#account 1:0:3:Fonds propres avec droit de reprise#"\
+ -e "s#account 1:0:3:2\$#account 1:0:3:2:Fonds statutaires (à subdiviser en fonction des statuts)#"\
+ -e "s#account 1:0:3:4\$#account 1:0:3:4:Autres fonds propres avec droit de reprise#"\
+ -e "s#account 1:0:5\$#account 1:0:5:Ecarts de réévaluation#"\
+ -e "s#account 1:0:5:1\$#account 1:0:5:1:Ecarts de réévaluation sur des biens sans droit de reprise#"\
+ -e "s#account 1:0:5:2\$#account 1:0:5:2:Ecarts de réévaluation sur des biens avec droit de reprise#"\
+ -e "s#account 1:0:6\$#account 1:0:6:Réserves#"\
+ -e "s#account 1:0:6:8\$#account 1:0:6:8:Réserves pour projet de l’entité#"\
+ -e "s#account 1:0:8\$#account 1:0:8:Dotations consomptibles#"\
+ -e "s#account 1:0:8:1\$#account 1:0:8:1:Dotations consomptibles#"\
+ -e "s#account 1:0:8:9\$#account 1:0:8:9:Dotations consomptibles inscrites au compte de résultat#"\
+ -e "s#account 1:5\$#account 1:5:Provisions#"\
+ -e "s#account 1:5:2\$#account 1:5:2:Provisions pour charges sur legs ou donations#"\
+ -e "s#account 1:6\$#account 1:6:Emprunts et dettes assimilées#"\
+ -e "s#account 1:6:3\$#account 1:6:3:Autres emprunts obligataires#"\
+ -e "s#account 1:6:3:1\$#account 1:6:3:1:Titres associatifs et assimilés#"\
+ -e "s#account 1:9\$#account 1:9:Fonds dédiés ou reportés#"\
+ -e "s#account 1:9:1\$#account 1:9:1:Fonds reportés liés aux legs ou donations#"\
+ -e "s#account 1:9:1:1\$#account 1:9:1:1:Legs ou donations#"\
+ -e "s#account 1:9:1:2\$#account 1:9:1:2:Donations temporaires d’usufruit#"\
+ -e "s#account 1:9:4\$#account 1:9:4:Fonds dédiés sur subventions d’exploitation#"\
+ -e "s#account 1:9:5\$#account 1:9:5:Fonds dédiés sur contributions financières d’autres organismes#"\
+ -e "s#account 1:9:6\$#account 1:9:6:Fonds dédiés sur ressources liées à la générosité du public#"\
+ -e "s#account 2\$#account 2:Immobilisations#"\
+ -e "s#account 2:0\$#account 2:0:Immobilisations incorporelles#"\
+ -e "s#account 2:0:4\$#account 2:0:4:Donations temporaires d’usufruit#"\
+ -e "s#account 2:4\$#account 2:4:Biens reçus par legs ou donations destinés à être cédés#"\
+ -e "s#account 2:7\$#account 2:7:Autres immobilisations financières#"\
+ -e "s#account 2:7:4:2\$#account 2:7:4:2:Prêts aux partenaires#"\
+ -e "s#account 2:8\$#account 2:8:Amortissements des immobilisations#"\
+ -e "s#account 2:8:0\$#account 2:8:0:Amortissements des immobilisations incorporelles#"\
+ -e "s#account 2:8:0:4\$#account 2:8:0:4:Donations temporaires d’usufruit#"\
+ -e "s#account 2:9\$#account 2:9:Dépréciations des immobilisations#"\
+ -e "s#account 2:9:4\$#account 2:9:4:Dépréciations des biens reçus par legs ou donations destinés à être cédés#"\
+ -e "s#account 4\$#account 4:Comptes de tiers#"\
+ -e "s#account 4:1\$#account 4:1:Clients, adhérents, usagers et comptes rattachés#"\
+ -e "s#account 4:5\$#account 4:5:Confédération, fédération, union, entités affiliées#"\
+ -e "s#account 4:5:5\$#account 4:5:5:Partenaires - comptes courants#"\
+ -e "s#account 4:6\$#account 4:6:Débiteurs et créditeurs divers#"\
+ -e "s#account 4:6:1\$#account 4:6:1:Créances reçues par legs ou donations#"\
+ -e "s#account 4:6:6\$#account 4:6:6:Dettes des legs ou donations#"\
+ -e "s#account 4:6:8\$#account 4:6:8:Divers – charges à payer et produits à recevoir#"\
+ -e "s#account 4:6:8:1\$#account 4:6:8:1:Frais des bénévoles#"\
+ -e "s#account 6:2\$#account 6:2:Autres services extérieurs#"\
+ -e "s#account 6:2:2\$#account 6:2:2:Rémunérations d’intermédiaires et honoraires#"\
+ -e "s#account 6:2:2:6\$#account 6:2:2:6:Honoraires#"\
+ -e "s#account 6:2:2:6:4\$#account 6:2:2:6:4:Honoraires sur legs ou donations destinés à être cédés#"\
+ -e "s#account 6:5\$#account 6:5:Autres charges de gestion courante#"\
+ -e "s#account 6:5:3\$#account 6:5:3:Charges de la générosité du public#"\
+ -e "s#account 6:5:3:1\$#account 6:5:3:1:Autres charges sur legs ou donations#"\
+ -e "s#account 6:5:7\$#account 6:5:7:Aides financières#"\
+ -e "s#account 6:5:7:1\$#account 6:5:7:1:Aides financières octroyées#"\
+ -e "s#account 6:5:7:2\$#account 6:5:7:2:Quotes-parts de générosité reversée#"\
+ -e "s#account 6:7\$#account 6:7:Charges exceptionnelles#"\
+ -e "s#account 6:7:3\$#account 6:7:3:Apports ou affectations en numéraire#"\
+ -e "s#account 6:7:5\$#account 6:7:5:Valeurs comptables des éléments d’actifs cédés#"\
+ -e "s#account 6:7:5:4\$#account 6:7:5:4:Immobilisations reçues par legs ou donations#"\
+ -e "s#account 6:8\$#account 6:8:Dotations aux amortissements, provisions et engagements#"\
+ -e "s#account 6:8:1:6\$#account 6:8:1:6:Dotations pour dépréciations des immobilisations incorporelles et corporelles#"\
+ -e "s#account 6:8:1:6:4\$#account 6:8:1:6:4:Dotations pour dépréciation d’actifs reçus par legs ou donations destinés à être cédés#"\
+ -e "s#account 6:8:9\$#account 6:8:9:Reports en fonds dédiés#"\
+ -e "s#account 6:8:9:1\$#account 6:8:9:1:Reports en fonds reportés#"\
+ -e "s#account 6:8:9:4\$#account 6:8:9:4:Reports en fonds dédiés sur subventions d’exploitation#"\
+ -e "s#account 6:8:9:5\$#account 6:8:9:5:Reports en fonds dédiés sur contributions financières d’autres organismes#"\
+ -e "s#account 6:8:9:6\$#account 6:8:9:6:Reports en fonds dédiés sur ressources liées à la générosité du public#"\
+ -e "s#account 7:0\$#account 7:0:Ventes de produits fabriqués, prestations de services, marchandises#"\
+ -e "s#account 7:0:6\$#account 7:0:6:Ventes de prestations de services#"\
+ -e "s#account 7:0:6:3\$#account 7:0:6:3:Parrainages#"\
+ -e "s#account 7:0:7\$#account 7:0:7:Ventes de marchandises#"\
+ -e "s#account 7:0:7:3\$#account 7:0:7:3:Ventes de dons en nature#"\
+ -e "s#account 7:3\$#account 7:3:Concours publics#"\
+ -e "s#account 7:5\$#account 7:5:Autres produits de gestion courante#"\
+ -e "s#account 7:5:3\$#account 7:5:3:Versements des fondateurs ou consommation de la dotation#"\
+ -e "s#account 7:5:3:1\$#account 7:5:3:1:Versements des fondateurs#"\
+ -e "s#account 7:5:3:2\$#account 7:5:3:2:Quotes-parts de dotation consomptible virée au compte de résultat#"\
+ -e "s#account 7:5:4\$#account 7:5:4:Ressources liées à la générosité du public#"\
+ -e "s#account 7:5:4:1\$#account 7:5:4:1:Dons manuels#"\
+ -e "s#account 7:5:4:1:1\$#account 7:5:4:1:1:Dons manuels#"\
+ -e "s#account 7:5:4:1:2\$#account 7:5:4:1:2:Abandons de frais par les bénévoles#"\
+ -e "s#account 7:5:4:2\$#account 7:5:4:2:Mécénats#"\
+ -e "s#account 7:5:4:3\$#account 7:5:4:3:Legs, donations et assurances-vie#"\
+ -e "s#account 7:5:4:3:1\$#account 7:5:4:3:1:Assurances-vie#"\
+ -e "s#account 7:5:4:3:2\$#account 7:5:4:3:2:Legs ou donations#"\
+ -e "s#account 7:5:4:3:3\$#account 7:5:4:3:3:Autres produits sur legs ou donations#"\
+ -e "s#account 7:5:5\$#account 7:5:5:Contributions financières#"\
+ -e "s#account 7:5:5:1\$#account 7:5:5:1:Contributions financières d’autres organismes#"\
+ -e "s#account 7:5:5:2\$#account 7:5:5:2:Quotes-parts de générosité reçues#"\
+ -e "s#account 7:5:6\$#account 7:5:6:Cotisations#"\
+ -e "s#account 7:5:6:1\$#account 7:5:6:1:Cotisations sans contrepartie#"\
+ -e "s#account 7:5:6:2\$#account 7:5:6:2:Cotisations avec contrepartie#"\
+ -e "s#account 7:5:7\$#account 7:5:7:Gains de change sur créances et dettes d’exploitation#"\
+ -e "s#account 7:7\$#account 7:7:Produits exceptionnels#"\
+ -e "s#account 7:7:5\$#account 7:7:5:Produits des cessions d’éléments d’actifs#"\
+ -e "s#account 7:7:5:4\$#account 7:7:5:4:Immobilisations reçues en legs ou donations destinées à être cédées#"\
+ -e "s#account 7:8\$#account 7:8:Reprises sur amortissements, dépréciations et provisions#"\
+ -e "s#account 7:8:1\$#account 7:8:1:Reprises sur amortissements des immobilisations dépréciations et provisions (à inscrire dans les produits d’exploitation)#"\
+ -e "s#account 7:8:1:6\$#account 7:8:1:6:Reprises sur dépréciations des immobilisations incorporelles et corporelles#"\
+ -e "s#account 7:8:1:6:4\$#account 7:8:1:6:4:Reprises sur dépréciations d’actifs reçus par legs ou donations destinés à être cédés#"\
+ -e "s#account 7:8:9\$#account 7:8:9:Utilisations de fonds reportés et de fonds dédiés#"\
+ -e "s#account 7:8:9:1\$#account 7:8:9:1:Utilisations de fonds reportés#"\
+ -e "s#account 7:8:9:4\$#account 7:8:9:4:Utilisations des fonds dédiés sur subventions d’exploitation#"\
+ -e "s#account 7:8:9:5\$#account 7:8:9:5:Utilisations des fonds dédiés sur contributions financières d’autres organismes#"\
+ -e "s#account 7:8:9:6\$#account 7:8:9:6:Utilisations des fonds dédiés sur ressources liées à la générosité du public#"\
+ -e "s#account 8\$#account 8:Comptes spéciaux#"\
+ -e "s#account 8:6\$#account 8:6:Emplois des contributions volontaires en nature#"\
+ -e "s#account 8:6:0\$#account 8:6:0:Secours en nature#"\
+ -e "s#account 8:6:1\$#account 8:6:1:Mises à disposition gratuite de biens#"\
+ -e "s#account 8:6:2\$#account 8:6:2:Prestations#"\
+ -e "s#account 8:6:4\$#account 8:6:4:Personnel bénévole#"\
+ -e "s#account 8:7\$#account 8:7:Contributions volontaires en nature#"\
+ -e "s#account 8:7:0\$#account 8:7:0:Dons en nature#"\
+ -e "s#account 8:7:1\$#account 8:7:1:Prestations en nature#"\
+ -e "s#account 8:7:5\$#account 8:7:5:Bénévolat#"\
+ -e "s#account 1\$#account 1:Capital#"\
+ -e "s#account 1:0\$#account 1:0:capital et réserves#"\
+ -e "s#account 1:0:1\$#account 1:0:1:Capital#"\
+ -e "s#account 1:0:1:1\$#account 1:0:1:1:Capital souscrit - non appelé#"\
+ -e "s#account 1:0:1:2\$#account 1:0:1:2:Capital souscrit - appelé, non versé#"\
+ -e "s#account 1:0:1:3\$#account 1:0:1:3:Capital souscrit - appelé, versé#"\
+ -e "s#account 1:0:1:3:1\$#account 1:0:1:3:1:Capital non amorti#"\
+ -e "s#account 1:0:1:3:2\$#account 1:0:1:3:2:Capital amorti#"\
+ -e "s#account 1:0:1:8\$#account 1:0:1:8:Capital souscrit soumis à des réglementations particulières#"\
+ -e "s#account 1:0:2\$#account 1:0:2:Fonds fiduciaires#"\
+ -e "s#account 1:0:4\$#account 1:0:4:Primes liées au capital social#"\
+ -e "s#account 1:0:4:1\$#account 1:0:4:1:Primes d'émission#"\
+ -e "s#account 1:0:4:2\$#account 1:0:4:2:Primes de fusion#"\
+ -e "s#account 1:0:4:3\$#account 1:0:4:3:Primes d'apport#"\
+ -e "s#account 1:0:4:4\$#account 1:0:4:4:Primes de conversion d'obligations en actions#"\
+ -e "s#account 1:0:4:5\$#account 1:0:4:5:Bons de souscription d'actions#"\
+ -e "s#account 1:0:5\$#account 1:0:5:Ecarts de réévaluation#"\
+ -e "s#account 1:0:5:1\$#account 1:0:5:1:Réserve spéciale de réévaluation#"\
+ -e "s#account 1:0:5:2\$#account 1:0:5:2:Ecart de réévaluation libre#"\
+ -e "s#account 1:0:5:3\$#account 1:0:5:3:Réserve de réévaluation#"\
+ -e "s#account 1:0:5:5\$#account 1:0:5:5:Ecarts de réévaluation (autres opérations légales)#"\
+ -e "s#account 1:0:5:7\$#account 1:0:5:7:Autres écarts de réévaluation en France#"\
+ -e "s#account 1:0:5:8\$#account 1:0:5:8:Autres écarts de réévaluation à l'Etranger#"\
+ -e "s#account 1:0:6\$#account 1:0:6:Réserves#"\
+ -e "s#account 1:0:6:1\$#account 1:0:6:1:Réserve légale#"\
+ -e "s#account 1:0:6:1:1\$#account 1:0:6:1:1:Réserve légale proprement dite#"\
+ -e "s#account 1:0:6:1:2\$#account 1:0:6:1:2:Plus-values nettes à long terme#"\
+ -e "s#account 1:0:6:2\$#account 1:0:6:2:Réserves indisponibles#"\
+ -e "s#account 1:0:6:3\$#account 1:0:6:3:Réserves statutaires ou contractuelles#"\
+ -e "s#account 1:0:6:4\$#account 1:0:6:4:Réserves réglementées#"\
+ -e "s#account 1:0:6:4:1\$#account 1:0:6:4:1:Plus-values nettes à long terme#"\
+ -e "s#account 1:0:6:4:3\$#account 1:0:6:4:3:Réserves consécutives à l'octroi de subventions d'investissement#"\
+ -e "s#account 1:0:6:4:8\$#account 1:0:6:4:8:Autres réserves réglementées#"\
+ -e "s#account 1:0:6:8\$#account 1:0:6:8:Autres réserves#"\
+ -e "s#account 1:0:6:8:1\$#account 1:0:6:8:1:Réserve de propre assureur#"\
+ -e "s#account 1:0:6:8:8\$#account 1:0:6:8:8:Réserves diverses#"\
+ -e "s#account 1:0:7\$#account 1:0:7:Ecart d'équivalence#"\
+ -e "s#account 1:0:8\$#account 1:0:8:Compte de l'exploitant#"\
+ -e "s#account 1:0:9\$#account 1:0:9:Actionnaires : Capital souscrit - non appelé#"\
+ -e "s#account 1:1\$#account 1:1:Report à nouveau (solde créditeur ou débiteur)#"\
+ -e "s#account 1:1:0\$#account 1:1:0:Report à nouveau (solde créditeur)#"\
+ -e "s#account 1:1:9\$#account 1:1:9:Report à nouveau (solde débiteur)#"\
+ -e "s#account 1:2\$#account 1:2:Résultat de l'exercice (bénéfice ou perte)#"\
+ -e "s#account 1:2:0\$#account 1:2:0:Résultat de l'exercice (bénéfice)#"\
+ -e "s#account 1:2:9\$#account 1:2:9:Résultat de l'exercice (perte)#"\
+ -e "s#account 1:3\$#account 1:3:Subventions d'investissement#"\
+ -e "s#account 1:3:1\$#account 1:3:1:Subventions d'équipement#"\
+ -e "s#account 1:3:1:1\$#account 1:3:1:1:Etat#"\
+ -e "s#account 1:3:1:2\$#account 1:3:1:2:Régions#"\
+ -e "s#account 1:3:1:3\$#account 1:3:1:3:Départements#"\
+ -e "s#account 1:3:1:4\$#account 1:3:1:4:Communes#"\
+ -e "s#account 1:3:1:5\$#account 1:3:1:5:Collectivités publiques#"\
+ -e "s#account 1:3:1:6\$#account 1:3:1:6:Entreprises publiques#"\
+ -e "s#account 1:3:1:7\$#account 1:3:1:7:Entreprises et organismes privés#"\
+ -e "s#account 1:3:1:8\$#account 1:3:1:8:Autres#"\
+ -e "s#account 1:3:8\$#account 1:3:8:Autres subventions d’investissement (même ventilation que celle du compte 131)#"\
+ -e "s#account 1:3:9\$#account 1:3:9:Subventions d'investissement inscrites au compte de résultat#"\
+ -e "s#account 1:3:9:1\$#account 1:3:9:1:Subventions d'équipement#"\
+ -e "s#account 1:3:9:1:1\$#account 1:3:9:1:1:Etat#"\
+ -e "s#account 1:3:9:1:2\$#account 1:3:9:1:2:Régions#"\
+ -e "s#account 1:3:9:1:3\$#account 1:3:9:1:3:Départements#"\
+ -e "s#account 1:3:9:1:4\$#account 1:3:9:1:4:Communes#"\
+ -e "s#account 1:3:9:1:5\$#account 1:3:9:1:5:Collectivités publiques#"\
+ -e "s#account 1:3:9:1:6\$#account 1:3:9:1:6:Entreprises publiques#"\
+ -e "s#account 1:3:9:1:7\$#account 1:3:9:1:7:Entreprises et organismes privés#"\
+ -e "s#account 1:3:9:1:8\$#account 1:3:9:1:8:Autres#"\
+ -e "s#account 1:3:9:8\$#account 1:3:9:8:Autres subventions d’investissement (même ventilation que celle du compte 1391)#"\
+ -e "s#account 1:4\$#account 1:4:Provisions réglementées#"\
+ -e "s#account 1:4:2\$#account 1:4:2:Provisions réglementées relatives aux immobilisations#"\
+ -e "s#account 1:4:2:3\$#account 1:4:2:3:Provisions pour reconstitution des gisements miniers et pétroliers#"\
+ -e "s#account 1:4:2:4\$#account 1:4:2:4:Provisions pour investissement (participation des salariés)#"\
+ -e "s#account 1:4:3\$#account 1:4:3:Provisions réglementées relatives aux stocks#"\
+ -e "s#account 1:4:3:1\$#account 1:4:3:1:Hausse des prix#"\
+ -e "s#account 1:4:3:2\$#account 1:4:3:2:Fluctuation des cours#"\
+ -e "s#account 1:4:4\$#account 1:4:4:Provisions réglementées relatives aux autres éléments de l'actif#"\
+ -e "s#account 1:4:5\$#account 1:4:5:Amortissements dérogatoires#"\
+ -e "s#account 1:4:6\$#account 1:4:6:Provision spéciale de réévaluation#"\
+ -e "s#account 1:4:7\$#account 1:4:7:Plus-values réinvesties#"\
+ -e "s#account 1:4:8\$#account 1:4:8:Autres provisions réglementées#"\
+ -e "s#account 1:5\$#account 1:5:Provisions#"\
+ -e "s#account 1:5:1\$#account 1:5:1:Provisions pour risques#"\
+ -e "s#account 1:5:1:1\$#account 1:5:1:1:Provisions pour litiges#"\
+ -e "s#account 1:5:1:2\$#account 1:5:1:2:Provisions pour garanties données aux clients#"\
+ -e "s#account 1:5:1:3\$#account 1:5:1:3:Provisions pour pertes sur marchés à terme#"\
+ -e "s#account 1:5:1:4\$#account 1:5:1:4:Provisions pour amendes et pénalités#"\
+ -e "s#account 1:5:1:5\$#account 1:5:1:5:Provisions pour pertes de change#"\
+ -e "s#account 1:5:1:6\$#account 1:5:1:6:Provisions pour pertes sur contrats#"\
+ -e "s#account 1:5:1:8\$#account 1:5:1:8:Autres provisions pour risques#"\
+ -e "s#account 1:5:3\$#account 1:5:3:Provisions pour pensions et obligations similaires#"\
+ -e "s#account 1:5:4\$#account 1:5:4:Provisions pour restructurations#"\
+ -e "s#account 1:5:5\$#account 1:5:5:Provisions pour impôts#"\
+ -e "s#account 1:5:6\$#account 1:5:6:Provisions pour renouvellement des immobilisations (entreprises concessionnaires)#"\
+ -e "s#account 1:5:7\$#account 1:5:7:Provisions pour charges à répartir sur plusieurs exercices#"\
+ -e "s#account 1:5:7:2\$#account 1:5:7:2:Provisions pour gros entretien ou grandes révisions#"\
+ -e "s#account 1:5:8\$#account 1:5:8:Autres provisions pour charges#"\
+ -e "s#account 1:5:8:1\$#account 1:5:8:1:Provisions pour remises en état#"\
+ -e "s#account 1:6\$#account 1:6:Emprunts et dettes assimilées#"\
+ -e "s#account 1:6:1\$#account 1:6:1:Emprunts obligataires convertibles#"\
+ -e "s#account 1:6:2\$#account 1:6:2:Obligations représentatives de passifs nets remis en fiducie#"\
+ -e "s#account 1:6:3\$#account 1:6:3:Autres emprunts obligataires#"\
+ -e "s#account 1:6:4\$#account 1:6:4:Emprunts auprès des établissements de crédit#"\
+ -e "s#account 1:6:5\$#account 1:6:5:Dépôts et cautionnements reçus#"\
+ -e "s#account 1:6:5:1\$#account 1:6:5:1:Dépôts#"\
+ -e "s#account 1:6:5:5\$#account 1:6:5:5:Cautionnements#"\
+ -e "s#account 1:6:6\$#account 1:6:6:Participation des salariés aux résultats#"\
+ -e "s#account 1:6:6:1\$#account 1:6:6:1:Comptes bloqués#"\
+ -e "s#account 1:6:6:2\$#account 1:6:6:2:Fonds de participation#"\
+ -e "s#account 1:6:7\$#account 1:6:7:Emprunts et dettes assortis de conditions particulières#"\
+ -e "s#account 1:6:7:1\$#account 1:6:7:1:Emissions de titres participatifs#"\
+ -e "s#account 1:6:7:4\$#account 1:6:7:4:Avances conditionnées de l'Etat#"\
+ -e "s#account 1:6:7:5\$#account 1:6:7:5:Emprunts participatifs#"\
+ -e "s#account 1:6:8\$#account 1:6:8:Autres emprunts et dettes assimilées#"\
+ -e "s#account 1:6:8:1\$#account 1:6:8:1:Autres emprunts#"\
+ -e "s#account 1:6:8:5\$#account 1:6:8:5:Rentes viagères capitalisées#"\
+ -e "s#account 1:6:8:7\$#account 1:6:8:7:Autres dettes#"\
+ -e "s#account 1:6:8:8\$#account 1:6:8:8:Intérêts courus#"\
+ -e "s#account 1:6:8:8:1\$#account 1:6:8:8:1:sur emprunts obligataires convertibles#"\
+ -e "s#account 1:6:8:8:3\$#account 1:6:8:8:3:sur autres emprunts obligataires#"\
+ -e "s#account 1:6:8:8:4\$#account 1:6:8:8:4:sur emprunts auprès des établissements de crédit#"\
+ -e "s#account 1:6:8:8:5\$#account 1:6:8:8:5:sur dépôts et cautionnements reçus#"\
+ -e "s#account 1:6:8:8:6\$#account 1:6:8:8:6:sur participation des salariés aux résultats#"\
+ -e "s#account 1:6:8:8:7\$#account 1:6:8:8:7:sur emprunts et dettes assortis de conditions particulières#"\
+ -e "s#account 1:6:8:8:8\$#account 1:6:8:8:8:sur autres emprunts et dettes assimilées#"\
+ -e "s#account 1:6:9\$#account 1:6:9:Primes de remboursement des obligations#"\
+ -e "s#account 1:7\$#account 1:7:Dettes rattachées à des participations#"\
+ -e "s#account 1:7:1\$#account 1:7:1:Dettes rattachées à des participations (groupe)#"\
+ -e "s#account 1:7:4\$#account 1:7:4:Dettes rattachées à des participations (hors groupe)#"\
+ -e "s#account 1:7:8\$#account 1:7:8:Dettes rattachées à des sociétés en participation#"\
+ -e "s#account 1:7:8:1\$#account 1:7:8:1:Principal#"\
+ -e "s#account 1:7:8:8\$#account 1:7:8:8:Intérêts courus#"\
+ -e "s#account 1:8\$#account 1:8:Comptes de liaison des établissements et sociétés en participation#"\
+ -e "s#account 1:8:1\$#account 1:8:1:Comptes de liaison des établissements#"\
+ -e "s#account 1:8:6\$#account 1:8:6:Biens et prestations de services échangés entre établissements (charges)#"\
+ -e "s#account 1:8:7\$#account 1:8:7:Biens et prestations de services échangés entre établissements (produits)#"\
+ -e "s#account 1:8:8\$#account 1:8:8:Comptes de liaison des sociétés en participation#"\
+ -e "s#account 2\$#account 2:Immobilisation#"\
+ -e "s#account 2:0\$#account 2:0:Immobilisations incorporelles#"\
+ -e "s#account 2:0:1\$#account 2:0:1:Frais d'établissement#"\
+ -e "s#account 2:0:1:1\$#account 2:0:1:1:Frais de constitution#"\
+ -e "s#account 2:0:1:2\$#account 2:0:1:2:Frais de premier établissement#"\
+ -e "s#account 2:0:1:2:1\$#account 2:0:1:2:1:Frais de prospection#"\
+ -e "s#account 2:0:1:2:2\$#account 2:0:1:2:2:Frais de publicité#"\
+ -e "s#account 2:0:1:3\$#account 2:0:1:3:Frais d'augmentation de capital et d'opérations diverses (fusions, scissions, transformations)#"\
+ -e "s#account 2:0:3\$#account 2:0:3:Frais de recherche et de développement#"\
+ -e "s#account 2:0:5\$#account 2:0:5:Concessions et droits similaires, brevets, licences, marques, procédés, logiciels, droits et valeurs similaires#"\
+ -e "s#account 2:0:6\$#account 2:0:6:Droit au bail#"\
+ -e "s#account 2:0:7\$#account 2:0:7:Fonds commercial#"\
+ -e "s#account 2:0:8\$#account 2:0:8:Autres immobilisations incorporelles#"\
+ -e "s#account 2:0:8:1\$#account 2:0:8:1:Mali de fusion sur actifs incorporels#"\
+ -e "s#account 2:1\$#account 2:1:Immobilisations corporelles#"\
+ -e "s#account 2:1:1\$#account 2:1:1:Terrains#"\
+ -e "s#account 2:1:1:1\$#account 2:1:1:1:Terrains nus#"\
+ -e "s#account 2:1:1:2\$#account 2:1:1:2:Terrains aménagés#"\
+ -e "s#account 2:1:1:3\$#account 2:1:1:3:Sous - sols et sursols#"\
+ -e "s#account 2:1:1:4\$#account 2:1:1:4:Terrains de carrières (Tréfonds)#"\
+ -e "s#account 2:1:1:5\$#account 2:1:1:5:Terrains bâtis#"\
+ -e "s#account 2:1:1:5:1\$#account 2:1:1:5:1:Ensembles immobiliers industriels (A, B)#"\
+ -e "s#account 2:1:1:5:5\$#account 2:1:1:5:5:Ensembles immobiliers administratifs et commerciaux (A, B)#"\
+ -e "s#account 2:1:1:5:8\$#account 2:1:1:5:8:Autres ensembles immobiliers#"\
+ -e "s#account 2:1:1:5:8:1\$#account 2:1:1:5:8:1:affectés aux opérations professionnelles (A, B)#"\
+ -e "s#account 2:1:1:5:8:8\$#account 2:1:1:5:8:8:affectés aux opérations non professionnelles (A, B)#"\
+ -e "s#account 2:1:1:6\$#account 2:1:1:6:Compte d'ordre sur immobilisations#"\
+ -e "s#account 2:1:2\$#account 2:1:2:Agencements et aménagements de terrains (même ventilation que celle du compte 211)#"\
+ -e "s#account 2:1:3\$#account 2:1:3:Constructions#"\
+ -e "s#account 2:1:3:1\$#account 2:1:3:1:Bâtiments#"\
+ -e "s#account 2:1:3:1:1\$#account 2:1:3:1:1:Ensembles immobiliers industriels (A, B)#"\
+ -e "s#account 2:1:3:1:5\$#account 2:1:3:1:5:Ensembles immobiliers administratifs et commerciaux (A, B)#"\
+ -e "s#account 2:1:3:1:8\$#account 2:1:3:1:8:Autres ensembles immobiliers#"\
+ -e "s#account 2:1:3:1:8:1\$#account 2:1:3:1:8:1:affectés aux opérations professionnelles (A, B)#"\
+ -e "s#account 2:1:3:1:8:8\$#account 2:1:3:1:8:8:affectés aux opérations non professionnelles (A, B)#"\
+ -e "s#account 2:1:3:5\$#account 2:1:3:5:Installations générales - agencements – aménagements des constructions#"\
+ -e "s#account 2:1:3:5:1\$#account 2:1:3:5:1:Ensembles immobiliers industriels (A, B)#"\
+ -e "s#account 2:1:3:5:5\$#account 2:1:3:5:5:Ensembles immobiliers administratifs et commerciaux (A, B)#"\
+ -e "s#account 2:1:3:5:8\$#account 2:1:3:5:8:Autres ensembles immobiliers#"\
+ -e "s#account 2:1:3:5:8:1\$#account 2:1:3:5:8:1:affectés aux opérations professionnelles (A, B)#"\
+ -e "s#account 2:1:3:5:8:8\$#account 2:1:3:5:8:8:affectés aux opérations non professionnelles (A, B)#"\
+ -e "s#account 2:1:3:8\$#account 2:1:3:8:Ouvrages d'infrastructure#"\
+ -e "s#account 2:1:3:8:1\$#account 2:1:3:8:1:Voies de terre#"\
+ -e "s#account 2:1:3:8:2\$#account 2:1:3:8:2:Voies de fer#"\
+ -e "s#account 2:1:3:8:3\$#account 2:1:3:8:3:Voies d'eau#"\
+ -e "s#account 2:1:3:8:4\$#account 2:1:3:8:4:Barrages#"\
+ -e "s#account 2:1:3:8:5\$#account 2:1:3:8:5:Pistes d'aérodromes#"\
+ -e "s#account 2:1:4\$#account 2:1:4:Constructions sur sol d'autrui (même ventilation que celle du compte 213)#"\
+ -e "s#account 2:1:5\$#account 2:1:5:Installations techniques, matériels et outillage industriels#"\
+ -e "s#account 2:1:5:1\$#account 2:1:5:1:Installations complexes spécialisées#"\
+ -e "s#account 2:1:5:1:1\$#account 2:1:5:1:1:sur sol propre#"\
+ -e "s#account 2:1:5:1:4\$#account 2:1:5:1:4:sur sol d'autrui#"\
+ -e "s#account 2:1:5:3\$#account 2:1:5:3:Installations à caractère spécifique#"\
+ -e "s#account 2:1:5:3:1\$#account 2:1:5:3:1:sur sol propre#"\
+ -e "s#account 2:1:5:3:4\$#account 2:1:5:3:4:sur sol d'autrui#"\
+ -e "s#account 2:1:5:4\$#account 2:1:5:4:Matériel industriel#"\
+ -e "s#account 2:1:5:5\$#account 2:1:5:5:Outillage industrie#"\
+ -e "s#account 2:1:5:7\$#account 2:1:5:7:Agencements et aménagements du matériel et outillage industriels#"\
+ -e "s#account 2:1:8\$#account 2:1:8:Autres immobilisations corporelles#"\
+ -e "s#account 2:1:8:1\$#account 2:1:8:1:Installations générales, agencements, aménagements divers#"\
+ -e "s#account 2:1:8:2\$#account 2:1:8:2:Matériel de transport#"\
+ -e "s#account 2:1:8:3\$#account 2:1:8:3:Matériel de bureau et matériel informatique#"\
+ -e "s#account 2:1:8:4\$#account 2:1:8:4:Mobilier#"\
+ -e "s#account 2:1:8:5\$#account 2:1:8:5:Cheptel#"\
+ -e "s#account 2:1:8:6\$#account 2:1:8:6:Emballages récupérables#"\
+ -e "s#account 2:1:8:7\$#account 2:1:8:7:Mali de fusions sur actifs corporels#"\
+ -e "s#account 2:2\$#account 2:2:Immobilisations mises en concession#"\
+ -e "s#account 2:3\$#account 2:3:Immobilisations en cours#"\
+ -e "s#account 2:3:1\$#account 2:3:1:Immobilisations corporelles en cours#"\
+ -e "s#account 2:3:1:2\$#account 2:3:1:2:Terrains#"\
+ -e "s#account 2:3:1:3\$#account 2:3:1:3:Constructions#"\
+ -e "s#account 2:3:1:5\$#account 2:3:1:5:Installations techniques, matériel et outillage industriels#"\
+ -e "s#account 2:3:1:8\$#account 2:3:1:8:Autres immobilisations corporelles#"\
+ -e "s#account 2:3:2\$#account 2:3:2:Immobilisations incorporelles en cours#"\
+ -e "s#account 2:3:7\$#account 2:3:7:Avances et acomptes versés sur immobilisations incorporelles#"\
+ -e "s#account 2:3:8\$#account 2:3:8:Avances et acomptes versés sur commandes d'immobilisations corporelles#"\
+ -e "s#account 2:3:8:2\$#account 2:3:8:2:Terrains#"\
+ -e "s#account 2:3:8:3\$#account 2:3:8:3:Constructions#"\
+ -e "s#account 2:3:8:5\$#account 2:3:8:5:Installations techniques, matériel et outillage industriels#"\
+ -e "s#account 2:3:8:8\$#account 2:3:8:8:Autres immobilisations corporelles#"\
+ -e "s#account 2:5\$#account 2:5:Parts dans des entreprises liées et créances sur des entreprises liées#"\
+ -e "s#account 2:6\$#account 2:6:Participations et créances rattachées à des participations#"\
+ -e "s#account 2:6:1\$#account 2:6:1:Titres de participation#"\
+ -e "s#account 2:6:1:1\$#account 2:6:1:1:Actions#"\
+ -e "s#account 2:6:1:8\$#account 2:6:1:8:Autres titres#"\
+ -e "s#account 2:6:6\$#account 2:6:6:Autres formes de participation#"\
+ -e "s#account 2:6:6:1\$#account 2:6:6:1:Droits représentatifs d’actifs nets remis en fiducie#"\
+ -e "s#account 2:6:7\$#account 2:6:7:Créances rattachées à des participations#"\
+ -e "s#account 2:6:7:1\$#account 2:6:7:1:Créances rattachées à des participations (groupe)#"\
+ -e "s#account 2:6:7:4\$#account 2:6:7:4:Créances rattachées à des participations (hors groupe)#"\
+ -e "s#account 2:6:7:5\$#account 2:6:7:5:Versements représentatifs d'apports non capitalisés (appel de fonds)#"\
+ -e "s#account 2:6:7:6\$#account 2:6:7:6:Avances consolidables#"\
+ -e "s#account 2:6:7:7\$#account 2:6:7:7:Autres créances rattachées à des participations#"\
+ -e "s#account 2:6:7:8\$#account 2:6:7:8:Intérêts courus#"\
+ -e "s#account 2:6:8\$#account 2:6:8:Créances rattachées à des sociétés en participation#"\
+ -e "s#account 2:6:8:1\$#account 2:6:8:1:Principal#"\
+ -e "s#account 2:6:8:8\$#account 2:6:8:8:Intérêts courus#"\
+ -e "s#account 2:6:9\$#account 2:6:9:Versements restant à effectuer sur titres de participation non libérés#"\
+ -e "s#account 2:7\$#account 2:7:Autres immobilisations financières#"\
+ -e "s#account 2:7:1\$#account 2:7:1:Titres immobilisés autres que les titres immobilisés de l'activité de portefeuille (droit de propriété)#"\
+ -e "s#account 2:7:1:1\$#account 2:7:1:1:Actions#"\
+ -e "s#account 2:7:1:8\$#account 2:7:1:8:Autres titres#"\
+ -e "s#account 2:7:2\$#account 2:7:2:Titres immobilisés (droit de créance)#"\
+ -e "s#account 2:7:2:1\$#account 2:7:2:1:Obligations#"\
+ -e "s#account 2:7:2:2\$#account 2:7:2:2:Bons#"\
+ -e "s#account 2:7:3\$#account 2:7:3:Titres immobilisés de l'activité de portefeuille#"\
+ -e "s#account 2:7:4\$#account 2:7:4:Prêts#"\
+ -e "s#account 2:7:4:1\$#account 2:7:4:1:Prêts participatifs#"\
+ -e "s#account 2:7:4:2\$#account 2:7:4:2:Prêts aux associés#"\
+ -e "s#account 2:7:4:3\$#account 2:7:4:3:Prêts au personnel#"\
+ -e "s#account 2:7:4:8\$#account 2:7:4:8:Autres prêts#"\
+ -e "s#account 2:7:5\$#account 2:7:5:Dépôts et cautionnements versés#"\
+ -e "s#account 2:7:5:1\$#account 2:7:5:1:Dépôts#"\
+ -e "s#account 2:7:5:5\$#account 2:7:5:5:Cautionnements#"\
+ -e "s#account 2:7:6\$#account 2:7:6:Autres créances immobilisées#"\
+ -e "s#account 2:7:6:1\$#account 2:7:6:1:Créances diverses#"\
+ -e "s#account 2:7:6:8\$#account 2:7:6:8:Intérêts courus#"\
+ -e "s#account 2:7:6:8:2\$#account 2:7:6:8:2:sur titres immobilisés (droit de créance)#"\
+ -e "s#account 2:7:6:8:4\$#account 2:7:6:8:4:sur prêts#"\
+ -e "s#account 2:7:6:8:5\$#account 2:7:6:8:5:sur dépôts et cautionnements#"\
+ -e "s#account 2:7:6:8:8\$#account 2:7:6:8:8:sur créances diverses#"\
+ -e "s#account 2:7:7\$#account 2:7:7:(Actions propres ou parts propres)#"\
+ -e "s#account 2:7:7:1\$#account 2:7:7:1:Actions propres ou parts propres#"\
+ -e "s#account 2:7:7:2\$#account 2:7:7:2:Actions propres ou parts propres en voie d’annulation#"\
+ -e "s#account 2:7:8\$#account 2:7:8:Mali de fusion sur actifs financiers#"\
+ -e "s#account 2:7:9\$#account 2:7:9:Versements restant à effectuer sur titres immobilisés non libérés#"\
+ -e "s#account 2:8\$#account 2:8:Amortissements des immobilisations#"\
+ -e "s#account 2:8:0\$#account 2:8:0:Amortissements des immobilisations incorporelles#"\
+ -e "s#account 2:8:0:1\$#account 2:8:0:1:Frais d'établissement (même ventilation que celle du compte 201)#"\
+ -e "s#account 2:8:0:3\$#account 2:8:0:3:Frais de recherche et de développement#"\
+ -e "s#account 2:8:0:5\$#account 2:8:0:5:Concessions et droits similaires, brevets, licences, logiciels, droits et valeurs similaires#"\
+ -e "s#account 2:8:0:7\$#account 2:8:0:7:Fonds commercial#"\
+ -e "s#account 2:8:0:8\$#account 2:8:0:8:Autres immobilisations incorporelles#"\
+ -e "s#account 2:8:0:8:1\$#account 2:8:0:8:1:Amortissements du mali de fusion sur actifs incorporels#"\
+ -e "s#account 2:8:1\$#account 2:8:1:Amortissements des immobilisations corporelles#"\
+ -e "s#account 2:8:1:2\$#account 2:8:1:2:Agencements, aménagements de terrains (même ventilation que celle du compte 212)#"\
+ -e "s#account 2:8:1:3\$#account 2:8:1:3:Constructions (même ventilation que celle du compte 213)#"\
+ -e "s#account 2:8:1:4\$#account 2:8:1:4:Constructions sur sol d'autrui (même ventilation que celle du compte 214)#"\
+ -e "s#account 2:8:1:5\$#account 2:8:1:5:Installations, matériel et outillage industriels (même ventilation que celle du compte 215)#"\
+ -e "s#account 2:8:1:8\$#account 2:8:1:8:Autres immobilisations corporelles (même ventilation que celle du compte 218)#"\
+ -e "s#account 2:8:1:8:7\$#account 2:8:1:8:7:Amortissement du mali de fusion sur actifs corporels#"\
+ -e "s#account 2:8:2\$#account 2:8:2:Amortissements des immobilisations mises en concession#"\
+ -e "s#account 2:9\$#account 2:9:Dépréciations des immobilisations#"\
+ -e "s#account 2:9:0\$#account 2:9:0:Dépréciations des immobilisations incorporelles#"\
+ -e "s#account 2:9:0:5\$#account 2:9:0:5:Marques, procédés, droits et valeurs similaires#"\
+ -e "s#account 2:9:0:6\$#account 2:9:0:6:Droit au bail#"\
+ -e "s#account 2:9:0:7\$#account 2:9:0:7:Fonds commercial#"\
+ -e "s#account 2:9:0:8\$#account 2:9:0:8:Autres immobilisations incorporelles#"\
+ -e "s#account 2:9:0:8:1\$#account 2:9:0:8:1:Dépréciation du mali de fusion sur actifs incorporels#"\
+ -e "s#account 2:9:1\$#account 2:9:1:Dépréciations des immobilisations corporelles (même ventilation que celle du compte 21)#"\
+ -e "s#account 2:9:1:8:7\$#account 2:9:1:8:7:Dépréciation du mali de fusion sur actifs corporels#"\
+ -e "s#account 2:9:2\$#account 2:9:2:Dépréciations des immobilisations mises en concession#"\
+ -e "s#account 2:9:3\$#account 2:9:3:Dépréciations des immobilisations en cours#"\
+ -e "s#account 2:9:3:1\$#account 2:9:3:1:Immobilisations corporelles en cours#"\
+ -e "s#account 2:9:3:2\$#account 2:9:3:2:Immobilisations incorporelles en cours#"\
+ -e "s#account 2:9:6\$#account 2:9:6:Dépréciations des participations et créances rattachées à des participations#"\
+ -e "s#account 2:9:6:1\$#account 2:9:6:1:Titres de participation#"\
+ -e "s#account 2:9:6:6\$#account 2:9:6:6:Autres formes de participation#"\
+ -e "s#account 2:9:6:7\$#account 2:9:6:7:Créances rattachées à des participations (même ventilation que celle du compte 267)#"\
+ -e "s#account 2:9:6:8\$#account 2:9:6:8:Créances rattachées à des sociétés en participation (même ventilation que celle du compte 268)#"\
+ -e "s#account 2:9:7\$#account 2:9:7:Dépréciations des autres immobilisations financières#"\
+ -e "s#account 2:9:7:1\$#account 2:9:7:1:Titres immobilisés autres que les titres immobilisés de l'activité de portefeuille – droit de propriété (même ventilation que celle du compte 271)#"\
+ -e "s#account 2:9:7:2\$#account 2:9:7:2:Droit de créance (même ventilation que celle du compte 272)#"\
+ -e "s#account 2:9:7:3\$#account 2:9:7:3:Titres immobilisés de l'activité de portefeuille#"\
+ -e "s#account 2:9:7:4\$#account 2:9:7:4:Prêts (même ventilation que celle du compte 274)#"\
+ -e "s#account 2:9:7:5\$#account 2:9:7:5:Dépôts et cautionnements versés (même ventilation que celle du compte 275)#"\
+ -e "s#account 2:9:7:6\$#account 2:9:7:6:Autres créances immobilisées (même ventilation que celle du compte 276)#"\
+ -e "s#account 2:9:7:8:7\$#account 2:9:7:8:7:Dépréciation du mali de fusion sur actifs financiers#"\
+ -e "s#account 3\$#account 3:Stock et en-cours#"\
+ -e "s#account 3:1\$#account 3:1:Matières premières (et fournitures)#"\
+ -e "s#account 3:1:1\$#account 3:1:1:Matières (ou groupe) A#"\
+ -e "s#account 3:1:2\$#account 3:1:2:Matières (ou groupe) B#"\
+ -e "s#account 3:1:7\$#account 3:1:7:Fournitures A, B, C,#"\
+ -e "s#account 3:2\$#account 3:2:Autres approvisionnements#"\
+ -e "s#account 3:2:1\$#account 3:2:1:Matières consommables#"\
+ -e "s#account 3:2:1:1\$#account 3:2:1:1:Matières (ou groupe) C#"\
+ -e "s#account 3:2:1:2\$#account 3:2:1:2:Matières (ou groupe) D#"\
+ -e "s#account 3:2:2\$#account 3:2:2:Fournitures consommables#"\
+ -e "s#account 3:2:2:1\$#account 3:2:2:1:Combustibles#"\
+ -e "s#account 3:2:2:2\$#account 3:2:2:2:Produits d'entretien#"\
+ -e "s#account 3:2:2:3\$#account 3:2:2:3:Fournitures d'atelier et d'usine#"\
+ -e "s#account 3:2:2:4\$#account 3:2:2:4:Fournitures de magasin#"\
+ -e "s#account 3:2:2:5\$#account 3:2:2:5:Fournitures de bureau#"\
+ -e "s#account 3:2:6\$#account 3:2:6:Emballages#"\
+ -e "s#account 3:2:6:1\$#account 3:2:6:1:Emballages perdus#"\
+ -e "s#account 3:2:6:5\$#account 3:2:6:5:Emballages récupérables non identifiables#"\
+ -e "s#account 3:2:6:7\$#account 3:2:6:7:Emballages à usage mixte#"\
+ -e "s#account 3:3\$#account 3:3:En-cours de production de biens#"\
+ -e "s#account 3:3:1\$#account 3:3:1:Produits en cours#"\
+ -e "s#account 3:3:1:1\$#account 3:3:1:1:Produits en cours P 1#"\
+ -e "s#account 3:3:1:2\$#account 3:3:1:2:Produits en cours P 2#"\
+ -e "s#account 3:3:5\$#account 3:3:5:Travaux en cours#"\
+ -e "s#account 3:3:5:1\$#account 3:3:5:1:Travaux en cours T 1#"\
+ -e "s#account 3:3:5:2\$#account 3:3:5:2:Travaux en cours T 2#"\
+ -e "s#account 3:4\$#account 3:4:En-cours de production de services#"\
+ -e "s#account 3:4:1\$#account 3:4:1:Etudes en cours#"\
+ -e "s#account 3:4:1:1\$#account 3:4:1:1:Etudes en cours E 1#"\
+ -e "s#account 3:4:1:2\$#account 3:4:1:2:Etudes en cours E 2#"\
+ -e "s#account 3:4:5\$#account 3:4:5:Prestations de services en cours#"\
+ -e "s#account 3:4:5:1\$#account 3:4:5:1:Prestations de services S 1#"\
+ -e "s#account 3:4:5:2\$#account 3:4:5:2:Prestations de services S 2#"\
+ -e "s#account 3:5\$#account 3:5:Stocks de produits#"\
+ -e "s#account 3:5:1\$#account 3:5:1:Produits intermédiaires#"\
+ -e "s#account 3:5:1:1\$#account 3:5:1:1:Produits intermédiaires (ou groupe) A#"\
+ -e "s#account 3:5:1:2\$#account 3:5:1:2:Produits intermédiaires (ou groupe) B#"\
+ -e "s#account 3:5:5\$#account 3:5:5:Produits finis#"\
+ -e "s#account 3:5:5:1\$#account 3:5:5:1:Produits finis (ou groupe) A#"\
+ -e "s#account 3:5:5:2\$#account 3:5:5:2:Produits finis (ou groupe) B#"\
+ -e "s#account 3:5:8\$#account 3:5:8:Produits résiduels (ou matières de récupération)#"\
+ -e "s#account 3:5:8:1\$#account 3:5:8:1:Déchets#"\
+ -e "s#account 3:5:8:5\$#account 3:5:8:5:Rebuts#"\
+ -e "s#account 3:5:8:6\$#account 3:5:8:6:Matières de récupération#"\
+ -e "s#account 3:6\$#account 3:6:(compte à ouvrir, le cas échéant, sous l'intitulé \"Stocks provenant d'immobilisations\")#"\
+ -e "s#account 3:7\$#account 3:7:Stocks de marchandises#"\
+ -e "s#account 3:7:1\$#account 3:7:1:Marchandises (ou groupe) A#"\
+ -e "s#account 3:7:2\$#account 3:7:2:Marchandises (ou groupe) B#"\
+ -e "s#account 3:8\$#account 3:8:(lorsque l'entité tient un inventaire permanent en comptabilité générale, le compte 38 peut être utilisé pour comptabiliser les stocks en voie d'acheminement, mis en dépôt ou donnés en consignation)#"\
+ -e "s#account 3:9\$#account 3:9:Dépréciations des stocks et en-cours#"\
+ -e "s#account 3:9:1\$#account 3:9:1:Dépréciations des matières premières (et fournitures)#"\
+ -e "s#account 3:9:1:1\$#account 3:9:1:1:Matières (ou groupe) A#"\
+ -e "s#account 3:9:1:2\$#account 3:9:1:2:Matières (ou groupe) B#"\
+ -e "s#account 3:9:1:7\$#account 3:9:1:7:Fournitures A, B, C,#"\
+ -e "s#account 3:9:2\$#account 3:9:2:Dépréciations des autres approvisionnements#"\
+ -e "s#account 3:9:2:1\$#account 3:9:2:1:Matières consommables (même ventilation que celle du compte 321)#"\
+ -e "s#account 3:9:2:2\$#account 3:9:2:2:Fournitures consommables (même ventilation que celle du compte 322)#"\
+ -e "s#account 3:9:2:6\$#account 3:9:2:6:Emballages (même ventilation que celle du compte 326)#"\
+ -e "s#account 3:9:3\$#account 3:9:3:Dépréciations des en-cours de production de biens#"\
+ -e "s#account 3:9:3:1\$#account 3:9:3:1:Produits en cours (même ventilation que celle du compte 331)#"\
+ -e "s#account 3:9:3:5\$#account 3:9:3:5:Travaux en cours (même ventilation que celle du compte 335)#"\
+ -e "s#account 3:9:4\$#account 3:9:4:Dépréciations des en-cours de production de services#"\
+ -e "s#account 3:9:4:1\$#account 3:9:4:1:Etudes en cours (même ventilation que celle du compte 341)#"\
+ -e "s#account 3:9:4:5\$#account 3:9:4:5:Prestations de services en cours (même ventilation que celle du compte 345)#"\
+ -e "s#account 3:9:5\$#account 3:9:5:Dépréciations des stocks de produits#"\
+ -e "s#account 3:9:5:1\$#account 3:9:5:1:Produits intermédiaires (même ventilation que celle du compte 351)#"\
+ -e "s#account 3:9:5:5\$#account 3:9:5:5:Produits finis (même ventilation que celle du compte 355)#"\
+ -e "s#account 3:9:7\$#account 3:9:7:Dépréciations des stocks de marchandises#"\
+ -e "s#account 3:9:7:1\$#account 3:9:7:1:Marchandise (ou groupe) A#"\
+ -e "s#account 3:9:7:2\$#account 3:9:7:2:Marchandise (ou groupe) B#"\
+ -e "s#account 4\$#account 4:Divers – charges à payer et produits à recevoir#"\
+ -e "s#account 4:0\$#account 4:0:Fournisseurs et comptes rattachés#"\
+ -e "s#account 4:0:0\$#account 4:0:0:Fournisseurs et comptes rattachés#"\
+ -e "s#account 4:0:1\$#account 4:0:1:Fournisseurs#"\
+ -e "s#account 4:0:1:1\$#account 4:0:1:1:Fournisseurs - Achats de biens et prestations de services#"\
+ -e "s#account 4:0:1:7\$#account 4:0:1:7:Fournisseurs - Retenues de garantie#"\
+ -e "s#account 4:0:3\$#account 4:0:3:Fournisseurs - Effets à payer#"\
+ -e "s#account 4:0:4\$#account 4:0:4:Fournisseurs d'immobilisations#"\
+ -e "s#account 4:0:4:1\$#account 4:0:4:1:Fournisseurs - Achats d'immobilisations#"\
+ -e "s#account 4:0:4:7\$#account 4:0:4:7:Fournisseurs d'immobilisations – Retenues de garantie#"\
+ -e "s#account 4:0:5\$#account 4:0:5:Fournisseurs d'immobilisations - Effets à payer#"\
+ -e "s#account 4:0:8\$#account 4:0:8:Fournisseurs - Factures non parvenues#"\
+ -e "s#account 4:0:8:1\$#account 4:0:8:1:Fournisseurs#"\
+ -e "s#account 4:0:8:4\$#account 4:0:8:4:Fournisseurs d'immobilisations#"\
+ -e "s#account 4:0:8:8\$#account 4:0:8:8:Fournisseurs – Intérêts courus#"\
+ -e "s#account 4:0:9\$#account 4:0:9:Fournisseurs débiteurs#"\
+ -e "s#account 4:0:9:1\$#account 4:0:9:1:Fournisseurs - Avances et acomptes versés sur commandes#"\
+ -e "s#account 4:0:9:6\$#account 4:0:9:6:Fournisseurs - Créances pour emballages et matériel à rendre#"\
+ -e "s#account 4:0:9:7\$#account 4:0:9:7:Fournisseurs - Autres avoirs#"\
+ -e "s#account 4:0:9:7:1\$#account 4:0:9:7:1:Fournisseurs d'exploitation#"\
+ -e "s#account 4:0:9:7:4\$#account 4:0:9:7:4:Fournisseurs d'immobilisations#"\
+ -e "s#account 4:0:9:8\$#account 4:0:9:8:Rabais, remises, ristournes à obtenir et autres avoirs non encore reçus#"\
+ -e "s#account 4:1\$#account 4:1:Clients et comptes rattachés#"\
+ -e "s#account 4:1:0\$#account 4:1:0:Clients et comptes rattachés#"\
+ -e "s#account 4:1:1\$#account 4:1:1:Clients#"\
+ -e "s#account 4:1:1:1\$#account 4:1:1:1:Clients - Ventes de biens ou de prestations de services#"\
+ -e "s#account 4:1:1:7\$#account 4:1:1:7:Clients - Retenues de garantie#"\
+ -e "s#account 4:1:3\$#account 4:1:3:Clients - Effets à recevoir#"\
+ -e "s#account 4:1:6\$#account 4:1:6:Clients douteux ou litigieux#"\
+ -e "s#account 4:1:8\$#account 4:1:8:Clients - Produits non encore facturés#"\
+ -e "s#account 4:1:8:1\$#account 4:1:8:1:Clients - Factures à établir#"\
+ -e "s#account 4:1:8:8\$#account 4:1:8:8:Clients - Intérêts courus#"\
+ -e "s#account 4:1:9\$#account 4:1:9:Clients créditeurs#"\
+ -e "s#account 4:1:9:1\$#account 4:1:9:1:Clients - Avances et acomptes reçus sur commandes#"\
+ -e "s#account 4:1:9:6\$#account 4:1:9:6:Clients - Dettes sur emballages et matériels consignés#"\
+ -e "s#account 4:1:9:7\$#account 4:1:9:7:Clients - Autres avoirs#"\
+ -e "s#account 4:1:9:8\$#account 4:1:9:8:Rabais, remises, ristournes à accorder et autres avoirs à établir#"\
+ -e "s#account 4:2\$#account 4:2:Personnel et comptes rattachés#"\
+ -e "s#account 4:2:1\$#account 4:2:1:Personnel - Rémunérations dues#"\
+ -e "s#account 4:2:2\$#account 4:2:2:Comités d'entreprises, d'établissement, …#"\
+ -e "s#account 4:2:4\$#account 4:2:4:Participation des salariés aux résultats#"\
+ -e "s#account 4:2:4:6\$#account 4:2:4:6:Réserve spéciale#"\
+ -e "s#account 4:2:4:8\$#account 4:2:4:8:Comptes courants#"\
+ -e "s#account 4:2:5\$#account 4:2:5:Personnel - Avances et acomptes#"\
+ -e "s#account 4:2:6\$#account 4:2:6:Personnel - Dépôts#"\
+ -e "s#account 4:2:7\$#account 4:2:7:Personnel - Oppositions#"\
+ -e "s#account 4:2:8\$#account 4:2:8:Personnel - Charges à payer et produits à recevoir#"\
+ -e "s#account 4:2:8:2\$#account 4:2:8:2:Dettes provisionnées pour congés à payer#"\
+ -e "s#account 4:2:8:4\$#account 4:2:8:4:Dettes provisionnées pour participation des salariés aux résultats#"\
+ -e "s#account 4:2:8:6\$#account 4:2:8:6:Autres charges à payer#"\
+ -e "s#account 4:2:8:7\$#account 4:2:8:7:Produits à recevoir#"\
+ -e "s#account 4:3\$#account 4:3:Sécurité sociale et autres organismes sociaux#"\
+ -e "s#account 4:3:1\$#account 4:3:1:Sécurité sociale#"\
+ -e "s#account 4:3:7\$#account 4:3:7:Autres organismes sociaux#"\
+ -e "s#account 4:3:8\$#account 4:3:8:Organismes sociaux - Charges à payer et produits à recevoir#"\
+ -e "s#account 4:3:8:2\$#account 4:3:8:2:Charges sociales sur congés à payer#"\
+ -e "s#account 4:3:8:6\$#account 4:3:8:6:Autres charges à payer#"\
+ -e "s#account 4:3:8:7\$#account 4:3:8:7:Produits à recevoir#"\
+ -e "s#account 4:4\$#account 4:4:État et autres collectivités publiques#"\
+ -e "s#account 4:4:1\$#account 4:4:1:État - Subventions à recevoir#"\
+ -e "s#account 4:4:1:1\$#account 4:4:1:1:Subventions d'investissement#"\
+ -e "s#account 4:4:1:7\$#account 4:4:1:7:Subventions d'exploitation#"\
+ -e "s#account 4:4:1:8\$#account 4:4:1:8:Subventions d'équilibre#"\
+ -e "s#account 4:4:1:9\$#account 4:4:1:9:Avances sur subventions#"\
+ -e "s#account 4:4:2\$#account 4:4:2:Contributions, impôts et taxes recouvrés pour le compte de l’Etat#"\
+ -e "s#account 4:4:2:1\$#account 4:4:2:1:Prélèvements à la source (Impôt sur le revenu)#"\
+ -e "s#account 4:4:2:2\$#account 4:4:2:2:Prélèvements forfaitaires non libératoires#"\
+ -e "s#account 4:4:2:3\$#account 4:4:2:3:Retenues et prélèvements sur les distributions#"\
+ -e "s#account 4:4:2:4\$#account 4:4:2:4:Obligataires#"\
+ -e "s#account 4:4:2:5\$#account 4:4:2:5:Associés#"\
+ -e "s#account 4:4:3\$#account 4:4:3:Opérations particulières avec l'Etat les collectivités publiques, les organismes internationaux#"\
+ -e "s#account 4:4:3:1\$#account 4:4:3:1:Créances sur l'Etat résultant de la suppression de la règle du décalage d'un mois en matière de TVA#"\
+ -e "s#account 4:4:3:8\$#account 4:4:3:8:Intérêts courus sur créances figurant au 4431#"\
+ -e "s#account 4:4:4\$#account 4:4:4:Etat - Impôts sur les bénéfices#"\
+ -e "s#account 4:4:5\$#account 4:4:5:Etat - Taxes sur le chiffre d'affaires#"\
+ -e "s#account 4:4:5:2\$#account 4:4:5:2:TVA due intracommunautaire#"\
+ -e "s#account 4:4:5:5\$#account 4:4:5:5:Taxes sur le chiffre d'affaires à décaisser#"\
+ -e "s#account 4:4:5:5:1\$#account 4:4:5:5:1:TVA à décaisser#"\
+ -e "s#account 4:4:5:5:8\$#account 4:4:5:5:8:Taxes assimilées à la TVA#"\
+ -e "s#account 4:4:5:6\$#account 4:4:5:6:Taxes sur le chiffre d'affaires déductibles#"\
+ -e "s#account 4:4:5:6:2\$#account 4:4:5:6:2:TVA sur immobilisations#"\
+ -e "s#account 4:4:5:6:3\$#account 4:4:5:6:3:TVA transférée par d'autres entreprises#"\
+ -e "s#account 4:4:5:6:6\$#account 4:4:5:6:6:TVA sur autres biens et services#"\
+ -e "s#account 4:4:5:6:7\$#account 4:4:5:6:7:Crédit de TVA à reporter#"\
+ -e "s#account 4:4:5:6:8\$#account 4:4:5:6:8:Taxes assimilées à la TVA#"\
+ -e "s#account 4:4:5:7\$#account 4:4:5:7:Taxes sur le chiffre d'affaires collectées par l'entreprise#"\
+ -e "s#account 4:4:5:7:1\$#account 4:4:5:7:1:TVA collectée#"\
+ -e "s#account 4:4:5:7:8\$#account 4:4:5:7:8:Taxes assimilées à la TVA#"\
+ -e "s#account 4:4:5:8\$#account 4:4:5:8:Taxes sur le chiffre d'affaires à régulariser ou en attente#"\
+ -e "s#account 4:4:5:8:1\$#account 4:4:5:8:1:Acomptes - Régime simplifié d'imposition#"\
+ -e "s#account 4:4:5:8:2\$#account 4:4:5:8:2:Acomptes - Régime de forfait#"\
+ -e "s#account 4:4:5:8:3\$#account 4:4:5:8:3:Remboursement de taxes sur le chiffre d'affaires demandé#"\
+ -e "s#account 4:4:5:8:4\$#account 4:4:5:8:4:TVA récupérée d'avance#"\
+ -e "s#account 4:4:5:8:6\$#account 4:4:5:8:6:Taxes sur le chiffre d'affaires sur factures non parvenues#"\
+ -e "s#account 4:4:5:8:7\$#account 4:4:5:8:7:Taxes sur le chiffre d'affaires sur factures à établir#"\
+ -e "s#account 4:4:6\$#account 4:4:6:Obligations cautionnées#"\
+ -e "s#account 4:4:7\$#account 4:4:7:Autres impôts, taxes et versements assimilés#"\
+ -e "s#account 4:4:8\$#account 4:4:8:Etat - Charges à payer et produits à recevoir#"\
+ -e "s#account 4:4:8:2\$#account 4:4:8:2:Charges fiscales sur congés à payer#"\
+ -e "s#account 4:4:8:6\$#account 4:4:8:6:Charges à payer#"\
+ -e "s#account 4:4:8:7\$#account 4:4:8:7:Produits à recevoir#"\
+ -e "s#account 4:4:9\$#account 4:4:9:Quotas d’émission à acquérir#"\
+ -e "s#account 4:5\$#account 4:5:Groupe et associés#"\
+ -e "s#account 4:5:1\$#account 4:5:1:Groupe#"\
+ -e "s#account 4:5:5\$#account 4:5:5:Associés - Comptes courants#"\
+ -e "s#account 4:5:5:1\$#account 4:5:5:1:Principal#"\
+ -e "s#account 4:5:5:8\$#account 4:5:5:8:Intérêts courus#"\
+ -e "s#account 4:5:6\$#account 4:5:6:Associés - Opérations sur le capital#"\
+ -e "s#account 4:5:6:1\$#account 4:5:6:1:Associés - Comptes d'apport en société#"\
+ -e "s#account 4:5:6:1:1\$#account 4:5:6:1:1:Apports en nature#"\
+ -e "s#account 4:5:6:1:5\$#account 4:5:6:1:5:Apports en numéraire#"\
+ -e "s#account 4:5:6:2\$#account 4:5:6:2:Apporteurs - Capital appelé, non versé#"\
+ -e "s#account 4:5:6:2:1\$#account 4:5:6:2:1:Actionnaires - Capital souscrit et appelé, non versé#"\
+ -e "s#account 4:5:6:2:5\$#account 4:5:6:2:5:Associés - Capital appelé, non versé#"\
+ -e "s#account 4:5:6:3\$#account 4:5:6:3:Associés - Versements reçus sur augmentation de capital#"\
+ -e "s#account 4:5:6:4\$#account 4:5:6:4:Associés - Versements anticipés#"\
+ -e "s#account 4:5:6:6\$#account 4:5:6:6:Actionnaires défaillants#"\
+ -e "s#account 4:5:6:7\$#account 4:5:6:7:Associés - Capital à rembourser#"\
+ -e "s#account 4:5:7\$#account 4:5:7:Associés - Dividendes à payer#"\
+ -e "s#account 4:5:8\$#account 4:5:8:Associés - Opérations faites en commun et en GIE#"\
+ -e "s#account 4:5:8:1\$#account 4:5:8:1:Opérations courantes#"\
+ -e "s#account 4:5:8:8\$#account 4:5:8:8:Intérêts courus#"\
+ -e "s#account 4:6\$#account 4:6:Débiteurs divers et créditeurs divers#"\
+ -e "s#account 4:6:2\$#account 4:6:2:Créances sur cessions d'immobilisations#"\
+ -e "s#account 4:6:4\$#account 4:6:4:Dettes sur acquisitions de valeurs mobilières de placement#"\
+ -e "s#account 4:6:5\$#account 4:6:5:Créances sur cessions de valeurs mobilières de placement#"\
+ -e "s#account 4:6:7\$#account 4:6:7:Autres comptes débiteurs ou créditeurs#"\
+ -e "s#account 4:6:8\$#account 4:6:8:Divers - Charges à payer et produits à recevoir#"\
+ -e "s#account 4:6:8:6\$#account 4:6:8:6:Charges à payer#"\
+ -e "s#account 4:6:8:7\$#account 4:6:8:7:Produits à recevoir#"\
+ -e "s#account 4:7\$#account 4:7:Comptes transitoires ou d'attente#"\
+ -e "s#account 4:7:1\$#account 4:7:1:Comptes d'attente#"\
+ -e "s#account 4:7:2\$#account 4:7:2:Comptes d'attente#"\
+ -e "s#account 4:7:3\$#account 4:7:3:Comptes d'attente#"\
+ -e "s#account 4:7:4\$#account 4:7:4:Différences d’évaluation de jetons sur des passifs#"\
+ -e "s#account 4:7:4:6\$#account 4:7:4:6:Différence d’évaluation de jetons sur des passifs – ACTIF#"\
+ -e "s#account 4:7:4:7\$#account 4:7:4:7:Différence d’évaluation de jetons sur des passifs – PASSIF#"\
+ -e "s#account 4:7:5\$#account 4:7:5:Comptes d'attente#"\
+ -e "s#account 4:7:6\$#account 4:7:6:Différence de conversion - Actif#"\
+ -e "s#account 4:7:6:1\$#account 4:7:6:1:Diminution des créances#"\
+ -e "s#account 4:7:6:2\$#account 4:7:6:2:Augmentation des dettes#"\
+ -e "s#account 4:7:6:8\$#account 4:7:6:8:Différences compensées par couverture de change#"\
+ -e "s#account 4:7:7\$#account 4:7:7:Différences de conversion - Passif#"\
+ -e "s#account 4:7:7:1\$#account 4:7:7:1:Augmentation des créances#"\
+ -e "s#account 4:7:7:2\$#account 4:7:7:2:Diminution des dettes#"\
+ -e "s#account 4:7:7:8\$#account 4:7:7:8:Différences compensées par couverture de change#"\
+ -e "s#account 4:7:8\$#account 4:7:8:Autres comptes transitoires#"\
+ -e "s#account 4:7:8:6:1\$#account 4:7:8:6:1:Différences d’évaluation sur instruments financier à terme – ACTIF#"\
+ -e "s#account 4:7:8:6:2\$#account 4:7:8:6:2:Différences d’évaluation sur jetons détenus – ACTIF#"\
+ -e "s#account 4:7:8:7:1\$#account 4:7:8:7:1:Différences d’évaluation sur instruments financier à terme – PASSIF#"\
+ -e "s#account 4:7:8:7:2\$#account 4:7:8:7:2:Différences d’évaluation sur jetons détenus – PASSIF#"\
+ -e "s#account 4:8\$#account 4:8:Comptes de régularisation#"\
+ -e "s#account 4:8:1\$#account 4:8:1:Charges à répartir sur plusieurs exercices#"\
+ -e "s#account 4:8:1:6\$#account 4:8:1:6:Frais d'émission des emprunts#"\
+ -e "s#account 4:8:6\$#account 4:8:6:Charges constatées d'avance#"\
+ -e "s#account 4:8:7\$#account 4:8:7:Produits constatés d'avance#"\
+ -e "s#account 4:8:7:1\$#account 4:8:7:1:Produits constatés d’avance sur jetons émis#"\
+ -e "s#account 4:8:8\$#account 4:8:8:Comptes de répartition périodique des charges et des produits#"\
+ -e "s#account 4:8:8:6\$#account 4:8:8:6:Charges#"\
+ -e "s#account 4:8:8:7\$#account 4:8:8:7:Produits#"\
+ -e "s#account 4:9\$#account 4:9:Dépréciations des comptes de tiers#"\
+ -e "s#account 4:9:1\$#account 4:9:1:Dépréciations des comptes de clients#"\
+ -e "s#account 4:9:5\$#account 4:9:5:Dépréciations des comptes du groupe et des associés#"\
+ -e "s#account 4:9:5:1\$#account 4:9:5:1:Comptes du groupe#"\
+ -e "s#account 4:9:5:5\$#account 4:9:5:5:Comptes courants des associés#"\
+ -e "s#account 4:9:5:8\$#account 4:9:5:8:Opérations faites en commun et en GIE#"\
+ -e "s#account 4:9:6\$#account 4:9:6:Dépréciations des comptes de débiteurs divers#"\
+ -e "s#account 4:9:6:2\$#account 4:9:6:2:Créances sur cessions d'immobilisations#"\
+ -e "s#account 4:9:6:5\$#account 4:9:6:5:Créances sur cessions de valeurs mobilières de placement#"\
+ -e "s#account 4:9:6:7\$#account 4:9:6:7:Autres comptes débiteurs#"\
+ -e "s#account 5\$#account 5:Comptes financiers#"\
+ -e "s#account 5:0\$#account 5:0:Valeurs mobilières de placement#"\
+ -e "s#account 5:0:1\$#account 5:0:1:Parts dans des entreprises liées#"\
+ -e "s#account 5:0:2\$#account 5:0:2:Actions propres#"\
+ -e "s#account 5:0:2:1\$#account 5:0:2:1:Actions destinées à être attribuées aux employés et affectées à des plans déterminés#"\
+ -e "s#account 5:0:2:2\$#account 5:0:2:2:Actions disponibles pour être attribuées aux employés ou pour la régularisation des cours de bourse#"\
+ -e "s#account 5:0:3\$#account 5:0:3:Actions#"\
+ -e "s#account 5:0:3:1\$#account 5:0:3:1:Titres cotés#"\
+ -e "s#account 5:0:3:5\$#account 5:0:3:5:Titres non cotés#"\
+ -e "s#account 5:0:4\$#account 5:0:4:Autres titres conférant un droit de propriété#"\
+ -e "s#account 5:0:5\$#account 5:0:5:Obligations et bons émis par la société et rachetés par elle#"\
+ -e "s#account 5:0:6\$#account 5:0:6:Obligations#"\
+ -e "s#account 5:0:6:1\$#account 5:0:6:1:Titres cotés#"\
+ -e "s#account 5:0:6:5\$#account 5:0:6:5:Titres non cotés#"\
+ -e "s#account 5:0:7\$#account 5:0:7:Bons du Trésor et bons de caisse à court terme#"\
+ -e "s#account 5:0:8\$#account 5:0:8:Autres valeurs mobilières de placement et autres créances assimilées#"\
+ -e "s#account 5:0:8:1\$#account 5:0:8:1:Autres valeurs mobilières#"\
+ -e "s#account 5:0:8:2\$#account 5:0:8:2:Bons de souscription#"\
+ -e "s#account 5:0:8:8\$#account 5:0:8:8:Intérêts courus sur obligations, bons et valeurs assimilés#"\
+ -e "s#account 5:0:9\$#account 5:0:9:Versements restant à effectuer sur valeurs mobilières de placement non libérées#"\
+ -e "s#account 5:1\$#account 5:1:Banques, établissements financiers et assimilés#"\
+ -e "s#account 5:1:1\$#account 5:1:1:Valeurs à l'encaissement#"\
+ -e "s#account 5:1:1:1\$#account 5:1:1:1:Coupons échus à l'encaissement#"\
+ -e "s#account 5:1:1:2\$#account 5:1:1:2:Chèques à encaisser#"\
+ -e "s#account 5:1:1:3\$#account 5:1:1:3:Effets à l'encaissement#"\
+ -e "s#account 5:1:1:4\$#account 5:1:1:4:Effets à l'escompte#"\
+ -e "s#account 5:1:2\$#account 5:1:2:Banques#"\
+ -e "s#account 5:1:2:1\$#account 5:1:2:1:Comptes en monnaie nationale#"\
+ -e "s#account 5:1:2:4\$#account 5:1:2:4:Comptes en devises#"\
+ -e "s#account 5:1:4\$#account 5:1:4:Chèques postaux#"\
+ -e "s#account 5:1:5\$#account 5:1:5:Caisses du Trésor et des établissements publics#"\
+ -e "s#account 5:1:6\$#account 5:1:6:Sociétés de bourse#"\
+ -e "s#account 5:1:7\$#account 5:1:7:Autres organismes financiers#"\
+ -e "s#account 5:1:8\$#account 5:1:8:Intérêts courus#"\
+ -e "s#account 5:1:8:1\$#account 5:1:8:1:Intérêts courus à payer#"\
+ -e "s#account 5:1:8:8\$#account 5:1:8:8:Intérêts courus à recevoir#"\
+ -e "s#account 5:1:9\$#account 5:1:9:Concours bancaires courants#"\
+ -e "s#account 5:1:9:1\$#account 5:1:9:1:Crédit de mobilisation de créances commerciales#"\
+ -e "s#account 5:1:9:3\$#account 5:1:9:3:Mobilisation de créances nées à l'étranger#"\
+ -e "s#account 5:1:9:8\$#account 5:1:9:8:Intérêts courus sur concours bancaires courants#"\
+ -e "s#account 5:2\$#account 5:2:Instruments financiers à terme et jetons détenus#"\
+ -e "s#account 5:2:1\$#account 5:2:1:Instruments financiers à terme#"\
+ -e "s#account 5:2:2\$#account 5:2:2:Jetons détenus#"\
+ -e "s#account 5:2:3\$#account 5:2:3:Jetons auto-détenus#"\
+ -e "s#account 5:3\$#account 5:3:Caisse#"\
+ -e "s#account 5:3:1\$#account 5:3:1:Caisse siège social#"\
+ -e "s#account 5:3:1:1\$#account 5:3:1:1:Caisse en monnaie nationale#"\
+ -e "s#account 5:3:1:4\$#account 5:3:1:4:Caisse en devises#"\
+ -e "s#account 5:3:2\$#account 5:3:2:Caisse succursale (ou usine) A#"\
+ -e "s#account 5:3:3\$#account 5:3:3:Caisse succursale (ou usine) B#"\
+ -e "s#account 5:4\$#account 5:4:Régies d'avance et accréditifs#"\
+ -e "s#account 5:8\$#account 5:8:Virements internes#"\
+ -e "s#account 5:9\$#account 5:9:Dépréciations des comptes financiers#"\
+ -e "s#account 5:9:0\$#account 5:9:0:Dépréciations des valeurs mobilières de placement#"\
+ -e "s#account 5:9:0:3\$#account 5:9:0:3:Actions#"\
+ -e "s#account 5:9:0:4\$#account 5:9:0:4:Autres titres conférant un droit de propriété#"\
+ -e "s#account 5:9:0:6\$#account 5:9:0:6:Obligations#"\
+ -e "s#account 5:9:0:8\$#account 5:9:0:8:Autres valeurs mobilières de placement et créances assimilées#"\
+ -e "s#account 6\$#account 6:Charges#"\
+ -e "s#account 6:0\$#account 6:0:Achats (sauf 603)#"\
+ -e "s#account 6:0:1\$#account 6:0:1:Achats stockés - Matières premières (et fournitures)#"\
+ -e "s#account 6:0:1:1\$#account 6:0:1:1:Matières (ou groupe) A#"\
+ -e "s#account 6:0:1:2\$#account 6:0:1:2:Matières (ou groupe) B#"\
+ -e "s#account 6:0:1:7\$#account 6:0:1:7:Fournitures A, B, C,#"\
+ -e "s#account 6:0:2\$#account 6:0:2:Achats stockés - Autres approvisionnements#"\
+ -e "s#account 6:0:2:1\$#account 6:0:2:1:Matières consommables#"\
+ -e "s#account 6:0:2:1:1\$#account 6:0:2:1:1:Matières (ou groupe) C#"\
+ -e "s#account 6:0:2:1:2\$#account 6:0:2:1:2:Matières (ou groupe) D#"\
+ -e "s#account 6:0:2:2\$#account 6:0:2:2:Fournitures consommables#"\
+ -e "s#account 6:0:2:2:1\$#account 6:0:2:2:1:Combustibles#"\
+ -e "s#account 6:0:2:2:2\$#account 6:0:2:2:2:Produits d'entretien#"\
+ -e "s#account 6:0:2:2:3\$#account 6:0:2:2:3:Fournitures d'atelier et d'usine#"\
+ -e "s#account 6:0:2:2:4\$#account 6:0:2:2:4:Fournitures de magasin#"\
+ -e "s#account 6:0:2:2:5\$#account 6:0:2:2:5:Fourniture de bureau#"\
+ -e "s#account 6:0:2:6\$#account 6:0:2:6:Emballages#"\
+ -e "s#account 6:0:2:6:1\$#account 6:0:2:6:1:Emballages perdus#"\
+ -e "s#account 6:0:2:6:5\$#account 6:0:2:6:5:Emballages récupérables non identifiables#"\
+ -e "s#account 6:0:2:6:7\$#account 6:0:2:6:7:Emballages à usage mixte#"\
+ -e "s#account 6:0:4\$#account 6:0:4:Achats d'études et prestations de services#"\
+ -e "s#account 6:0:5\$#account 6:0:5:Achats de matériel, équipements et travaux#"\
+ -e "s#account 6:0:6\$#account 6:0:6:Achats non stockés de matière et fournitures#"\
+ -e "s#account 6:0:6:1\$#account 6:0:6:1:Fournitures non stockables (eau, énergie, …)#"\
+ -e "s#account 6:0:6:3\$#account 6:0:6:3:Fournitures d'entretien et de petit équipement#"\
+ -e "s#account 6:0:6:4\$#account 6:0:6:4:Fournitures administratives#"\
+ -e "s#account 6:0:6:8\$#account 6:0:6:8:Autres matières et fournitures#"\
+ -e "s#account 6:0:7\$#account 6:0:7:Achats de marchandises#"\
+ -e "s#account 6:0:7:1\$#account 6:0:7:1:Marchandise (ou groupe) A#"\
+ -e "s#account 6:0:7:2\$#account 6:0:7:2:Marchandise (ou groupe) B#"\
+ -e "s#account 6:0:8\$#account 6:0:8:(Compte réservé, le cas échéant, à la récapitulation des frais accessoires incorporés aux achats)#"\
+ -e "s#account 6:0:9\$#account 6:0:9:Rabais, remises et ristournes obtenus sur achats#"\
+ -e "s#account 6:0:9:1\$#account 6:0:9:1:de matières premières (et fournitures)#"\
+ -e "s#account 6:0:9:2\$#account 6:0:9:2:d'autres approvisionnements stockés#"\
+ -e "s#account 6:0:9:4\$#account 6:0:9:4:d'études et prestations de services#"\
+ -e "s#account 6:0:9:5\$#account 6:0:9:5:de matériel, équipements et travaux#"\
+ -e "s#account 6:0:9:6\$#account 6:0:9:6:d'approvisionnements non stockés#"\
+ -e "s#account 6:0:9:7\$#account 6:0:9:7:de marchandises#"\
+ -e "s#account 6:0:9:8\$#account 6:0:9:8:Rabais, remises et ristournes non affectés#"\
+ -e "s#account 6:0:3\$#account 6:0:3:Variations des stocks (approvisionnements et marchandises)#"\
+ -e "s#account 6:0:3:1\$#account 6:0:3:1:Variation des stocks de matières premières (et fournitures)#"\
+ -e "s#account 6:0:3:2\$#account 6:0:3:2:Variation des stocks des autres approvisionnements#"\
+ -e "s#account 6:0:3:7\$#account 6:0:3:7:Variation des stocks de marchandises#"\
+ -e "s#account 6:1\$#account 6:1:Services extérieurs#"\
+ -e "s#account 6:1:1\$#account 6:1:1:Sous-traitance générale#"\
+ -e "s#account 6:1:2\$#account 6:1:2:Redevances de crédit-bail#"\
+ -e "s#account 6:1:2:2\$#account 6:1:2:2:Crédit-bail mobilier#"\
+ -e "s#account 6:1:2:5\$#account 6:1:2:5:Crédit-bail immobilier#"\
+ -e "s#account 6:1:3\$#account 6:1:3:Locations#"\
+ -e "s#account 6:1:3:2\$#account 6:1:3:2:Locations immobilières#"\
+ -e "s#account 6:1:3:5\$#account 6:1:3:5:Locations mobilières#"\
+ -e "s#account 6:1:3:6\$#account 6:1:3:6:Malis sur emballages#"\
+ -e "s#account 6:1:4\$#account 6:1:4:Charges locatives et de copropriété#"\
+ -e "s#account 6:1:5\$#account 6:1:5:Entretien et réparations#"\
+ -e "s#account 6:1:5:2\$#account 6:1:5:2:sur biens immobiliers#"\
+ -e "s#account 6:1:5:5\$#account 6:1:5:5:sur biens mobiliers#"\
+ -e "s#account 6:1:5:6\$#account 6:1:5:6:Maintenance#"\
+ -e "s#account 6:1:6\$#account 6:1:6:Primes d'assurances#"\
+ -e "s#account 6:1:6:1\$#account 6:1:6:1:Multirisques#"\
+ -e "s#account 6:1:6:2\$#account 6:1:6:2:Assurance obligatoire dommage construction#"\
+ -e "s#account 6:1:6:3\$#account 6:1:6:3:Assurance - transport#"\
+ -e "s#account 6:1:6:3:6\$#account 6:1:6:3:6:sur achats#"\
+ -e "s#account 6:1:6:3:7\$#account 6:1:6:3:7:sur ventes#"\
+ -e "s#account 6:1:6:3:8\$#account 6:1:6:3:8:sur autres biens#"\
+ -e "s#account 6:1:6:4\$#account 6:1:6:4:Risques d'exploitation#"\
+ -e "s#account 6:1:6:5\$#account 6:1:6:5:Insolvabilité clients#"\
+ -e "s#account 6:1:7\$#account 6:1:7:Etudes et recherches#"\
+ -e "s#account 6:1:8\$#account 6:1:8:Divers#"\
+ -e "s#account 6:1:8:1\$#account 6:1:8:1:Documentation générale#"\
+ -e "s#account 6:1:8:3\$#account 6:1:8:3:Documentation technique#"\
+ -e "s#account 6:1:8:5\$#account 6:1:8:5:Frais de colloques, séminaires, conférences#"\
+ -e "s#account 6:1:9\$#account 6:1:9:Rabais, remises et ristournes obtenus sur services extérieurs#"\
+ -e "s#account 6:2\$#account 6:2:Autres services extérieurs#"\
+ -e "s#account 6:2:1\$#account 6:2:1:Personnel extérieur à l'entreprise#"\
+ -e "s#account 6:2:1:1\$#account 6:2:1:1:Personnel intérimaire#"\
+ -e "s#account 6:2:1:4\$#account 6:2:1:4:Personnel détaché ou prêté à l'entreprise#"\
+ -e "s#account 6:2:2\$#account 6:2:2:Rémunérations d'intermédiaires et honoraires#"\
+ -e "s#account 6:2:2:1\$#account 6:2:2:1:Commissions et courtages sur achats#"\
+ -e "s#account 6:2:2:2\$#account 6:2:2:2:Commissions et courtages sur ventes#"\
+ -e "s#account 6:2:2:4\$#account 6:2:2:4:Rémunérations des transitaires#"\
+ -e "s#account 6:2:2:5\$#account 6:2:2:5:Rémunérations d'affacturage#"\
+ -e "s#account 6:2:2:6\$#account 6:2:2:6:Honoraires#"\
+ -e "s#account 6:2:2:7\$#account 6:2:2:7:Frais d'actes et de contentieux#"\
+ -e "s#account 6:2:2:8\$#account 6:2:2:8:Divers#"\
+ -e "s#account 6:2:3\$#account 6:2:3:Publicité, publications, relations publiques#"\
+ -e "s#account 6:2:3:1\$#account 6:2:3:1:Annonces et insertions#"\
+ -e "s#account 6:2:3:2\$#account 6:2:3:2:Echantillons#"\
+ -e "s#account 6:2:3:3\$#account 6:2:3:3:Foires et expositions#"\
+ -e "s#account 6:2:3:4\$#account 6:2:3:4:Cadeaux à la clientèle#"\
+ -e "s#account 6:2:3:5\$#account 6:2:3:5:Primes#"\
+ -e "s#account 6:2:3:6\$#account 6:2:3:6:Catalogues et imprimés#"\
+ -e "s#account 6:2:3:7\$#account 6:2:3:7:Publications#"\
+ -e "s#account 6:2:3:8\$#account 6:2:3:8:Divers (pourboires, dons courants, …)#"\
+ -e "s#account 6:2:4\$#account 6:2:4:Transports de biens et transports collectifs du personnel#"\
+ -e "s#account 6:2:4:1\$#account 6:2:4:1:Transports sur achats#"\
+ -e "s#account 6:2:4:2\$#account 6:2:4:2:Transports sur ventes#"\
+ -e "s#account 6:2:4:3\$#account 6:2:4:3:Transports entre établissements ou chantiers#"\
+ -e "s#account 6:2:4:4\$#account 6:2:4:4:Transports administratifs#"\
+ -e "s#account 6:2:4:7\$#account 6:2:4:7:Transports collectifs du personnel#"\
+ -e "s#account 6:2:4:8\$#account 6:2:4:8:Divers#"\
+ -e "s#account 6:2:5\$#account 6:2:5:Déplacements, missions et réceptions#"\
+ -e "s#account 6:2:5:1\$#account 6:2:5:1:Voyages et déplacements#"\
+ -e "s#account 6:2:5:5\$#account 6:2:5:5:Frais de déménagement#"\
+ -e "s#account 6:2:5:6\$#account 6:2:5:6:Missions#"\
+ -e "s#account 6:2:5:7\$#account 6:2:5:7:Réceptions#"\
+ -e "s#account 6:2:6\$#account 6:2:6:Frais postaux et de télécommunications#"\
+ -e "s#account 6:2:7\$#account 6:2:7:Services bancaires et assimilés#"\
+ -e "s#account 6:2:7:1\$#account 6:2:7:1:Frais sur titres (achat, vente, garde)#"\
+ -e "s#account 6:2:7:2\$#account 6:2:7:2:Commissions et frais sur émission d'emprunts#"\
+ -e "s#account 6:2:7:5\$#account 6:2:7:5:Frais sur effets#"\
+ -e "s#account 6:2:7:6\$#account 6:2:7:6:Location de coffres#"\
+ -e "s#account 6:2:7:8\$#account 6:2:7:8:Autres frais et commissions sur prestations de services#"\
+ -e "s#account 6:2:8\$#account 6:2:8:Divers#"\
+ -e "s#account 6:2:8:1\$#account 6:2:8:1:Concours divers (cotisations, )#"\
+ -e "s#account 6:2:8:4\$#account 6:2:8:4:Frais de recrutement de personnel#"\
+ -e "s#account 6:2:9\$#account 6:2:9:Rabais, remises et ristournes obtenus sur autres services extérieurs#"\
+ -e "s#account 6:3\$#account 6:3:Impôts, taxes et versements assimilés#"\
+ -e "s#account 6:3:1\$#account 6:3:1:Impôts, taxes et versements assimilés sur rémunérations (administrations des impôts)#"\
+ -e "s#account 6:3:1:1\$#account 6:3:1:1:Taxe sur les salaires#"\
+ -e "s#account 6:3:1:2\$#account 6:3:1:2:Taxe d'apprentissage#"\
+ -e "s#account 6:3:1:3\$#account 6:3:1:3:Participation des employeurs à la formation professionnelle continue#"\
+ -e "s#account 6:3:1:4\$#account 6:3:1:4:Cotisation pour défaut d'investissement obligatoire dans la construction#"\
+ -e "s#account 6:3:1:8\$#account 6:3:1:8:Autres#"\
+ -e "s#account 6:3:3\$#account 6:3:3:Impôts, taxes et versements assimilés sur rémunérations (autres organismes)#"\
+ -e "s#account 6:3:3:1\$#account 6:3:3:1:Versement de transport#"\
+ -e "s#account 6:3:3:2\$#account 6:3:3:2:Allocations logement#"\
+ -e "s#account 6:3:3:3\$#account 6:3:3:3:Participation des employeurs à la formation professionnelle continue#"\
+ -e "s#account 6:3:3:4\$#account 6:3:3:4:Participation des employeurs à l'effort de construction#"\
+ -e "s#account 6:3:3:5\$#account 6:3:3:5:Versements libératoires ouvrant droit à l'exonération de la taxe d'apprentissage#"\
+ -e "s#account 6:3:3:8\$#account 6:3:3:8:Autres#"\
+ -e "s#account 6:3:5\$#account 6:3:5:Autres impôts, taxes et versements assimilés (administrations des impôts)#"\
+ -e "s#account 6:3:5:1\$#account 6:3:5:1:Impôts directs (sauf impôts sur les bénéfices)#"\
+ -e "s#account 6:3:5:1:1\$#account 6:3:5:1:1:Contribution économique territoriale#"\
+ -e "s#account 6:3:5:1:2\$#account 6:3:5:1:2:Taxes foncières#"\
+ -e "s#account 6:3:5:1:3\$#account 6:3:5:1:3:Autres impôts locaux#"\
+ -e "s#account 6:3:5:1:4\$#account 6:3:5:1:4:Taxe sur les véhicules des sociétés#"\
+ -e "s#account 6:3:5:2\$#account 6:3:5:2:Taxe sur le chiffre d'affaires non récupérables#"\
+ -e "s#account 6:3:5:3\$#account 6:3:5:3:Impôts indirects#"\
+ -e "s#account 6:3:5:4\$#account 6:3:5:4:Droits d'enregistrement et de timbre#"\
+ -e "s#account 6:3:5:4:1\$#account 6:3:5:4:1:Droits de mutation#"\
+ -e "s#account 6:3:5:8\$#account 6:3:5:8:Autres droits#"\
+ -e "s#account 6:3:7\$#account 6:3:7:Autres impôts, taxes et versements assimilés (autres organismes)#"\
+ -e "s#account 6:3:7:1\$#account 6:3:7:1:Contribution sociale de solidarité à la charge des sociétés#"\
+ -e "s#account 6:3:7:2\$#account 6:3:7:2:Taxes perçues par les organismes publics internationaux#"\
+ -e "s#account 6:3:7:4\$#account 6:3:7:4:Impôts et taxes exigibles à l'Etranger#"\
+ -e "s#account 6:3:7:8\$#account 6:3:7:8:Taxes diverses#"\
+ -e "s#account 6:4\$#account 6:4:Charges de personnel#"\
+ -e "s#account 6:4:1\$#account 6:4:1:Rémunérations du personnel#"\
+ -e "s#account 6:4:1:1\$#account 6:4:1:1:Salaires, appointements#"\
+ -e "s#account 6:4:1:2\$#account 6:4:1:2:Congés payés#"\
+ -e "s#account 6:4:1:3\$#account 6:4:1:3:Primes et gratifications#"\
+ -e "s#account 6:4:1:4\$#account 6:4:1:4:Indemnités et avantages divers#"\
+ -e "s#account 6:4:1:5\$#account 6:4:1:5:Supplément familial#"\
+ -e "s#account 6:4:4\$#account 6:4:4:Rémunération du travail de l'exploitant#"\
+ -e "s#account 6:4:5\$#account 6:4:5:Charges de sécurité sociale et de prévoyance#"\
+ -e "s#account 6:4:5:1\$#account 6:4:5:1:Cotisations à l'URSSAF#"\
+ -e "s#account 6:4:5:2\$#account 6:4:5:2:Cotisations aux mutuelles#"\
+ -e "s#account 6:4:5:3\$#account 6:4:5:3:Cotisations aux caisses de retraites#"\
+ -e "s#account 6:4:5:4\$#account 6:4:5:4:Cotisations aux ASSEDIC#"\
+ -e "s#account 6:4:5:8\$#account 6:4:5:8:Cotisations aux autres organismes sociaux#"\
+ -e "s#account 6:4:6\$#account 6:4:6:Cotisations sociales personnelles de l'exploitant#"\
+ -e "s#account 6:4:7\$#account 6:4:7:Autres charges sociales#"\
+ -e "s#account 6:4:7:1\$#account 6:4:7:1:Prestations directes#"\
+ -e "s#account 6:4:7:2\$#account 6:4:7:2:Versements aux comités d'entreprise et d'établissement#"\
+ -e "s#account 6:4:7:3\$#account 6:4:7:3:Versements aux comités d'hygiène et de sécurité#"\
+ -e "s#account 6:4:7:4\$#account 6:4:7:4:Versements aux autres œuvres sociales#"\
+ -e "s#account 6:4:7:5\$#account 6:4:7:5:Médecine du travail, pharmacie#"\
+ -e "s#account 6:4:8\$#account 6:4:8:Autres charges de personnel#"\
+ -e "s#account 6:5\$#account 6:5:Autres charges de gestion courante#"\
+ -e "s#account 6:5:1\$#account 6:5:1:Redevances pour concessions, brevets, licences, marques, procédés, logiciels, droits et valeurs similaires#"\
+ -e "s#account 6:5:1:1\$#account 6:5:1:1:Redevances pour concessions, brevets, licences, marques, procédés, logiciels#"\
+ -e "s#account 6:5:1:6\$#account 6:5:1:6:Droits d'auteur et de reproduction#"\
+ -e "s#account 6:5:1:8\$#account 6:5:1:8:Autres droits et valeurs similaires#"\
+ -e "s#account 6:5:3\$#account 6:5:3:Jetons de présence#"\
+ -e "s#account 6:5:4\$#account 6:5:4:Pertes sur créances irrécouvrables#"\
+ -e "s#account 6:5:4:1\$#account 6:5:4:1:Créances de l'exercice#"\
+ -e "s#account 6:5:4:4\$#account 6:5:4:4:Créances des exercices antérieurs#"\
+ -e "s#account 6:5:5\$#account 6:5:5:Quote-part de résultat sur opérations faites en commun#"\
+ -e "s#account 6:5:5:1\$#account 6:5:5:1:Quote-part de bénéfice transférée (comptabilité du gérant)#"\
+ -e "s#account 6:5:5:5\$#account 6:5:5:5:Quote-part de perte supportée (comptabilité des associés non gérants)#"\
+ -e "s#account 6:5:6\$#account 6:5:6:Pertes de change sur créances commerciales#"\
+ -e "s#account 6:5:8\$#account 6:5:8:Charges diverses de gestion courante#"\
+ -e "s#account 6:6\$#account 6:6:Charges financières#"\
+ -e "s#account 6:6:1\$#account 6:6:1:Charges d'intérêts#"\
+ -e "s#account 6:6:1:1\$#account 6:6:1:1:Intérêts des emprunts et dettes#"\
+ -e "s#account 6:6:1:1:6\$#account 6:6:1:1:6:des emprunts et dettes assimilées#"\
+ -e "s#account 6:6:1:1:7\$#account 6:6:1:1:7:des dettes rattachées à des participations#"\
+ -e "s#account 6:6:1:2\$#account 6:6:1:2:Charges de la fiducie, résultat de la période#"\
+ -e "s#account 6:6:1:5\$#account 6:6:1:5:Intérêts des comptes courants et des dépôts créditeurs#"\
+ -e "s#account 6:6:1:6\$#account 6:6:1:6:Intérêts bancaires et sur opérations de financement (escompte,...)#"\
+ -e "s#account 6:6:1:7\$#account 6:6:1:7:Intérêts des obligations cautionnées#"\
+ -e "s#account 6:6:1:8\$#account 6:6:1:8:Intérêts des autres dettes#"\
+ -e "s#account 6:6:1:8:1\$#account 6:6:1:8:1:des dettes commerciales#"\
+ -e "s#account 6:6:1:8:8\$#account 6:6:1:8:8:des dettes diverses#"\
+ -e "s#account 6:6:4\$#account 6:6:4:Pertes sur créances liées à des participations#"\
+ -e "s#account 6:6:5\$#account 6:6:5:Escomptes accordés#"\
+ -e "s#account 6:6:6\$#account 6:6:6:Pertes de change financières#"\
+ -e "s#account 6:6:7\$#account 6:6:7:Charges nettes sur cessions de valeurs mobilières de placement#"\
+ -e "s#account 6:6:8\$#account 6:6:8:Autres charges financières#"\
+ -e "s#account 6:7\$#account 6:7:Charges exceptionnelles#"\
+ -e "s#account 6:7:1\$#account 6:7:1:Charges exceptionnelles sur opérations de gestion#"\
+ -e "s#account 6:7:1:1\$#account 6:7:1:1:Pénalités sur marchés (et dédits payés sur achats et ventes)#"\
+ -e "s#account 6:7:1:2\$#account 6:7:1:2:Pénalités, amendes fiscales et pénales#"\
+ -e "s#account 6:7:1:3\$#account 6:7:1:3:Dons, libéralités#"\
+ -e "s#account 6:7:1:4\$#account 6:7:1:4:Créances devenues irrécouvrables dans l'exercice#"\
+ -e "s#account 6:7:1:5\$#account 6:7:1:5:Subventions accordées#"\
+ -e "s#account 6:7:1:7\$#account 6:7:1:7:Rappel d'impôts (autres qu'impôts sur les bénéfices)#"\
+ -e "s#account 6:7:1:8\$#account 6:7:1:8:Autres charges exceptionnelles sur opérations de gestion#"\
+ -e "s#account 6:7:2\$#account 6:7:2:(Compte à la disposition des entités pour enregistrer, en cours d'exercice, les charges sur exercices antérieurs)#"\
+ -e "s#account 6:7:4\$#account 6:7:4:Opérations de constitution ou liquidation des fiducies#"\
+ -e "s#account 6:7:4:1\$#account 6:7:4:1:Opérations liées à la constitution de fiducie – Transfert des éléments#"\
+ -e "s#account 6:7:4:2\$#account 6:7:4:2:Opérations liées à la liquidation de la fiducie#"\
+ -e "s#account 6:7:5\$#account 6:7:5:Valeurs comptables des éléments d'actif cédés#"\
+ -e "s#account 6:7:5:1\$#account 6:7:5:1:Immobilisations incorporelles#"\
+ -e "s#account 6:7:5:2\$#account 6:7:5:2:Immobilisations corporelles#"\
+ -e "s#account 6:7:5:6\$#account 6:7:5:6:Immobilisations financières#"\
+ -e "s#account 6:7:5:8\$#account 6:7:5:8:Autres éléments d'actif#"\
+ -e "s#account 6:7:8\$#account 6:7:8:Autres charges exceptionnelles#"\
+ -e "s#account 6:7:8:1\$#account 6:7:8:1:Malis provenant de clauses d'indexation#"\
+ -e "s#account 6:7:8:2\$#account 6:7:8:2:Lots#"\
+ -e "s#account 6:7:8:3\$#account 6:7:8:3:Malis provenant du rachat par l'entreprise d'actions et obligations émises par elle-même#"\
+ -e "s#account 6:7:8:8\$#account 6:7:8:8:Charges exceptionnelles diverses#"\
+ -e "s#account 6:8\$#account 6:8:Dotations aux amortissements, aux dépréciations et aux provisions#"\
+ -e "s#account 6:8:1\$#account 6:8:1:Dotations aux amortissements, aux dépréciations et aux provisions - Charges d'exploitation#"\
+ -e "s#account 6:8:1:1\$#account 6:8:1:1:Dotations aux amortissements sur immobilisations incorporelles et corporelles#"\
+ -e "s#account 6:8:1:1:1\$#account 6:8:1:1:1:Immobilisations incorporelles#"\
+ -e "s#account 6:8:1:1:2\$#account 6:8:1:1:2:Immobilisations corporelles#"\
+ -e "s#account 6:8:1:2\$#account 6:8:1:2:Dotations aux amortissements des charges d'exploitation à répartir#"\
+ -e "s#account 6:8:1:5\$#account 6:8:1:5:Dotations aux provisions d'exploitation#"\
+ -e "s#account 6:8:1:6\$#account 6:8:1:6:Dotations pour dépréciations des immobilisations incorporelles et corporelles#"\
+ -e "s#account 6:8:1:6:1\$#account 6:8:1:6:1:Immobilisations incorporelles#"\
+ -e "s#account 6:8:1:6:2\$#account 6:8:1:6:2:Immobilisations corporelles#"\
+ -e "s#account 6:8:1:7\$#account 6:8:1:7:Dotations pour dépréciations des actifs circulants#"\
+ -e "s#account 6:8:1:7:3\$#account 6:8:1:7:3:Stocks et en-cours#"\
+ -e "s#account 6:8:1:7:4\$#account 6:8:1:7:4:Créances#"\
+ -e "s#account 6:8:6\$#account 6:8:6:Dotations aux amortissements, aux dépréciations et aux provisions - Charges financières#"\
+ -e "s#account 6:8:6:1\$#account 6:8:6:1:Dotations aux amortissements des primes de remboursement des obligations#"\
+ -e "s#account 6:8:6:5\$#account 6:8:6:5:Dotations aux provisions financières#"\
+ -e "s#account 6:8:6:6\$#account 6:8:6:6:Dotations pour dépréciations des éléments financiers#"\
+ -e "s#account 6:8:6:6:2\$#account 6:8:6:6:2:Immobilisations financières#"\
+ -e "s#account 6:8:6:6:5\$#account 6:8:6:6:5:Valeurs mobilières de placement#"\
+ -e "s#account 6:8:6:8\$#account 6:8:6:8:Autres dotations#"\
+ -e "s#account 6:8:7\$#account 6:8:7:Dotations aux amortissements, aux dépréciations et aux provisions - Charges exceptionnelles#"\
+ -e "s#account 6:8:7:1\$#account 6:8:7:1:Dotations aux amortissements exceptionnels des immobilisations#"\
+ -e "s#account 6:8:7:2\$#account 6:8:7:2:Dotations aux provisions réglementées (immobilisations)#"\
+ -e "s#account 6:8:7:2:5\$#account 6:8:7:2:5:Amortissements dérogatoires#"\
+ -e "s#account 6:8:7:3\$#account 6:8:7:3:Dotations aux provisions réglementées (stocks)#"\
+ -e "s#account 6:8:7:4\$#account 6:8:7:4:Dotations aux autres provisions réglementées#"\
+ -e "s#account 6:8:7:5\$#account 6:8:7:5:Dotations aux provisions exceptionnelles#"\
+ -e "s#account 6:8:7:6\$#account 6:8:7:6:Dotations pour dépréciations exceptionnelles#"\
+ -e "s#account 6:9\$#account 6:9:Participation des salariés - Impôts sur les bénéfices et assimilés#"\
+ -e "s#account 6:9:1\$#account 6:9:1:Participation des salariés aux résultats#"\
+ -e "s#account 6:9:5\$#account 6:9:5:Impôts sur les bénéfices#"\
+ -e "s#account 6:9:5:1\$#account 6:9:5:1:Impôts dus en France#"\
+ -e "s#account 6:9:5:2\$#account 6:9:5:2:Contribution additionnelle à l'impôt sur les bénéfices#"\
+ -e "s#account 6:9:5:4\$#account 6:9:5:4:Impôts dus à l'étranger#"\
+ -e "s#account 6:9:6\$#account 6:9:6:Suppléments d'impôt sur les sociétés liés aux distributions#"\
+ -e "s#account 6:9:8\$#account 6:9:8:Intégration fiscale#"\
+ -e "s#account 6:9:8:1\$#account 6:9:8:1:Intégration fiscale - Charges#"\
+ -e "s#account 6:9:8:9\$#account 6:9:8:9:Intégration fiscale - Produits#"\
+ -e "s#account 6:9:9\$#account 6:9:9:Produits - Reports en arrière des déficits#"\
+ -e "s#account 7\$#account 7:Produits#"\
+ -e "s#account 7:0\$#account 7:0:Ventes de produits fabriqués, prestations de services, marchandises#"\
+ -e "s#account 7:0:1\$#account 7:0:1:Ventes de produits finis#"\
+ -e "s#account 7:0:1:1\$#account 7:0:1:1:Produits finis (ou groupe) A#"\
+ -e "s#account 7:0:1:2\$#account 7:0:1:2:Produits finis (ou groupe) B#"\
+ -e "s#account 7:0:2\$#account 7:0:2:Ventes de produits intermédiaires#"\
+ -e "s#account 7:0:3\$#account 7:0:3:Ventes de produits résiduels#"\
+ -e "s#account 7:0:4\$#account 7:0:4:Travaux#"\
+ -e "s#account 7:0:4:1\$#account 7:0:4:1:Travaux de catégorie (ou activité) A#"\
+ -e "s#account 7:0:4:2\$#account 7:0:4:2:Travaux de catégorie (ou activité) B#"\
+ -e "s#account 7:0:5\$#account 7:0:5:Etudes#"\
+ -e "s#account 7:0:6\$#account 7:0:6:Prestations de services#"\
+ -e "s#account 7:0:7\$#account 7:0:7:Ventes de marchandises#"\
+ -e "s#account 7:0:7:1\$#account 7:0:7:1:Marchandises (ou groupe) A#"\
+ -e "s#account 7:0:7:2\$#account 7:0:7:2:Marchandises (ou groupe) B#"\
+ -e "s#account 7:0:8\$#account 7:0:8:Produits des activités annexes#"\
+ -e "s#account 7:0:8:1\$#account 7:0:8:1:Produits des services exploités dans l'intérêt du personnel#"\
+ -e "s#account 7:0:8:2\$#account 7:0:8:2:Commissions et courtages#"\
+ -e "s#account 7:0:8:3\$#account 7:0:8:3:Locations diverses#"\
+ -e "s#account 7:0:8:4\$#account 7:0:8:4:Mise à disposition de personnel facturée#"\
+ -e "s#account 7:0:8:5\$#account 7:0:8:5:Ports et frais accessoires facturés#"\
+ -e "s#account 7:0:8:6\$#account 7:0:8:6:Bonis sur reprises d'emballages consignés#"\
+ -e "s#account 7:0:8:7\$#account 7:0:8:7:Bonifications obtenues des clients et primes sur ventes#"\
+ -e "s#account 7:0:8:8\$#account 7:0:8:8:Autres produits d'activités annexes (cessions d'approvisionnements,)#"\
+ -e "s#account 7:0:9\$#account 7:0:9:Rabais, remises et ristournes accordés par l'entreprise#"\
+ -e "s#account 7:0:9:1\$#account 7:0:9:1:sur ventes de produits finis#"\
+ -e "s#account 7:0:9:2\$#account 7:0:9:2:sur ventes de produits intermédiaires#"\
+ -e "s#account 7:0:9:4\$#account 7:0:9:4:sur travaux#"\
+ -e "s#account 7:0:9:5\$#account 7:0:9:5:sur études#"\
+ -e "s#account 7:0:9:6\$#account 7:0:9:6:sur prestations de services#"\
+ -e "s#account 7:0:9:7\$#account 7:0:9:7:sur ventes de marchandises#"\
+ -e "s#account 7:0:9:8\$#account 7:0:9:8:sur produits des activités annexes#"\
+ -e "s#account 7:1\$#account 7:1:Production stockée (ou déstockage)#"\
+ -e "s#account 7:1:3\$#account 7:1:3:Variation des stocks (en-cours de production, produits)#"\
+ -e "s#account 7:1:3:3\$#account 7:1:3:3:Variation des en-cours de production de biens#"\
+ -e "s#account 7:1:3:3:1\$#account 7:1:3:3:1:Produits en cours#"\
+ -e "s#account 7:1:3:3:5\$#account 7:1:3:3:5:Travaux en cours#"\
+ -e "s#account 7:1:3:4\$#account 7:1:3:4:Variation des en-cours de production de services#"\
+ -e "s#account 7:1:3:4:1\$#account 7:1:3:4:1:Etudes en cours#"\
+ -e "s#account 7:1:3:4:5\$#account 7:1:3:4:5:Prestations de services en cours#"\
+ -e "s#account 7:1:3:5\$#account 7:1:3:5:Variation des stocks de produits#"\
+ -e "s#account 7:1:3:5:1\$#account 7:1:3:5:1:Produits intermédiaires#"\
+ -e "s#account 7:1:3:5:5\$#account 7:1:3:5:5:Produits finis#"\
+ -e "s#account 7:1:3:5:8\$#account 7:1:3:5:8:Produits résiduels#"\
+ -e "s#account 7:2\$#account 7:2:Production immobilisée#"\
+ -e "s#account 7:2:1\$#account 7:2:1:Immobilisations incorporelles#"\
+ -e "s#account 7:2:2\$#account 7:2:2:Immobilisations corporelles#"\
+ -e "s#account 7:4\$#account 7:4:Subventions d'exploitation#"\
+ -e "s#account 7:5\$#account 7:5:Autres produits de gestion courante#"\
+ -e "s#account 7:5:1\$#account 7:5:1:Redevances pour concessions, brevets, licences, marques, procédés, logiciels, droits et valeurs similaires#"\
+ -e "s#account 7:5:1:1\$#account 7:5:1:1:Redevances pour concessions, brevets, licences, marques, procédés, logiciels#"\
+ -e "s#account 7:5:1:6\$#account 7:5:1:6:Droits d'auteur et de reproduction#"\
+ -e "s#account 7:5:1:8\$#account 7:5:1:8:Autres droits et valeurs similaires#"\
+ -e "s#account 7:5:2\$#account 7:5:2:Revenus des immeubles non affectés à des activités professionnelles#"\
+ -e "s#account 7:5:3\$#account 7:5:3:Jetons de présence et rémunérations d'administrateurs, gérants#"\
+ -e "s#account 7:5:4\$#account 7:5:4:Ristournes perçues des coopératives (provenant des excédents)#"\
+ -e "s#account 7:5:5\$#account 7:5:5:Quote-parts de résultat sur opérations faites en commun#"\
+ -e "s#account 7:5:5:1\$#account 7:5:5:1:Quote-part de perte transférée (comptabilité du gérant)#"\
+ -e "s#account 7:5:5:5\$#account 7:5:5:5:Quote-part de bénéfice attribuée (comptabilité des associés non - gérants)#"\
+ -e "s#account 7:5:6\$#account 7:5:6:Gains de change sur créances commerciales#"\
+ -e "s#account 7:5:8\$#account 7:5:8:Produits divers de gestion courante#"\
+ -e "s#account 7:6\$#account 7:6:Produits financiers#"\
+ -e "s#account 7:6:1\$#account 7:6:1:Produits de participations#"\
+ -e "s#account 7:6:1:1\$#account 7:6:1:1:Revenus des titres de participation#"\
+ -e "s#account 7:6:1:2\$#account 7:6:1:2:Produits de la fiducie, résultat de la période#"\
+ -e "s#account 7:6:1:6\$#account 7:6:1:6:Revenus sur autres formes de participation#"\
+ -e "s#account 7:6:1:7\$#account 7:6:1:7:Revenus des créances rattachées à des participations#"\
+ -e "s#account 7:6:2\$#account 7:6:2:Produits des autres immobilisations financières#"\
+ -e "s#account 7:6:2:1\$#account 7:6:2:1:Revenus des titres immobilisés#"\
+ -e "s#account 7:6:2:6\$#account 7:6:2:6:Revenus des prêts#"\
+ -e "s#account 7:6:2:7\$#account 7:6:2:7:Revenus des créances immobilisées#"\
+ -e "s#account 7:6:3\$#account 7:6:3:Revenus des autres créances#"\
+ -e "s#account 7:6:3:1\$#account 7:6:3:1:Revenus des créances commerciales#"\
+ -e "s#account 7:6:3:8\$#account 7:6:3:8:Revenus des créances diverses#"\
+ -e "s#account 7:6:4\$#account 7:6:4:Revenus des valeurs mobilières de placement#"\
+ -e "s#account 7:6:5\$#account 7:6:5:Escomptes obtenus#"\
+ -e "s#account 7:6:6\$#account 7:6:6:Gains de change financiers#"\
+ -e "s#account 7:6:7\$#account 7:6:7:Produits nets sur cessions de valeurs mobilières de placement#"\
+ -e "s#account 7:6:8\$#account 7:6:8:Autres produits financiers#"\
+ -e "s#account 7:7\$#account 7:7:Produits exceptionnels#"\
+ -e "s#account 7:7:1\$#account 7:7:1:Produits exceptionnels sur opérations de gestion#"\
+ -e "s#account 7:7:1:1\$#account 7:7:1:1:Dédits et pénalités perçus sur achats et sur ventes#"\
+ -e "s#account 7:7:1:3\$#account 7:7:1:3:Libéralités reçues#"\
+ -e "s#account 7:7:1:4\$#account 7:7:1:4:Rentrées sur créances amorties#"\
+ -e "s#account 7:7:1:5\$#account 7:7:1:5:Subventions d'équilibre#"\
+ -e "s#account 7:7:1:7\$#account 7:7:1:7:Dégrèvements d'impôts autres qu'impôts sur les bénéfices#"\
+ -e "s#account 7:7:1:8\$#account 7:7:1:8:Autres produits exceptionnels sur opérations de gestion#"\
+ -e "s#account 7:7:2\$#account 7:7:2:(Compte à la disposition des entités pour enregistrer, en cours d'exercice, les produits sur exercices antérieurs)#"\
+ -e "s#account 7:7:4\$#account 7:7:4:Opérations de constitution ou liquidation des fiducies#"\
+ -e "s#account 7:7:4:1\$#account 7:7:4:1:Opérations liées à la constitution de fiducie – Transfert des éléments#"\
+ -e "s#account 7:7:4:2\$#account 7:7:4:2:Opérations liées à la liquidation de la fiducie#"\
+ -e "s#account 7:7:5\$#account 7:7:5:Produits des cessions d'éléments d'actif#"\
+ -e "s#account 7:7:5:1\$#account 7:7:5:1:Immobilisations incorporelles#"\
+ -e "s#account 7:7:5:2\$#account 7:7:5:2:Immobilisations corporelles#"\
+ -e "s#account 7:7:5:6\$#account 7:7:5:6:Immobilisations financières#"\
+ -e "s#account 7:7:5:8\$#account 7:7:5:8:Autres éléments d'actif#"\
+ -e "s#account 7:7:7\$#account 7:7:7:Quote-part des subventions d'investissement virée au résultat de l'exercice#"\
+ -e "s#account 7:7:8\$#account 7:7:8:Autres produits exceptionnels#"\
+ -e "s#account 7:7:8:1\$#account 7:7:8:1:Bonis provenant de clauses d'indexation#"\
+ -e "s#account 7:7:8:2\$#account 7:7:8:2:Lots#"\
+ -e "s#account 7:7:8:3\$#account 7:7:8:3:Bonis provenant du rachat par l'entreprise d'actions et d'obligations émises par elle - même#"\
+ -e "s#account 7:7:8:8\$#account 7:7:8:8:Produits exceptionnels divers#"\
+ -e "s#account 7:8\$#account 7:8:Reprises sur amortissements, dépréciations et provisions#"\
+ -e "s#account 7:8:1\$#account 7:8:1:Reprises sur amortissements, dépréciations et provisions (à inscrire dans les produits d'exploitation)#"\
+ -e "s#account 7:8:1:1\$#account 7:8:1:1:Reprises sur amortissements des immobilisations incorporelles et corporelles#"\
+ -e "s#account 7:8:1:1:1\$#account 7:8:1:1:1:Immobilisations incorporelles#"\
+ -e "s#account 7:8:1:1:2\$#account 7:8:1:1:2:Immobilisations corporelles#"\
+ -e "s#account 7:8:1:5\$#account 7:8:1:5:Reprises sur provisions d'exploitation#"\
+ -e "s#account 7:8:1:6\$#account 7:8:1:6:Reprises sur dépréciations des immobilisations incorporelles et corporelles#"\
+ -e "s#account 7:8:1:6:1\$#account 7:8:1:6:1:Immobilisations incorporelles#"\
+ -e "s#account 7:8:1:6:2\$#account 7:8:1:6:2:Immobilisations corporelles#"\
+ -e "s#account 7:8:1:7\$#account 7:8:1:7:Reprises sur dépréciations des actifs circulants#"\
+ -e "s#account 7:8:1:7:3\$#account 7:8:1:7:3:Stocks et en-cours#"\
+ -e "s#account 7:8:1:7:4\$#account 7:8:1:7:4:Créances#"\
+ -e "s#account 7:8:6\$#account 7:8:6:Reprises sur provisions pour risques et dépréciations (à inscrire dans les produits financiers)#"\
+ -e "s#account 7:8:6:5\$#account 7:8:6:5:Reprises sur provisions financières#"\
+ -e "s#account 7:8:6:6\$#account 7:8:6:6:Reprises sur dépréciations des éléments financiers#"\
+ -e "s#account 7:8:6:6:2\$#account 7:8:6:6:2:Immobilisations financières#"\
+ -e "s#account 7:8:6:6:5\$#account 7:8:6:6:5:Valeurs mobilières de placements#"\
+ -e "s#account 7:8:7\$#account 7:8:7:Reprises sur provisions et dépréciations (à inscrire dans les produits exceptionnels)#"\
+ -e "s#account 7:8:7:2\$#account 7:8:7:2:Reprises sur provisions réglementées (immobilisations)#"\
+ -e "s#account 7:8:7:2:5\$#account 7:8:7:2:5:Amortissements dérogatoires#"\
+ -e "s#account 7:8:7:2:6\$#account 7:8:7:2:6:Provision spéciale de réévaluation#"\
+ -e "s#account 7:8:7:2:7\$#account 7:8:7:2:7:Plus-values réinvesties#"\
+ -e "s#account 7:8:7:3\$#account 7:8:7:3:Reprises sur provisions réglementées (stocks)#"\
+ -e "s#account 7:8:7:4\$#account 7:8:7:4:Reprises sur autres provisions réglementées#"\
+ -e "s#account 7:8:7:5\$#account 7:8:7:5:Reprises sur provisions exceptionnelles#"\
+ -e "s#account 7:8:7:6\$#account 7:8:7:6:Reprises sur dépréciations exceptionnelles#"\
+ -e "s#account 7:9\$#account 7:9:Transferts de charges#"\
+ -e "s#account 7:9:1\$#account 7:9:1:Transferts de charges d'exploitation#"\
+ -e "s#account 7:9:6\$#account 7:9:6:Transferts de charges financières#"\
+ -e "s#account 7:9:7\$#account 7:9:7:Transferts de charges exceptionnelles#"\
